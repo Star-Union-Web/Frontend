@@ -14,7 +14,7 @@ This portfolio website is designed to showcase my skills and projects in web dev
 ## Instructions
 To view my portfolio website, follow these steps:
 
-1. Visit the live link: [My Portfolio Website](https://exquisite-mooncake-c461d5.netlify.app/about)
+1. Visit the live link: [My Portfolio Website](https://exquisite-mooncake-c461d5.netlify.app/)
 2. Explore the projects and features available.
 
 ## Deployment
