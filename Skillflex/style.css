@@ -12,6 +12,10 @@
     --color2: #fff;
 }
 
+body{
+    background-color: var(--color1); 
+}
+
 ::-webkit-scrollbar {
     width: 10px; 
 }
@@ -25,7 +29,7 @@
     border-radius: 10px;
 }
 
-/* // ///////////////////////////////////////////////////////////////// */
+/* // //////////////////////////////// header ///////////////////////////////// */
 
 .header{
     height: 10vh;
@@ -62,7 +66,7 @@
     color: var(--base);
 }
 
-/* // ///////////////////////////////////////////////////////////////// */
+/* // //////////////////////////////// home ///////////////////////////////// */
 
 .home{
     height: 100vh;
@@ -98,7 +102,6 @@
     font-size: 5rem;
 }
 
-
 .home-content p{
     text-align: center;
     margin-left: 5rem;
@@ -112,7 +115,7 @@
     gap: 2rem;
 }
 
-.home-contct button{
+.home-contct button ,.button-about{
     height: 50px;
     width: 150px;
     border-radius: 30px;
@@ -120,42 +123,45 @@
     margin-top: 5rem;
     font-size: 1rem;
     font-weight: 600;
-    color: #fff;
+    color: var(--color2);
+    font-weight: 700;
     background-color: var(--color1); 
 }
 
-.home-contct button:hover{
+.home-contct button:hover , .button-about:hover{
     background-color:  var(--color2); 
-    color: var(--bg-color); 
+    color: var(--color1); 
     cursor: pointer;
     transition: 0.3s ease;
 }
 
-/* // ///////////////////////////////////////////////////////////////// */
+/* // ////////////////////////////////// about /////////////////////////////// */
 
 .about{
     height: 100vh;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--color1); 
     color:var(--color2); 
 }
 
-.about-right{
-    height: 100vh;
-    width: 50%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+.about-top{
+    height: 80vh;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-.about h1{
-    padding-top: 8%;
-    font-size: 3rem;
+.about h1,.services h1{
+    padding-top: 5%;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 3rem;
     color: var(--base);
 }
 
-.about-right p{
+.about-top p{
     margin-top: 2rem;
     font-size: 0.85rem;
     text-align: center;
@@ -163,9 +169,88 @@
     padding-right: 1rem;
 }
 
-.about-left{
+.about-bottom{
+    color: var(--color2);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+ 
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color1);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px var(--color2);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+  
+.svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+}
+  
+.svgIcon path {
+    fill: var(--color2);
+}
+  
+.button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: var(--base);
+    align-items: center;
+    
+}
+  
+.button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+}
+  
+.button::before {
+    position: absolute;
+    content: "Back to Top";
+    color: var(--color1);
+    font-weight: 700;
+    font-size: 0px;
+}
+  
+.button:hover::before {
+    font-size: 1rem;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+}
+
+.button-about{
+    color: var(--color1);
+    background-color: var(--color2);
+    margin-bottom: 5rem;
+}
+
+.button-about:hover{
+    background-color:  var(--base); 
+    box-shadow: 0px 0px 0px 4px var(--color2);
+}
+
+/* /////////////////////////////////// services ///////////////////////////////// */
+
+.services{
     height: 100vh;
-    width: 50%;
+    background-color: var(--color3); 
+    color:var(--color2); 
+    justify-content: center;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
@@ -173,23 +258,23 @@
 .img-divs{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
     padding-top: 0.5rem;
 }
 
-.about-imgs{
+.serv-imgs{
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
 }
 
-.about-imgs img{
-    width: 190px;
-    height: 90px;
+.serv-imgs img{
+    width: 300px;
+    height: 120px;
 }
 
-/* // ///////////////////////////////////////////////////////////////// */
+/* // //////////////////////////////// contact ///////////////////////////////// */
 
 .Contact{
     height: 90vh;
