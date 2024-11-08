@@ -97,6 +97,19 @@ header .contact-btn:hover{
     color: #6f9778;
 }
 
+/* Hamburger Icon */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Checkbox and Mobile Menu */
+.menu-toggle {
+    display: none;
+}
+
 /* this main page style */
 
 section{
@@ -213,6 +226,10 @@ section{
     transform: translateX(100%); /* Initially hidden to the right */
     animation: slideInRight 1s ease-out 0.1s forwards; /* Animation with delay */
 
+}
+
+img{
+    width: 400px;
 }
 
 .bar {
@@ -654,4 +671,313 @@ section{
 
 .footer-social a i:hover {
     color: var(--secondary-color);
+}
+
+
+/* Media Queries */
+/* Responsive for tablet */
+@media (max-width : 1023px){
+    /* header */
+    header{
+        padding: 10px 50px;
+    }
+
+    .nav-links a{
+        font-size: 0.9rem;
+        padding: 0px 8px;
+    }
+  
+    .main{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .main h2{
+        font-size: 1.5rem;
+    }
+
+    .main h2 span{
+        font-size: 2.5em;  
+    }
+
+    .main p{
+        font-size: 0.8rem;
+    }
+
+    .imgg , .bar{
+        width: 90%;
+    }
+
+    section{    
+       padding: 50px;
+    }
+
+    .card{
+        transform: translateY(10px) translateX(-10px);
+        animation: slideUp 1s ease 0.5s forwards;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+        transition: 0.7s ease;
+    }
+
+    .about {
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .content-about {
+        flex-direction: column; 
+        margin-top: 0rem;
+    }
+
+    .left , .right{
+        gap: 20px;
+        width: 100%;
+    }
+
+    .portfolio{     
+        padding: 3rem 3.5rem;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio-gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portfolio-item img{
+        height: 300px;
+    }
+    
+    .contact-container{
+        height: 100%;
+    }
+    .contact-content{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    
+    .contact-form input {
+        width: 100%;   
+    }
+
+    .footer{
+        padding: 20px 10px;
+        font-size: 0.8rem;
+    }
+
+    .footer-links, .footer-social{
+        gap: 10px;
+    }
+
+}
+
+/* Responsive for mobile */
+@media (max-width: 760px){
+
+    header{
+        padding: 10px 20px;
+    }
+    header .logo{
+        font-size: 1.2rem;
+    }
+    .hamburger{
+        display: block;
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    .nav-links{
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        right: 5%;
+        border-radius: 10px;
+        width: 90%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: px 0;
+        border: 1px solid var(--primary-color);
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+    }
+
+    .contact-btn{
+        display: none;
+    }   
+
+    .nav-links a{
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+
+    .menu-toggle:checked + .hamburger + .nav-links{
+        display: flex;
+        max-height: 100vh;
+    }
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+    
+    .main h2{
+        font-size: 1rem;
+    }
+
+    .main h2 span{
+        font-size: 1.4em;  
+    }
+
+    .main p{
+        font-size: 0.7rem;
+    }
+
+    .imgg img{
+        width: 100%;
+        max-width: 200 px;
+        height: auto;
+    }
+   
+    .imgg , .bar{
+        width: 80%;
+    }
+
+    section{    
+        padding: 20px;
+    }
+
+    .cards .title{
+        font-size: 1.5rem;
+    }
+
+    .card{
+        width: 80%;
+        margin: 10px 10px;
+        transform: translate(0);
+        transition: transform 0.5s ease;
+    }
+    .card .icon{
+        font-size: 2rem;
+    }
+    .card .info h3{
+        font-size: 1rem;
+    }
+    .card .info p{
+        font-size: 0.8rem;
+    }   
+
+    .about {
+        height: 100%;
+        padding: 2rem;
+    }
+    .about .title{
+        font-size: 1.2rem;
+    }
+    .about .text{
+        font-size: 0.8rem;
+    }
+    .about a{
+        font-size: 0.8rem;
+    }
+    .circle {
+        --size: 100px;
+    }
+    .circle span {
+        font-size: 1.2em;
+    }
+    .skill p{
+        font-size: 0.8rem;
+    }
+    .content-about {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+    .portfolio-title{
+        font-size: 1.2rem;
+    }
+    .filter{
+        font-size: 0.8rem;
+    }
+   .portfolio-gallery {
+        grid-template-columns: 1fr;
+    }
+    .overlay h3 {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .overlay a {
+        font-size: 0.8rem;
+        padding: 5px 5px;
+    }
+    .portfolio-item img {
+        height: 200px;
+    }
+
+    .contact-container {
+        height: 100%;
+        padding: 20px;
+    }
+
+    .contact-container h2{
+        font-size: 1.2rem;
+    }
+
+    .contact-container p{
+        font-size: 0.8rem;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-form input{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .contact-form textarea{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .contact-form button{
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .footer-links, .footer-social{
+        font-size: 0.5rem;
+        gap: 10px;
+    }
+
+    .footer-social a i {
+        font-size: 15px;
+    }
+
 }
