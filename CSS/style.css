@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scrollbar-color: #344e41 var(--bg-color);
+    scrollbar-width: thin;
 }
 
 :root {
