@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--home page -->
+<section class="home min-h-screen" id="home">
+  <div class="home_container">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 fixed top-0 left-0 w-full z-10">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+
+          <!-- Mobile menu button -->
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <button type="button" id="mobile-menu-button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <span class="sr-only">Open main menu</span>
+              <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+
+          <!-- Logo and navigation links -->
+          <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start">
+            <div class="flex mx-10 shrink-0 items-center">
+              <img class="h-8 w-auto space-x-11" src="img/logo.svg" alt="Your Company">
+            </div>
+
+            <!-- Desktop navigation links -->
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-11">
+                <a href="#home" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
+                <a href="#about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Features</a>
+                <a href="#blog" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
+                <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile button -->
+          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <div class="relative ml-3">
+              <button type="button" id="profile-menu-button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-haspopup="true">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden sm:hidden">
+        <div class="space-y-1 px-2 pb-3 pt-2">
+          <a href="#home" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">Home</a>
+          <a href="#about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Features</a>
+          <a href="#blog" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
+          <a href="#contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="flex flex-col items-center justify-center md:pt-20 pt-20 min-h-screen bg-[#01051e]">
+      <div class="body_content flex flex-col items-center text-center">
+
+        <!-- Image -->
+        <div class="img_home mx-7 my-5">
+          <img src="img/intro.png" class="anim2" alt="Intro Image">
+        </div>
+
+        <!-- Title -->
+        <h1 class="home_title text-white font-bold my-10 text-2xl md:text-3xl">
+          All Your Files In One Secure Location, Accessible Everywhere
+        </h1>
+
+        <!-- Description -->
+        <p class="text-white w-11/12 md:w-11/12">
+          Keep all your important files organized and accessible with ease. Our platform ensures that your documents, photos, and data are securely stored in one central location. Whether you're at home, at work, or on the go, you can access everything you need from any device, anywhere, anytime.
+        </p>
+
+        <!-- Get Started Button -->
+        <button class="bg-white start my-10 px-10 py-3 rounded-3xl font-bold">
+          Get Started
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- About Page -->
+<section class="about" id="about">
+  <div class="about_content bg-[#01051e] min-h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 place-items-center">
+
+    <!-- Access Anywhere -->
+    <div class="square flex flex-col items-center justify-center text-center">
+      <img src="img/1.svg" alt="Icon" class="mb-4">
+      <h2 class="text-white font-bold text-xl md:text-2xl py-3 md:py-5">Access Anywhere</h2>
+      <p class="text-white text-sm w-4/6 py-5 md:text-sm">
+        Access your important files, documents, photos, and data from any device, whether you're at home, at the office, or on the go. With our platform, you can enjoy seamless access anytime.
+      </p>
+    </div>
+
+    <!-- Sharing Any Type of Files -->
+    <div class="square flex flex-col items-center justify-center text-center">
+      <img src="img/2.svg" alt="Icon" class="mb-4">
+      <h2 class="text-white font-bold text-xl md:text-2xl py-3 md:py-5">Share Any Type of File</h2>
+      <p class="text-white text-sm w-4/6 py-5 md:text-sm">
+        Share a wide range of files easily with anyone. Our platform supports all major file types and ensures secure and effortless sharing anytime, anywhere.
+      </p>
+    </div>
+
+    <!-- Realtime Collaboration -->
+    <div class="square flex flex-col items-center justify-center text-center">
+      <img src="img/3.svg" alt="Icon" class="mb-4">
+      <h2 class="text-white font-bold text-xl md:text-2xl py-3 md:py-5">Realtime Collaboration</h2>
+      <p class="text-white text-sm w-4/6 py-5 md:text-sm">
+        Collaborate in real-time with colleagues or friends, wherever you are. Our platform enables seamless teamwork, allowing you to work on files together in real-time.
+      </p>
+    </div>
+
+    <!-- Security -->
+    <div class="square flex flex-col items-center justify-center text-center">
+      <img src="img/4.svg" alt="Icon" class="mb-4">
+      <h2 class="text-white font-bold text-xl md:text-2xl py-3 md:py-5">Security</h2>
+      <p class="text-white text-sm w-4/6 py-5 md:text-sm">
+        Protect your data with our robust security features. We prioritize your privacy and ensure that your files are safe and secure, giving you peace of mind.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Blog Section -->
+<section class="blog min-h-screen" id="blog">
+  <div class="blog_content bg-[#01051e] min-h-screen flex flex-col md:flex-row items-center">
+    <img src="img/blog.png" alt="Blog Image" class="mx-20 md:px-10 md:py-10 mt-5 mb-5">
+
+    <!-- Text Section -->
+    <div class="text-center md:text-left md:w-1/2 h-1/2 flex flex-col justify-center">
+      <h1 class="text-white text-3xl md:text-4xl font-bold mb-4">
+        Discover a New Way to Collaborate
+      </h1>
+      <p class="text-white w-11/12 mx-3">
+        Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go, our platform provides seamless access to your work and collaborations, empowering you to achieve more wherever you are.
+      </p>
+
+      <a href="#" class="text-green-200 mt-5 md:mt-5 md:ml-5 underline">
+        See How Fylo Works
+        <img src="img/arrow.svg" class="inline-block ml-2 animate-bounce2 w-10 h-10">
+      </a>
+    </div>
+  </div>
+</section>
+<!--comments-->
+<section  class="comments bg-[#01051e] min-h-screen">
+  <div class="comments  grid grid-cols-1  mx-10   sm:grid-cols-2 md:grid-cols-3 gap-7 place-items-center ">
+
+    <div class="card bg-[#374961] cursor-pointer  mt-10 md:mt-0 rounded-3xl p-7  hover:bg-[#7FB2B1] md:hover:scale-105 duration-500">
+
+    <!-- Main Text Section -->
+      <div class=" md:text-left md:w-full md:h-1/2 flex flex-col justify-center  ">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/profile-1.jpg" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Satich Batel</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-[#374961] rounded-3xl p-7  cursor-pointer  hover:bg-[#7FB2B1]  duration-500  md:hover:scale-105 transition-transform duration-300">
+      <!-- Main Text Section -->
+      <div class=" md:text-left md:w-full md:h-1/2 flex flex-col justify-center">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/profile-2.jpg" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Bruce Mekinize</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-[#374961] rounded-3xl p-7 cursor-pointer  duration-500 hover:bg-[#7FB2B1] md:hover:scale-105 transition-transform duration-300">
+      <!-- Main Text Section -->
+      <div class="md:text-left md:w-full md:h-1/2 flex flex-col ">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3  ">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/profile-3.jpg" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Ive boyd</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-[#374961] rounded-3xl p-7  cursor-pointer duration-500 hover:bg-[#7FB2B1]  md:hover:scale-105 transition-transform duration-300">
+      <!-- Main Text Section -->
+      <div class="md:text-left md:w-full md:h-1/2 flex flex-col ">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3  ">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/10.png" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Ive boyd</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-[#374961] rounded-3xl p-7  cursor-pointer  duration-500 hover:bg-[#7FB2B1]  md:hover:scale-105 transition-transform duration-300">
+      <!-- Main Text Section -->
+      <div class="md:text-left md:w-full md:h-1/2 flex flex-col ">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3  ">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/12.png" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Ive boyd</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-[#374961] rounded-3xl p-7  cursor-pointer duration-500  hover:bg-[#7FB2B1]  md:hover:scale-105 transition-transform duration-300">
+      <!-- Main Text Section -->
+      <div class="md:text-left md:w-full md:h-1/2 flex flex-col ">
+        <p class="text-white w-full mb-3 md:mb-5 md:w-11/12 mx-3  ">
+          Discover the freedom to work from anywhere, with the tools and support you need to stay productive and focused. Whether you’re at home, in the office, or on the go.
+        </p>
+      </div>
+
+      <!-- Profile Section with Circular Image and Text -->
+      <div class="flex items-center space-x-4 mt-5">
+        <img src="img/11.png" class="w-16 h-16 rounded-full" alt="Profile Image">
+        <div>
+          <h2 class="text-white font-bold text-lg">Ive boyd</h2>
+          <p class="text-white text-sm">Discover the freedom to work from anywhere</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Form -->
+<!-- Contact Form Section -->
+<section class="contact-form-section py-10 bg-[#01051e] text-white" id="contact">
+  <div class="text-center mx-10">
+    <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+    <form class="max-w-lg mx-auto">
+      <div class="mb-4">
+        <label for="name" class="block text-sm font-semibold mb-2">Name</label>
+        <input type="text" id="name" class="w-full p-3 rounded-2xl bg-gray-700 text-white" placeholder="Your Name" required>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-semibold mb-2">Email</label>
+        <input type="email" id="email" class="w-full p-3 rounded-2xl bg-gray-700 text-white" placeholder="Your Email" required>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-sm font-semibold mb-2">Message</label>
+        <textarea id="message" class="w-full p-3 rounded-2xl bg-gray-700 text-white" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button class="w-full p-3 bg-white hover:bg-[#56C5C2] duration-300 rounded-2xl font-bold text-black">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Links Section -->
+<section class="links bg-[#263447] py-10" id="links">
+  <div class="container mx-auto text-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- FAQ Link -->
+      <div class="link-item">
+        <h3 class="text-white text-xl font-bold mb-2 text-left mx-10">FAQ</h3>
+        <ul class="text-white text-left mx-10">
+          <li><a href="#faq" class="hover:text-[#56C5C2]">Frequently Asked Questions</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="link-item  ">
+        <h3 class="text-white text-xl font-bold mb-2 text-left mx-10">Follow Us</h3>
+        <ul class="text-white  flex flex-col md:flex-row   items-start gap-4 text-left mx-10 ">
+          <li>
+            <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-[#56C5C2] hover:shadow-lg transition-all duration-300">
+              <i class="fa-brands fa-facebook text-white text-xl"></i>
+            </div>
+          </li>
+          <li>
+
+            <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-[#56C5C2] hover:shadow-lg transition-all duration-300">
+              <i class="fa-brands fa-linkedin text-white text-xl"></i>
+            </div>
+          </li>
+          <li>
+
+            <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-[#56C5C2] hover:shadow-lg transition-all duration-300">
+              <i class="fa-brands fa-twitter text-white text-xl"></i>
+            </div>
+          </li>
+          <li>
+
+            <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-[#56C5C2] hover:shadow-lg transition-all duration-300">
+              <i class="fa-brands fa-instagram text-white text-xl"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- Other Useful Links -->
+      <div class="link-item">
+        <h3 class="text-white text-xl font-bold mb-2 text-left mx-10">Other Links</h3>
+        <ul class="text-white text-left mx-10 space-y-2">
+          <li><a href="#terms" class="hover:text-[#56C5C2]">Terms & Conditions</a></li>
+          <li><a href="#privacy" class="hover:text-[#56C5C2]">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<script src="js/app.js"></script>
+<script>
+
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+</body>
+
+</html>
