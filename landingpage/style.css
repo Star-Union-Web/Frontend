@@ -1,0 +1,48 @@
+
+html{
+  scroll-behavior: smooth;
+}
+@keyframes anim1 {
+  0% {
+    transform: translateY(0); /* Initial position */
+    animation-timing-function: ease-in;
+  }
+  25% {
+    transform: translateY(10px); /* Slight movement up */
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(15px); /* Move up more */
+    animation-timing-function: ease-in;
+  }
+  75% {
+    transform: translateY(10px); /* Slight movement back down */
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0); /* Return to the initial position */
+    animation-timing-function: ease-in;
+  }
+}
+
+.anim2{
+  animation: anim1 1.5s linear infinite; /* Slow and linear bounce */
+}
+
+
+@keyframes bounce2 {
+  0%, 100% {
+    transform: translateX(0); /* Default position */
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(17px); /* Move left */
+    animation-timing-function: ease-out;
+  }
+}
+
+
+
+.animate-bounce2 {
+  animation: bounce2 3s ease-in-out infinite; /* Horizontal bounce */
+}
