@@ -19,6 +19,7 @@ Check out the live demo of Fylo here: [Fylo on Netlify](https://majestic-capybar
 - **Responsive Layout**: Fully responsive across different devices and screen sizes.
 - **Smooth Animations**: Subtle and appealing animations enhance the user experience.
 - **Hover Effects**: Interactive and responsive hover effects.
+- **JavaScript**: Interactive functionality.
 
 ## Technologies
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
