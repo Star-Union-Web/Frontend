@@ -1,7 +1,8 @@
 
 # Fylo
 
-![Uploading Screenshot 2024-11-08 123529.png…]()
+![Screenshot 2024-11-08 131427](https://github.com/user-attachments/assets/8b1eb823-9722-456e-b4dc-33af334eb12d)
+
 
 
 Fylo is an elegant and responsive front-end project for file management, built using Tailwind CSS. Designed to offer a seamless user experience with intuitive animations and hover effects, Fylo is perfect for managing files securely and accessing them from anywhere. This project is deployed on Netlify and was created as a solution to a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
