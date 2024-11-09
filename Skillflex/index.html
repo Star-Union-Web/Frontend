@@ -12,22 +12,21 @@
 <body>
     <!-- ============================= header ============================ -->
     
-    <header class="header">
+    <header class="header flex-center">
         <h3>Skillflex</h3>
-        <nav class="nav-bar">
+        <nav class="nav-bar" id="nav-bar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <!-- <a href="">Home</a> -->
             <a href="#Contact">Contact</a>
         </nav>
     </header>
 
     <!-- ============================== home =========================== -->
 
-    <section class="home" id="home">
-       <div class="home-div">
-            <div class="home-content">
+    <section class="home flex-center" id="home">
+       <div class="home-div flex-center">
+            <div class="home-content flex-center">
                 <h1>Welcome To Skillflex</h1>
                 <p>
                     Skillflex is a flexible workplace model that 
@@ -40,16 +39,16 @@
                     with company needs.
                 </p>
             </div>
-            <div class="home-contct">
-                <button>Contact US</button>
-                <button>More About US</button>
+            <div class="home-contact flex-center">
+                <button><a href="#Contact">Contact US</a></button>
+                <button><a href="#about">More About US</a></button>
             </div>
        </div>
     </section>
 
     <!-- ============================== about =========================== -->
 
-    <section class="about" id="about">
+    <section class="about flex-center" id="about">
         <div class="about-top">
             <h1>About Us</h1>
             <p>
@@ -83,63 +82,86 @@
                 and professional growth.
             </p>
         </div>
-        <div class="about-bottom">
-            <button class="button" onclick="location.href='#home'">
+        <div class="back">
+            <a href="#home" class="button flex-center">
                 <svg class="svgIcon" viewBox="0 0 384 512">
-                <path
-                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
-                </path>
+                    <path
+                        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+                    </path>
                 </svg>
-            </button>
-            <button class="button-about" onclick="location.href='#Contact'">Contact</button>
+            </a>
+        </div>
+        <div class="about-bottom flex-center">
+            <a href="#services">
+                <div class="scrolldown" style="--color: skyblue">
+                    <div class="chevrons flex-center">
+                        <div class="chevrondown"></div>
+                        <div class="chevrondown"></div>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
 
     <!-- ============================== services =========================== -->
 
-    <section class="services" id="services">
+    <section class="services flex-center" id="services">
         <h1>services</h1>
-        <div class="img-divs">
+        <div class="img-divs flex-center">
             <div class="serv-imgs">
-                <div>
-                    <img src="https://www-assets.industriousoffice.com/images/solutions-pages/access.webp?width=2048&quality=100&format=webp" alt="">
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://www-assets.industriousoffice.com/images/solutions-pages/access.webp?width=2048&quality=100&format=webp" alt="photo">
+                    </div>
                     <h4>Meetings</h4>
                 </div>
-                <div>
-                    <img src="https://image.popbela.com/content-images/post/20230627/231cb9e90574a683d668f7338da1b7bf.jpg?width=1600&format=webp&w=1600" alt="">
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://image.popbela.com/content-images/post/20230627/231cb9e90574a683d668f7338da1b7bf.jpg?width=1600&format=webp&w=1600" alt="photo">
+                    </div>
                     <h4>Discussion</h4>
                 </div>
-                <div>
-                    <img src="https://cdn.prod.website-files.com/5e72120a6f610062d1dae3b5/64db6b9662d263b3df79af14_IMG_1061-min-min.jpg" alt="">
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://cdn.prod.website-files.com/5e72120a6f610062d1dae3b5/64db6b9662d263b3df79af14_IMG_1061-min-min.jpg" alt="photo">
+                    </div>
                     <h4>Study</h4>
                 </div>
-                </div>
-            <div class="serv-imgs">
-                <div>
-                    <img src="https://image.cnbcfm.com/api/v1/image/106334512-1578952885079gettyimages-965462186.jpg?v=1671037950&w=1858&h=1045&vtcrop=y" alt="">
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://image.cnbcfm.com/api/v1/image/106334512-1578952885079gettyimages-965462186.jpg?v=1671037950&w=1858&h=1045&vtcrop=y" alt="photo">
+                    </div>
                     <h4>Work</h4>
                 </div>
-                <div>
-                    <img src="https://get.fohlio.com/hs-fs/hubfs/Imported_Blog_Media/The-Key-to-Successful-Coworking-Space-Design-is-Helping-People-Feel-Less-Lonely-Fohlio-WeWork-Shanghai-1.jpg?width=1704&height=959&name=The-Key-to-Successful-Coworking-Space-Design-is-Helping-People-Feel-Less-Lonely-Fohlio-WeWork-Shanghai-1.jpg" alt="">
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://get.fohlio.com/hs-fs/hubfs/Imported_Blog_Media/The-Key-to-Successful-Coworking-Space-Design-is-Helping-People-Feel-Less-Lonely-Fohlio-WeWork-Shanghai-1.jpg?width=1704&height=959&name=The-Key-to-Successful-Coworking-Space-Design-is-Helping-People-Feel-Less-Lonely-Fohlio-WeWork-Shanghai-1.jpg" alt="photo">
+                    </div>
                     <h4>Events</h4>
                 </div>
+                <div class="img-container flex-center">
+                    <div class="imgs">
+                        <img src="https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg" alt="photo">
+                    </div>
+                    <h4>Reading</h4>
+                </div>
             </div>
-    </div>
+        </div>
     </section>
 
     <!-- ============================== contact =========================== -->
 
-    <section class="Contact" id="Contact">
-        <div class="contact-right">
+    <section class="Contact flex-center" id="Contact">
+        <div class="contact-right flex-center">
             <h1>Visit US Any Time</h1>
-            <div class="icon-contact">
+            <div class="icon-contact flex-center">
                 <a href="" target="blank"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="" target="blank"><i class='bx bxl-instagram' ></i></a>
                 <a href="" target="blank"><i class='bx bxl-facebook-square'></i></a>
             </div>
         </div>
-        <div class="contact-left" > 
-            <div class="slides" >
+        <div class="contact-left flex-center" > 
+            <div class="slides flex-center" >
                 <img class="slide slide1" src="https://cdn.statically.io/img/www.zayedprojects.com/wp-content/uploads/2024/10/%D9%83%D9%8A%D9%86%D8%AC%D8%B2-%D9%88%D8%A7%D9%8A-6-%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1-Kings-Way-October-768x385.jpg?quality=50&f=auto" alt="">
                 <img class="slide slide2" src="https://enterprise.press/wp-content/uploads/2020/12/mobica-emaar-1600px.jpg" alt="">
                 <img class="slide slide3" src="https://golfportomarina.com/wp-content/uploads/2022/08/%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%8A%D8%AC%D9%88%D8%A7%D9%84-%D9%85%D9%88%D9%84-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.jpg" alt="">
