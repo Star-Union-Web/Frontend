@@ -561,7 +561,7 @@ p{
     }
 
     .button:hover::before {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .chevrondown {
@@ -647,6 +647,6 @@ p{
     }
 
     .button:hover::before {
-        font-size: 0.1rem;
+        font-size: 0.5rem;
     }
 }
