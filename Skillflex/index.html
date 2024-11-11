@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="Skillflex">
     <title>Skillflex</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="icon" href="https://github.com/esraa-emary/photos/blob/main/Star/s.png?raw=true">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap">    
@@ -14,18 +16,34 @@
     
     <header class="header flex-center">
         <h3>Skillflex</h3>
-        <nav class="nav-bar" id="nav-bar">
+
+        <nav class="nav-bar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#Contact">Contact</a>
         </nav>
+        
+        <button class="navbar__toggle" aria-label="Toggle menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M4 6h16v2H4zm0 4h16v2H4zm0 4h16v2H4z"/>
+            </svg>
+        </button>
+        
+        <div class="navbar">
+            <ul class="navbar__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- ============================== home =========================== -->
 
     <section class="home flex-center" id="home">
-       <div class="home-div flex-center">
+        <div class="home-div flex-center">
             <div class="home-content flex-center">
                 <h1>Welcome To Skillflex</h1>
                 <p>
