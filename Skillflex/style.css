@@ -504,7 +504,7 @@ p{
         top: 51px;
         right: 0;
         background: var(--color1);
-        width: 80px;
+        width: 100px;
         height: 100vh;
         flex-direction: column;
         padding: 20px;
