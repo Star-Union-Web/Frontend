@@ -95,7 +95,7 @@ p{
     display: none;
 }
 
-/* // //////////////////////////////// home ///////////////////////////////// */
+/* ////////////////////////////////// home ///////////////////////////////// */
 
 .home{
     height: 100vh;
@@ -291,9 +291,9 @@ p{
 /* /////////////////////////////////// services ///////////////////////////////// */
 
 .services{
-    height: 100vh;
-    padding: 3rem;
-    padding-top: 6rem;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     flex-direction: column;
     background-color: var(--color3); 
     color:var(--color2); 
@@ -307,13 +307,13 @@ p{
 
 .serv-imgs{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 }
 
 .serv-imgs img {
-    width: 380px;
-    height: 130px;
+    width: 500px;
+    height: 200px;
     border-radius: 15px;
     object-fit: cover;
     color: var(--base);
@@ -334,6 +334,10 @@ p{
     padding-left: 3rem;
     padding-right: 3rem;
     gap: 1rem;
+}
+
+#last{
+    display: none;
 }
 
 .contact-right{
@@ -426,8 +430,12 @@ p{
 
 @media screen and (max-width: 1440px) {
     .serv-imgs img {
-        width: 360px;
-        height: 125px;
+        width: 425px;
+        height: 175px;
+    }
+
+    .about-top p{
+        font-size: 0.95rem;
     }
 }
 
@@ -443,18 +451,22 @@ p{
     .home-content h1{
         font-size: 4rem;
     }
+
+    .services{
+        padding-top: 3rem;
+    }
     
     .home-content p{
         font-size: 0.9rem;
     }
 
     .about-top p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .serv-imgs img {
-        width: 315px;
-        height: 110px;
+        width: 350px;
+        height: 150px;
     }
 
     .button {
@@ -467,81 +479,9 @@ p{
         width: 150px;
         height: 50px;
     }
-}
 
-@media screen and (max-width: 900px) {
-    a{
-        font-size: 0.6rem;
-    }
-
-    .header h3{
-        font-size: 0.7rem;
-    }
-
-    .home-content h1{
-        font-size: 3rem;
-    }
-    
-    .home-content p{
-        font-size: 0.7rem;
-    }
-
-    .about-top p{
-        font-size: 0.6rem;
-    }
-
-    .services{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        height: auto;
-    }
-
-    .serv-imgs img {
-        width: 320px;
-        height: 110px;
-    }
-
-    .serv-imgs{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .home-contact button{
-        height: 40px;
-        width: 100px;
-        margin-top: 2rem;
-        font-size: 0.8em;
-    }
-    
-    .button {
-        width: 30px;
-        height: 30px;
-        box-shadow: 0px 0px 0px 2px var(--color2);
-    }
-    
-    .button:hover {
-        width: 100px;
-        height: 40px;
-        font-size: 1rem;
-    }
-
-    .button:hover::before {
-        font-size: 0.8rem;
-    }
-
-    .chevrondown {
-        border-width: 0 2px 2px 0;
-    }
-    
     .contact-right h1{
         font-size: 2.5rem;
-    }
-
-    .contact-right i{
-        font-size: 1.5rem;
-    }
-    
-    .icon-contact{
-        gap: 1.5rem;
     }
 }
 
@@ -561,7 +501,7 @@ p{
     .navbar {
         display: none;
         position: absolute;
-        top: 34px;
+        top: 51px;
         right: 0;
         background: var(--color1);
         width: 80px;
@@ -580,6 +520,20 @@ p{
         display: flex;
     }
 
+    .home-content h1{
+        font-size: 1.9rem;
+    }
+
+    .home{
+        height: 80vh;
+    }
+
+    .home-content p{
+        font-size: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     .about h1,.services h1{
         font-size: 2rem;
         margin-bottom: 2rem;
@@ -589,6 +543,29 @@ p{
         margin-top: 1rem;
         font-size: 0.55rem;
         text-align: center;
+    }
+
+    .home-contact button{
+        height: 40px;
+        width: 110px;
+        margin-top: 2rem;
+        font-size: 0.25em;
+        font-weight: 300;
+    }
+    
+    .button {
+        width: 25px;
+        height: 25px;
+        box-shadow: 0px 0px 0px 1px var(--color2);
+    }
+    
+    .button:hover {
+        width: 100px;
+        height: 40px;
+    }
+
+    .button:hover::before {
+        font-size: 0.6rem;
     }
 
     .chevrondown {
@@ -604,220 +581,76 @@ p{
         font-size: 2rem;
     }
 
+    .home-contact a{
+        font-size: 0.7rem;
+    }
+
     .svgIcon {
         width: 7px;
         transition: transform 0.3s ease, opacity 0.3s ease;
     }
-}
-
-@media screen and (max-width: 640px) {
-    .navbar {
-        top:30px;
-    }
-
-    a{
-        font-size: 0.4rem;
-    }
-
-    .navbar__links {
-        gap: 5px;
-    }
-
-    .header h3{
-        font-size: 0.5rem;
-    }
-
-    .navbar__toggle svg {
-        width: 15px;  
-        height: 15px; 
-    }
-
-    .home-content h1{
-        font-size: 2rem;
-    }
-    
-    .home-content p{
-        font-size: 0.45rem;
-    }
-
-    .about h1,.services h1{
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .about-top p{
-        font-size: 0.35rem;
-    }
 
     .serv-imgs img {
-        width: 220px;
-        height: 80px;
-    }
-
-    .home-contact button{
-        height: 30px;
-        width: 80px;
-        margin-top: 2rem;
-        font-size: 0.6em;
-    }
-    
-    .button {
-        width: 25px;
-        height: 25px;
-        box-shadow: 0px 0px 0px 1px var(--color2);
-    }
-    
-    .button:hover {
-        width: 80px;
-        height: 30px;
-    }
-
-    .button:hover::before {
-        font-size: 0.6rem;
-    }
-    
-    .contact-right h1{
-        font-size: 1.5rem;
-    }
-
-    .contact-right i{
-        font-size: 1rem;
-    }
-
-    .contact-right{
-        gap: 3rem;
-    }
-    
-    .icon-contact{
-        gap: 1rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .navbar {
-        top:24px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .navbar {
-        top:15px;
-        width: 50px;
-    }
-
-    .navbar__links {
-        padding: 0;
-        gap: 1px;
-    }
-
-    a{
-        font-size: 0.3rem;
-    }
-
-    .header h3{
-        font-size: 0.3rem;
-    }
-
-    .navbar__toggle svg {
-        width: 10px;  
-        height: 10px; 
-    }
-
-    .home-content h1{
-        font-size: 1rem;
-    }
-    
-    .home-content p{
-        font-size: 0.3rem;
-    }
-
-    .about h1,.services h1{
-        font-size: 0.8rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .about-top p{
-        font-size: 0.2rem;
-        margin-top: 0.5rem;
+        width: 290px;
+        height: 150px;
     }
 
     .serv-imgs{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .serv-imgs img {
-        width: 120px;
-        height: 40px;
+    .Contact{
+        flex-direction: column;
+    }
+
+    .contact-right,.contact-left{
+        width: 100%;
+    }
+
+    #first{
+        display: none;
+    }
+
+    #last{
+        display: flex;
+    }
+
+    .Contact{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .services{
         padding-top: 1rem;
-        padding-bottom: 1rem;
     }
 
-    .services h4{
-        font-size: 0.4rem;
-    }
-
-    .chevrondown {
-        border-width: 0 1px 1px 0;
-        width: 0.5rem;
-        height: 0.5rem;
-    }
-
-    .about-bottom{
-        margin-top: -20px;
-    }
-
-    .about{
-        padding-top: 1rem;
-        height: fit-content;
+    .home-content h1{
+        font-size: 1.5rem;
     }
 
     .home-contact button{
-        height: 20px;
-        width: 60px;
-        margin-top: 1rem;
-        font-size: 0.4em;
-    }
-    .svgIcon {
-        width: 4px;
+        height: 30px;
+        width: 80px;
+        margin-top: 2rem;
+        font-weight: 300;
     }
 
-    .button {
-        width: 15px;
-        height: 15px;
-        box-shadow: 0px 0px 0px 1px var(--color2);
-        right: 5px;
-        bottom: 5px;
+    .home-contact a{
+        font-size: 0.5rem;
     }
     
     .button:hover {
-        width: 60px;
-        height: 20px;
+        width: 80px;
+        height: 30px;
     }
 
     .button:hover::before {
-        font-size: 0.4rem;
-    }
-
-    .home-contact{
-        gap: 0.5rem;
-    }
-    
-    .contact-right h1{
-        font-size: 0.7rem;
-    }
-
-    .contact-right i{
-        font-size: 0.6rem;
-    }
-
-    .contact-right{
-        gap: 2rem;
-    }
-    
-    .icon-contact{
-        gap: 0.5rem;
+        font-size: 0.1rem;
     }
 }
