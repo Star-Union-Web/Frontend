@@ -72,47 +72,29 @@ p{
     gap: 2rem;
 }
 
-.nav-bar a:hover {
+.nav-bar a:hover,.navbar__links a:hover  {
     transform: scale(1.1);
     color: var(--base);
     transition: 0.4s ease-in-out;
 }
 
-.navbar{
-    display: none;
+.nav-bar, .navbar {
+    display: flex;
+    gap: 15px;
 }
 
 .navbar__links {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
 }
 
-.navbar__links a {
-    text-decoration: none;
-}
-
-.navbar__toggle svg {
-    fill: var(--base); 
-    width: 20px;
-    height: 20px;
-}
-
-.navbar__toggle:hover svg {
-    fill: var(--base); 
-}
-
-.navbar__toggle {
+.navbar__toggle,.navbar{
     display: none;
-    background: none;
-    border: none;
-    color: var(--base);
-    cursor: pointer;
-    margin: 0px;
-    padding: 0 20px 15px 0;
-    width: 0px;
-    height: 0px;
-} 
+}
+
 /* // //////////////////////////////// home ///////////////////////////////// */
 
 .home{
@@ -137,14 +119,14 @@ p{
 }
 
 .home-content h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 
 .home-content p{
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-size: 0.85rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1rem;
     color: var(--color1);
 }
 
@@ -173,11 +155,12 @@ p{
     }
 }
 
-/* // ////////////////////////////////// about /////////////////////////////// */
+/* //////////////////////////////////// about /////////////////////////////// */
 
 .about{
     height: 100vh;
-    padding: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     flex-direction: column;
     background-color: var(--color1); 
     color:var(--color2); 
@@ -193,7 +176,7 @@ p{
 
 .about-top p{
     margin-top: 2rem;
-    font-size: 0.95rem;
+    font-size: 1rem;
     text-align: center;
 }
  
@@ -225,7 +208,7 @@ p{
     width: 140px;
     border-radius: 50px;
     background-color: var(--base);
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .button:hover .svgIcon {
@@ -272,7 +255,6 @@ p{
   
 .chevrons {
     margin-left: -3px;
-    width: 5rem;
     flex-direction: column;
     align-items: center;
 }
@@ -309,7 +291,7 @@ p{
 /* /////////////////////////////////// services ///////////////////////////////// */
 
 .services{
-    height: 90vh;
+    height: 100vh;
     padding: 3rem;
     padding-top: 6rem;
     flex-direction: column;
@@ -330,8 +312,8 @@ p{
 }
 
 .serv-imgs img {
-    width: 300px;
-    height: 110px;
+    width: 380px;
+    height: 130px;
     border-radius: 15px;
     object-fit: cover;
     color: var(--base);
@@ -345,18 +327,18 @@ p{
     transition: 0.4s ease-in-out;
 }
 
-/* // //////////////////////////////// contact ///////////////////////////////// */
+/* ////////////////////////////////// contact ///////////////////////////////// */
 
 .Contact{
     height: 90vh;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    gap: 1rem;
 }
 
 .contact-right{
     height: 50vh;
-    width: 50%;
+    width: 40%;
     background-color:var(--color1);
     color: var(--color2);
     flex-direction: column;
@@ -379,16 +361,15 @@ p{
 }
 
 .contact-right i:hover{
-    font-size: 2rem;
     color: var(--base);
     transform: scale(1.1)translateY(-5px);
     transition: 0.4s ease-in-out;
 }
 
 .contact-left{
-    height: 50vh;
+    height: 70vh;
     background-color:var(--color1);
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     position: relative;
     border-radius: 1rem;
@@ -443,36 +424,400 @@ p{
 
 /* ////////////////////////////////////////////////////////////////// */
 
-@media screen and (max-width:1440px) {
-    .Contact{
-        padding-left: 3rem;
-        padding-right: 5rem;
-    }
-
-    .services{
-        padding-left: 0rem;
-        padding-right: 0rem;
+@media screen and (max-width: 1440px) {
+    .serv-imgs img {
+        width: 360px;
+        height: 125px;
     }
 }
 
-@media screen and (max-width:1024px) {
-    .serv-imgs img{
-        width: 250px;
-        height: 100px;
+@media screen and (max-width: 1024px) {
+    a{
+        font-size: 0.8rem;
+    }
+
+    .header h3{
+        font-size: 0.8rem;
+    }
+
+    .home-content h1{
+        font-size: 4rem;
+    }
+    
+    .home-content p{
+        font-size: 0.9rem;
     }
 
     .about-top p{
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+    }
+
+    .serv-imgs img {
+        width: 315px;
+        height: 110px;
+    }
+
+    .button {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 0px 0px 2px var(--color2);
+    }
+
+    .button:hover {
+        width: 150px;
+        height: 50px;
     }
 }
 
-@media screen and (max-width:768px) {
-    .contact-right, .contact-left,.services ,.about{
-        width: 100%;
-        height: 30vh;
+@media screen and (max-width: 900px) {
+    a{
+        font-size: 0.6rem;
     }
 
-    .Contact { 
+    .header h3{
+        font-size: 0.7rem;
+    }
+
+    .home-content h1{
+        font-size: 3rem;
+    }
+    
+    .home-content p{
+        font-size: 0.7rem;
+    }
+
+    .about-top p{
+        font-size: 0.6rem;
+    }
+
+    .services{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: auto;
+    }
+
+    .serv-imgs img {
+        width: 320px;
+        height: 110px;
+    }
+
+    .serv-imgs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home-contact button{
+        height: 40px;
+        width: 100px;
+        margin-top: 2rem;
+        font-size: 0.8em;
+    }
+    
+    .button {
+        width: 30px;
+        height: 30px;
+        box-shadow: 0px 0px 0px 2px var(--color2);
+    }
+    
+    .button:hover {
+        width: 100px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .button:hover::before {
+        font-size: 0.8rem;
+    }
+
+    .chevrondown {
+        border-width: 0 2px 2px 0;
+    }
+    
+    .contact-right h1{
+        font-size: 2.5rem;
+    }
+
+    .contact-right i{
+        font-size: 1.5rem;
+    }
+    
+    .icon-contact{
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    
+    .navbar__toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        fill: var(--base);
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 34px;
+        right: 0;
+        background: var(--color1);
+        width: 80px;
+        height: 100vh;
         flex-direction: column;
+        padding: 20px;
+        border-left: var(--base) 2px solid;
+    }
+
+    .navbar__links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .about h1,.services h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-top p{
+        margin-top: 1rem;
+        font-size: 0.55rem;
+        text-align: center;
+    }
+
+    .chevrondown {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .services h4{
+        font-size: 0.8rem;
+    }
+
+    .contact-right h1{
+        font-size: 2rem;
+    }
+
+    .svgIcon {
+        width: 7px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navbar {
+        top:30px;
+    }
+
+    a{
+        font-size: 0.4rem;
+    }
+
+    .navbar__links {
+        gap: 5px;
+    }
+
+    .header h3{
+        font-size: 0.5rem;
+    }
+
+    .navbar__toggle svg {
+        width: 15px;  
+        height: 15px; 
+    }
+
+    .home-content h1{
+        font-size: 2rem;
+    }
+    
+    .home-content p{
+        font-size: 0.45rem;
+    }
+
+    .about h1,.services h1{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-top p{
+        font-size: 0.35rem;
+    }
+
+    .serv-imgs img {
+        width: 220px;
+        height: 80px;
+    }
+
+    .home-contact button{
+        height: 30px;
+        width: 80px;
+        margin-top: 2rem;
+        font-size: 0.6em;
+    }
+    
+    .button {
+        width: 25px;
+        height: 25px;
+        box-shadow: 0px 0px 0px 1px var(--color2);
+    }
+    
+    .button:hover {
+        width: 80px;
+        height: 30px;
+    }
+
+    .button:hover::before {
+        font-size: 0.6rem;
+    }
+    
+    .contact-right h1{
+        font-size: 1.5rem;
+    }
+
+    .contact-right i{
+        font-size: 1rem;
+    }
+
+    .contact-right{
+        gap: 3rem;
+    }
+    
+    .icon-contact{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        top:24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar {
+        top:15px;
+        width: 50px;
+    }
+
+    .navbar__links {
+        padding: 0;
+        gap: 1px;
+    }
+
+    a{
+        font-size: 0.3rem;
+    }
+
+    .header h3{
+        font-size: 0.3rem;
+    }
+
+    .navbar__toggle svg {
+        width: 10px;  
+        height: 10px; 
+    }
+
+    .home-content h1{
+        font-size: 1rem;
+    }
+    
+    .home-content p{
+        font-size: 0.3rem;
+    }
+
+    .about h1,.services h1{
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .about-top p{
+        font-size: 0.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .serv-imgs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .serv-imgs img {
+        width: 120px;
+        height: 40px;
+    }
+
+    .services{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .services h4{
+        font-size: 0.4rem;
+    }
+
+    .chevrondown {
+        border-width: 0 1px 1px 0;
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .about-bottom{
+        margin-top: -20px;
+    }
+
+    .about{
+        padding-top: 1rem;
+        height: fit-content;
+    }
+
+    .home-contact button{
+        height: 20px;
+        width: 60px;
+        margin-top: 1rem;
+        font-size: 0.4em;
+    }
+    .svgIcon {
+        width: 4px;
+    }
+
+    .button {
+        width: 15px;
+        height: 15px;
+        box-shadow: 0px 0px 0px 1px var(--color2);
+        right: 5px;
+        bottom: 5px;
+    }
+    
+    .button:hover {
+        width: 60px;
+        height: 20px;
+    }
+
+    .button:hover::before {
+        font-size: 0.4rem;
+    }
+
+    .home-contact{
+        gap: 0.5rem;
+    }
+    
+    .contact-right h1{
+        font-size: 0.7rem;
+    }
+
+    .contact-right i{
+        font-size: 0.6rem;
+    }
+
+    .contact-right{
+        gap: 2rem;
+    }
+    
+    .icon-contact{
+        gap: 0.5rem;
     }
 }
