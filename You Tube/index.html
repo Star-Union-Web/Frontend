@@ -1,1 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>You Tube</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_57.png?raw=true">
+</head>
+<body class="bg-black p-0 m-0">
+    <div class="flex justify-between px-6 py-3 items-center">
+        <div class="flex items-center gap-0">
+            <img class="rounded-full w-6 cursor-pointer" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_66.png?raw=true" alt="">
+            
+            <label class="text-white size-12 flex items-center justify-center relative cursor-pointer text-s fill-white select-none">
+                <input class="absolute opacity-0 cursor-pointer h-0 w-0" type="checkbox">
+                <svg class="absolute" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                    <path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"></path>
+                </svg>
+                <svg class="absolute none" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                    <path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path>
+                </svg>
+            </label>
+            
+            <button title="Add New" class="group cursor-pointer outline-none hover:rotate-90 duration-300">               
+                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24" class="stroke-slate-400 fill-none group-hover:fill-slate-800 group-active:stroke-slate-200 group-active:fill-slate-600 group-active:duration-0 duration-300">
+                    <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke-width="1.5"></path>
+                    <path d="M8 12H16" stroke-width="1.5"></path>
+                    <path d="M12 16V8" stroke-width="1.5"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex items-center gap-1">
+            <label for="checkbox" class="switch relative w-6 h-6 flex justify-center items-center bg-gray-800 text-white rounded-full cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.175, 0.885, 0.32, 1.275)] hover:bg-opacity-80 active:scale-110">
+                <div class="mic-on w-full h-full flex justify-center items-center transition-all duration-300 ease-in-out z-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16"> 
+                        <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"></path> 
+                        <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"></path> 
+                    </svg>
+                </div>
+                <div class="mic-off w-full h-full flex justify-center items-center transition-all duration-300 ease-in-out absolute inset-0 opacity-0 z-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-mic-mute-fill" viewBox="0 0 16 16"> 
+                        <path d="M13 8c0 .564-.094 1.107-.266 1.613l-.814-.814A4.02 4.02 0 0 0 12 8V7a.5.5 0 0 1 1 0v1zm-5 4c.818 0 1.578-.245 2.212-.667l.718.719a4.973 4.973 0 0 1-2.43.923V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 1 0v1a4 4 0 0 0 4 4zm3-9v4.879L5.158 2.037A3.001 3.001 0 0 1 11 3z"></path> 
+                        <path d="M9.486 10.607 5 6.12V8a3 3 0 0 0 4.486 2.607zm-7.84-9.253 12 12 .708-.708-12-12-.708.708z"></path> 
+                    </svg>
+                </div>
+            </label>
+            <form class="flex rounded-lg w-full max-w-lg">
+                <div class="relative w-full">
+                    <button class="border-none text-black absolute left-2 top-1.5">
+                        <svg width="17" height="16" fill="white" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="search">
+                            <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <input class="rounded-xl py-0.5 px-3 z-2 text-right rtl w-full" placeholder="search" required="" type="text">
+                </div>
+            </form>
+        </div>
+        
+        <div class="flex flex-row items-center gap-0">
+            <img class="w-36 cursor-pointer" src="https://mobizat.net/wp-content/uploads/2021/02/Create-Youtube-Account-And-Channel.jpg.webp" alt="photo.jpg">
+            <i class="bx bx-menu text-white cursor-pointer" id="menu-icon"></i>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 px-5 ">
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_61.png?raw=true" alt="css.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_l5AYO9yPcxvzu3zybDvEIRc2n39ZqEfvz0eS_II0iPPVo=s160-c-k-c0x00ffffff-no-rj" alt=""> 
+                    <h3 class="text-white text-s">Learn CSS Course in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_62.png?raw=true" alt="html.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_l5AYO9yPcxvzu3zybDvEIRc2n39ZqEfvz0eS_II0iPPVo=s160-c-k-c0x00ffffff-no-rj" alt=""> 
+                    <h3 class="text-white text-s">Learn HTML Course in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_63.png?raw=true" alt="tailwind.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_n8Vy1_3NGcwf4Wll48OsPsN0GikgcvI7zc9jT_Vxlejg=s160-c-k-c0x00ffffff-no-rj" alt="">
+                    <h3 class="text-white text-s">Learn Tailwind css in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_61.png?raw=true" alt="css.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_l5AYO9yPcxvzu3zybDvEIRc2n39ZqEfvz0eS_II0iPPVo=s160-c-k-c0x00ffffff-no-rj" alt=""> 
+                    <h3 class="text-white text-s">Learn CSS Course in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_62.png?raw=true" alt="html.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_l5AYO9yPcxvzu3zybDvEIRc2n39ZqEfvz0eS_II0iPPVo=s160-c-k-c0x00ffffff-no-rj" alt=""> 
+                    <h3 class="text-white text-s">Learn HTML Course in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="w-full" src="https://github.com/esraa-emary/Photos/blob/main/Star%20Union/Screenshot_63.png?raw=true" alt="tailwind.jpg">
+            <div class="flex justify-between pt-5">
+                <div class="flex gap-2">
+                    <img class="rounded-full w-5" src="https://yt3.googleusercontent.com/ytc/AIdro_n8Vy1_3NGcwf4Wll48OsPsN0GikgcvI7zc9jT_Vxlejg=s160-c-k-c0x00ffffff-no-rj" alt="">
+                    <h3 class="text-white text-s">Learn Tailwind css in one video.</h3>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                    <div class="w-0.5 h-0.5 bg-white rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 
