@@ -1,0 +1,761 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <title>YouTube Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    .vertical-line::after {
+      content: '';
+      display:block;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background-color: white;
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+    .horizontal-line::after {
+      content: '';
+      display:none;
+      position: absolute;
+
+      left: 10px; /* Set left positioning for the horizontal line */
+      top: 15%; /* Align it at the top */
+      width: 100vw; /* Make the line span the full width */
+      height: 2px; /* Set the height to 2px to make it a horizontal line */
+      background-color: rgba(255, 255, 255, 0.1); /* White color with opacity */
+      backdrop-filter: blur(5px); /* Apply blur effect */
+      -webkit-backdrop-filter: blur(5px); /* Safari-specific blur support */
+    }
+
+    @keyframes slideIn {
+      0% {
+        left: -100%;
+        width: 0;
+      }
+      100% {
+        left: 0;
+        width: 16rem; /* (w-64 in Tailwind) */
+      }
+    }
+
+    .menu-mobile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: 100;
+
+background-color: black;
+      border-right: 1px solid rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+      width: 16rem; /* Same width as Tailwind's w-64 */
+      animation: slideIn 0.3s ease-in-out ;
+    }
+
+    @media(max-width:600px){
+      .vertical-line::after{
+        display:none;
+      }
+      .horizontal-line::after{
+        display:block;
+      }
+    }
+    *{
+      scroll-behavior: smooth;
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+
+    }
+
+    .scroll-container {
+      @apply overflow-x-scroll; /* To enable horizontal scrolling */
+    }
+    .scroll-container::-webkit-scrollbar {
+      display: none; /* Hide scrollbar */
+    }
+    .scroll-container2 {
+      @apply overflow-x-scroll; /* To enable horizontal scrolling */
+    }
+    .scroll-container2::-webkit-scrollbar {
+      display: none; /* Hide scrollbar */
+    }
+
+
+  </style>
+</head>
+
+<body class="text-white bg-black    ">
+<!-- Parent Flex Container -->
+<div class="flex flex-col w-full">
+  <!-- Sidebar Menu -->
+  <section class="menu md:fixed inset-y-0 left-0 bg-black/90 p-5 md:w-64   vertical-line">
+    <div class="box flex items-center md-gap-10  gap-2 mb-8 horizontal-line ">
+      <i class="fa-solid fa-bars  cursor-pointer text-white md:text-2xl menu_icon text-3xl hover:bg-white/20 rounded-full py-1.5 px-3"></i>
+      <img src="img/logo.svg" class="cursor-pointer block  md:w-20 md:h-20  w-24 h-24     md:pt-0  ">
+    </div>
+    <!-- Desktop Menu (Visible on medium screens and larger) -->
+    <div class="hidden md:block ">
+      <ul class="space-y-5">
+        <li>
+          <a href="#" class="flex items-center gap-4  text-xl p-2 rounded-md hover:bg-white/20 transition-colors">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex items-center gap-4 p-2  text-xl rounded-md hover:bg-white/20 transition-colors">
+            <i class="fa-solid fa-compass"></i>
+            <p>Explore</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex items-center gap-4 p-2  text-xl rounded-md hover:bg-white/20 transition-colors">
+            <i class="fa-solid fa-table"></i>
+            <p>Library</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex items-center gap-4 p-2    text-xl rounded-md hover:bg-white/20 transition-colors">
+            <i class="fa-solid fa-circle-play"></i>
+            <p>Upgrade</p>
+          </a>
+        </li>
+        <div class="relative">
+          <hr class="border-t border-gray-600 opacity-50 bg-white bg-opacity-10  text-xl  backdrop-filter mx-2 backdrop-blur-sm">
+        </div>
+        <li class="log-out pt-2">
+          <a href="#" class="flex flex-row text-white items-center justify-center   text-xl p-2 gap-2 rounded-3xl bg-white/15 hover:bg-white/30">
+            <p class="flex flex-row gap-5">
+              <i class="fa-solid fa-plus font-light pt-1"></i> New Playlist
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu (Visible on small screens) -->
+    <div class="md:hidden w-64 h-full fixed top-0 left-0 border-r border-white/20  hidden menu-mobile   " style="animation: slideIn 0.3s ease-in-out    ">
+      <div  class="z-10  bg-black  flex flex-row gap-5  mt-5 mx-30  ">
+        <img src="img/logo.svg" class="cursor-pointer absolute left-5 top-5   block ">
+        <i class="fa-solid fa-xmark  x_icon  text-xl  absolute right-10 top-10 cursor-pointer  " ></i>
+      </div>
+      <div class="bg-black transition-all  ">
+        <ul class="space-y-5 p-5 transition-all   h-3/4   duration-300 ease-in-out  ">
+          <li>
+            <a href="#" class="flex items-center  gap-4 p-2  text-xl  rounded-md hover:bg-white/20 transition-colors mt-10">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center gap-4 p-2 rounded-md  text-xl hover:bg-white/20 transition-colors">
+              <i class="fa-solid fa-compass"></i>
+              <p>Explore</p>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center gap-4 p-2   text-xl rounded-md hover:bg-white/20 transition-colors">
+              <i class="fa-solid fa-table"></i>
+              <p>Library</p>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center gap-4 p-2   text-xl rounded-md hover:bg-white/20 transition-colors">
+              <i class="fa-solid fa-circle-play"></i>
+              <p>Upgrade</p>
+            </a>
+          </li>
+          <div class="relative">
+            <hr class="border-t border-gray-600 opacity-50 bg-white bg-opacity-10 backdrop-filter mx-2 backdrop-blur-sm">
+          </div>
+          <li class="log-out pt-2">
+            <a href="#" class="flex flex-row text-white items-center  text-xl justify-center p-2 gap-2 rounded-3xl bg-white/15 hover:bg-white/30">
+              <p class="flex flex-row gap-5">
+                <i class="fa-solid fa-plus font-light pt-1"></i> New Playlist
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+
+  </script>
+
+
+
+
+
+  <!-- Main Content Area -->
+  <div class="flex-1 ml-80 p-5">
+    <form class="w-1/2 relative z-10">
+      <i class="fa-solid fa-magnifying-glass md:block hidden absolute left-3 top-1/2 transform -translate-y-1/2 text-white"></i>
+      <input type="text"
+             class="p-2 pl-10 bg-gray-500/20 outline-none hidden md:block  w-full rounded-lg text-white"
+             placeholder="Search songs, albums, artist...">
+    </form>
+    <div class="flex flex-row md:gap-3 gap-1 top-12 md:pt-0 md:-mt-5 mt-0 pt-2 absolute right-10 md:right-20">
+      <img src="img/img_14.png" class="rounded-full  h-8 w-8 cursor-pointer  ">
+      <img src="img/unnamed.jpg" class="rounded-full  h-8 w-8 cursor-pointer">
+      <i class="fa-solid fa-magnifying-glass  block  absolute  text-xl  md:hidden mt-1 -ml-7 text-white"></i>
+    </div>
+  </div>
+
+  <!-- Buttons Section -->
+  <div class=" md:ml-64 -ml-5 mt-1  md:px-20 px-10 md:pt-0   ">
+    <div class="scroll-container flex overflow-x-auto  gap-4  p-4  z-10 snap-x snap-mandatory -mt-20   md:mt-0  ">
+      <div class="image-card rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+
+      <div class="image-card  rounded bg-transparent overflow-hidden z-10 flex-shrink-0 snap-start">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+      <div class="image-card  rounded bg-transparent overflow-hidden flex-shrink-0 snap-start  z-10">
+        <button class="text-white rounded-lg px-3 py-2 bg-gray-500/20 hover:bg-gray-700/30 hover:backdrop-blur-md transition hover:bg-white/30  z-10">
+          Relax
+        </button>
+      </div>
+
+
+      <!-- Repeat other image cards here as necessary -->
+
+    </div>
+  </div>
+
+
+
+  <div class="color1 w-3/4  mx-40 h-40 bg-purple-400  absolute  inset-y-0 bottom-20 left-10 blur-3xl opacity-15 rounded-lg overflow-hidden">
+    </div>
+  </div>
+
+
+<div class="flex-1 md:ml-64  -ml-21 mt-10 md:px-20 px-5 flex items-center justify-between  justify-start ">
+
+  <!-- Profile Section with Image and Title -->
+  <div class="flex items-center md:ml-0 ">
+    <img src="img/unnamed.jpg" class="rounded-full md:w-16 md:h-16  w-14 h-14">
+    <div class="flex flex-col ml-4">
+      <h2 class="text-gray-400">SOHAILA WALID</h2>
+      <h1 class="font-bold md:text-4xl text-2xl  text-white mt-1">listen again</h1>
+    </div>
+  </div>
+
+  <!-- Arrow Buttons Section -->
+  <div class="flex md:items-center md:gap-6  gap-3  items-start">
+    <button class="md:w-16 md:h-10  h-10 w-14 bg-black/60 text-white rounded-full py-1 hover:bg-white/20 md:text-base text-sm transition-colors
+  shadow-[0_0_0_0.2px_white]">
+      More
+    </button>
+
+    <button id="scrollLeft" class="md:w-10 md:h-10 w-8 h-8 bg-black/60 text-white rounded-full shadow-[0_0_0_0.2px_white]  hover:bg-white/20  transition-colors">
+      <i class="fa-solid fa-angle-up transform -rotate-90"></i> <!-- Left arrow rotated -90 degrees -->
+    </button>
+
+    <button id="scrollRight" class="md:w-10 md:h-10 w-8 h-8 bg-black/60 text-white rounded-full  shadow-[0_0_0_0.2px_white]  hover:bg-white/20  transition-colors">
+      <i class="fa-solid fa-angle-up transform rotate-90"></i> <!-- Right arrow rotated 90 degrees -->
+    </button>
+  </div>
+
+
+</div>
+
+<div class="flex-1 md:ml-64  -ml-50 mt-1 md:px-20 px-6   ">
+  <div class="scroll-container2  flex overflow-x-scroll md:gap-4 md:p-4 p-2 gap-2 scroll-snap-x md:ml-0 -ml-50 mandatory ">
+    <div class="image-card md:w-44 md:h-60 h-38 w-36 rounded  md:ml-0 -ml-50 bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full  md:ml-0 -ml-50 h-3/4">
+        <img src="img/1.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity  md:ml-0 -ml-50"></div>
+      </div>
+      <div class="flex flex-col  ">
+        <h2 class="text-white mt-2 font-bold text-1xl  ">Liked Music</h2>
+        <h1 class="text-gray-500   ">Auto Playlist</h1>
+      </div>
+    </div>
+
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_1.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_2.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_3.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_4.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_5.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_6.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_7.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_8.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_9.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+    <div class="image-card  w-44 h-60  rounded     bg-transparent overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="image-container relative w-full h-3/4">
+        <img src="img/img_10.png" alt="Image 1" class="w-full h-full mb-2">
+        <div class="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity"></div>
+      </div>
+      <div  class="flex flex-col">
+        <h2  class="text-white   mt-2 font-bold text-1xl">Liked Music</h2>
+        <h1 class="text-gray-500  "> Auto Playlist</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div  class=" md:ml-64  -ml-5  mt-10  md:px-20 px-10  ">
+  <div class="flex flex-row   relative  ">
+    <h1  class="font-bold text-3xl text-white md:px-0 px-7 ">Quick Picks</h1>
+    <div class="flex items-center gap-6  right-10  absolute ">
+      <button class="md:w-16 md:h-10  h-12 w-20 bg-black/60 text-white rounded-full py-1 hover:bg-white/20 md:text-base text-xp transition-colors
+  shadow-[0_0_0_0.2px_white]">
+        Play All
+      </button>
+    </div>
+  </div>
+
+
+  <div class="grid md:grid-cols-3 md:grid-rows-4 md:gap-4 grid-cols-1     mt-10   scroll-container overflow-scroll  gap-4  p-4  z-10 snap-x snap-mandatory ">
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity  ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_6.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity  ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_1.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_2.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_5.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group  overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_4.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_3.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_7.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group  overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_9.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group  overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_10.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_12.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_13.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="bg-transparent p-4 rounded relative group overflow-hidden flex-shrink-0 scroll-snap-align-start">
+      <div class="overlay absolute inset-0 bg-black/50 opacity-0   group-hover:opacity-80 transition-opacity ">
+        <div class="flex flex-row gap-2 absolute  right-5  top-10">
+          <i class="fa-regular fa-thumbs-down cursor-pointer  rounded-full p-2 hover:bg-white/20"></i>
+          <i class="fa-regular fa-thumbs-up  cursor-pointer  rounded-full  p-2  hover:bg-white/20"></i>
+        </div>
+      </div>
+      <div class="flex flex-row ">
+        <div class="image-container w-1/4 h-full">
+          <img src="img/img_11.png" alt="Image 1" class="w-full h-full mb-2">
+        </div>
+        <div class="ml-5 flex flex-col">
+          <h1 class="font-bold text-white">
+            Love Your Voice
+          </h1>
+          <h2 class="mt-2 text-gray-500">
+            H p f ....6.7M views
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
