@@ -21,7 +21,6 @@ Check out the live demo here: [YouTube Music Clone on Netlify](https://deft-chou
 
 - **Responsive Design**: Works seamlessly across devices.
 - **Customizable Layout**: Includes navigation, playlist sections, and a player bar.
-- **Dynamic Search**: Mock search functionality for exploring songs and artists.
 - **Minimalist UI**: Inspired by YouTube Music, using Tailwind CSS to style and structure the layout.
 
 ## Technologies Used
