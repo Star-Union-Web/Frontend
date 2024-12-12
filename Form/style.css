@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    height: 100vh;
+    background: url(https://photographylife.com/wp-content/uploads/2017/01/Ansel-Adams-Snake-River-photo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px; 
+    backdrop-filter: blur(10px);
+    border: #000 2px solid;
+}
+
+form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    width: 80px;
+    height: 35px;
+    border: none;
+}
+
+button:hover{
+    background-color: gray;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 425px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 300px; 
+        backdrop-filter: blur(10px);
+        border: #000 2px solid;
+    }
+
+    .sub{
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inp{
+        width: 130px;
+        height: 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    button{
+        background-color: #000;
+        color: #fff;
+        width: 60px;
+        height: 25px;
+        border: none;
+    }
+}
