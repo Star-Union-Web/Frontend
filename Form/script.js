@@ -18,6 +18,7 @@ function validateForm(event) {
         alert("Please enter a valid name containing only letters.");
         name.style.border = '2px solid red';
         valid = false;
+        return false;
     } else {
         name.style.border = '2px solid green';
     }
@@ -26,6 +27,7 @@ function validateForm(event) {
         alert("Please enter a valid email address.");
         email.style.border = '2px solid red';
         valid = false;
+        return false;
     } else {
         email.style.border = '2px solid green';
     }
@@ -34,6 +36,7 @@ function validateForm(event) {
         alert("Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, and one number.");
         password.style.border = '2px solid red';
         valid = false;
+        return false;
     } else {
         password.style.border = '2px solid green';
     }
@@ -42,12 +45,14 @@ function validateForm(event) {
         alert("Please confirm the password.");
         confirmPassword.style.border = '2px solid red';
         valid = false;
+        return false;
     } 
     
     if (password.value != confirmPassword.value) {
         alert("Password and Confirm Password must match.");
         confirmPassword.style.border = '2px solid red';
         valid = false;
+        return false;
     } else {
         password.style.border = '2px solid green';
         confirmPassword.style.border = '2px solid green';
@@ -57,6 +62,7 @@ function validateForm(event) {
         alert("Please enter a valid phone number.");
         phone.style.border = '2px solid red';
         valid = false;
+        return false;
     } else if (phone.value) {
         phone.style.border = '2px solid green';
     }
@@ -64,6 +70,7 @@ function validateForm(event) {
     if (!check.checked) {
         alert("You must agree to the Terms and Conditions.");
         valid = false;
+        return false;
     }
 
     if (valid) {
