@@ -90,7 +90,7 @@ document.addEventListener ('DOMContentLoaded', () => {
 
         const confirmPassword = SignUpForm.querySelector ('#signup-confirm-password');
         if (!confirmPassword.value.trim()) {
-            showError(confirmPassword, 'Confirm Password is required');
+            showError(confirmPassword, 'Confirm is required');
             isValid = false;
         } else if (password.value !== confirmPassword.value) {
             showError(confirmPassword, 'Passwords do not match');

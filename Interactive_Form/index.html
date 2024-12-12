@@ -3,161 +3,163 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
     <link rel="stylesheet" href="./src/output.css">
     <title>Interactive Form</title>
     
   </head>
-  <body class="bg-gray-100 font-poppins">
-    <div class="relative min-h-screen flex items-center justify-center">
-      <div class="w-full max-w-4xl bg-white shadow-lg rounded-lg overflow-hidden">
+  <body class="bg-gradient-to-tr from-black to-green-900 font-poppins">
+    <div class="relative min-h-screen flex items-center justify-center bg-page-bg ">
+      <div class="w-full max-w-4xl bg-black shadow-lg rounded-lg overflow-hidden">
         <!-- Sign In form -->
-        <div id="sign-in-form" class="p-8">
+        <div id="sign-in-form" class="p-10 bg-black text-white">
             <div class="grid grid-cols-2 space-x-4">
-                <form action="#" class="flex flex-col items-center">
-                    <h2 class="text-2xl font-semibold text-gray-700 mb-4">Sign in</h2>
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-user text-gray-400"></i>
+                <form action="#" class="flex flex-col items-center space-y-2">
+                    <h2 class="text-2xl font-semibold text-white">Login</h2>
+                    <p class="text-sm text-gray-100 mb-8">Please fill in your credentials to login.</p>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-user text-white"></i>
                     <input 
                         id="signin-username"
                         type="text"
                         placeholder="Username"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800 text-white placeholder-white"
                     />
                     <span class="text-red-500 text-sm hidden" id="username-error">Username is required</span>
                     </div>
 
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-lock text-gray-400"></i>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-lock text-white mb-5"></i>
                     <input
                         id="signin-password"
                         type="password"
                         placeholder="Password"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 mb-5 focus:outline-none border-b border-green-800  text-white placeholder-white" 
                     />
                     <span class="text-red-500 text-sm hidden" id="password-error">Password is required</span>
                     </div>
 
-                    <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                    <button class="w-28 bg-green-700 text-white py-2 rounded-3xl hover:bg-green-800 transition">
                     Login
                     </button>
-                    <p class="mt-4 text-sm text-gray-500">Or sign in with social platforms</p>
+                    <p class="mt-6 text-sm text-white">Or sign in with social platforms</p>
                     <div class="flex space-x-4 mt-4">
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                        <a href="#" class="text-white hover:text-green-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-700">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-700">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-700">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </form>
 
-                <div class="bg-blue-500 text-white p-8 flex flex-col justify-between">
+                <!-- right section with background image -->
+                <div class="bg-[url('/assets/img/plant.jpg')] bg-cover bg-center  flex flex-col items-center justify-center text-center">
                     <div>
-                      <h3 class="text-2xl font-semibold">New here?</h3>
-                      <p class="mt-2 text-sm">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      </p>
+                        <h3 class="text-2xl font-semibold">New here?</h3>
+                        <p class="mt-2 text-sm">
+                            Sign up and discover great amount of new opportunities!
+                        </p>
+                
+                        <button onclick="toggleSection('sign-up-form')" class="mt-4 bg-white text-green-700 py-2 px-7 rounded-3xl hover:bg-green-100 transition">
+                        Sign up
+                        </button>
                     </div>
-                    <button onclick="toggleSection('sign-up-form')" class="mt-4 bg-white text-blue-500 py-2 px-4 rounded-lg hover:bg-gray-200 transition">
-                      Sign up
-                    </button>
                 </div>
-
             </div>
         </div>
         
         <!-- Sign Up form -->
         <div id="sign-up-form" class="p-8 hidden-section">
             <div class="grid grid-cols-2 space-x-4">
-                <div class="bg-blue-500 text-white p-8 flex flex-col justify-center">
+                <div class="bg-[url('/assets/img/plant.jpg')] bg-cover bg-center flex flex-col items-center justify-center text-center text-white">
                     <p class="text-2xl font font-semibold">Already have an account?</p>
-                    <button onclick="toggleSection('sign-in-form')" class="mt-4 bg-white text-blue-500 py-2 px-4 rounded-lg hover:bg-gray-200 transition">Sign in</button>
+                    <button onclick="toggleSection('sign-in-form')" class="mt-4  bg-white text-green-700 py-2 px-7 rounded-3xl hover:bg-green-100 transition">Sign in</button>
                 </div>
                 <form action="#" class="flex flex-col items-center">
-                    <h2 class="text-2xl font-semibold text-gray-700 mb-4">Sign up</h2>
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-user text-gray-400"></i>
+                    <h2 class="text-2xl font-semibold text-white mb-1 items-start">Sign up</h2>
+                    <p class="text-sm text-gray-100 mb-6">Please fill the form to become part of a team!</p>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-user text-white"></i>
                     <input
                         id="signup-username"
                         type="text"
                         placeholder="Username"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800  text-white placeholder-white"
                     />
                     <span class="text-red-500 text-sm hidden" id="signup-username-error">Username is required</span>
                     </div>
 
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-envelope text-gray-400"></i>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-envelope text-white"></i>
                     <input
                         id="signup-email"
                         type="email"
                         placeholder="Email"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800  text-white placeholder-white"
                     />
                     <span class="text-red-500 text-sm hidden" id="signup-email-error">Email is required</span>
                     </div>
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-lock text-gray-400"></i>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-lock text-white"></i>
                     <input
                         id="signup-password"
                         type="password"
                         placeholder="Password"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800  text-white placeholder-white"
                     />
                     <span class="text-red-500 text-sm hidden" id="signup-password-error">Password is required</span>
                     </div>
 
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-lock text-gray-400"></i>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-lock text-white"></i>
                     <input
                         id="signup-confirm-password"
                         type="password"
                         placeholder="Confirm Password"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800  text-white placeholder-white"
                     />
-                    <span class="text-red-500 text-sm hidden" id="signup-confirm-password-error">Confirm Password is required</span>
+                    <span class="text-red-500 text-sm hidden" id="signup-confirm-password-error"> required</span>
                     </div>
 
-                    <div class="w-full mb-4 flex items-center bg-gray-100 rounded-lg px-4">
-                    <i class="fas fa-phone text-gray-400"></i>
+                    <div class="w-full mb-4 flex items-center px-4">
+                    <i class="fas fa-phone text-white"></i>
                     <input
                         id="signup-phone"
                         type="text"
                         placeholder="Phone"
-                        class="bg-transparent flex-1 py-2 px-2 text-gray-700 focus:outline-none"
+                        class="bg-transparent flex-1 py-2 px-2 focus:outline-none border-b border-green-800  text-white placeholder-white"
                     />
                     </div>
 
                     <div>
-                        <input type="checkbox" id="signup-terms" class="mr-2">
-                        <label  for="signup-terms" class="text-sm">I agree to the terms and conditions</label>
+                        <input type="checkbox" id="signup-terms" class=" mb-6">
+                        <label  for="signup-terms" class="text-sm text-white">I agree to the terms and conditions</label>
                         <span class="text-red-500 text-sm hidden" id="signup-terms-error">You must agree to continue.</span>
                     </div>
 
-                    <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+                    <button class="w-28 bg-green-700 text-white py-2 rounded-3xl  hover:bg-green-800 transition">
                     Sign up
                     </button>
-                    <p class="mt-4 text-sm text-gray-500">Or sign up with social platforms</p>
+                    <p class="mt-4 text-sm text-white">Or sign up with social platforms</p>
                     <div class="flex space-x-4 mt-4">
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
+                    <a href="#" class="text-white hover:text-green-700">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
+                    <a href="#" class="text-white hover:text-green-700">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
+                    <a href="#" class="text-white hover:text-green-700">
                         <i class="fab fa-google"></i>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-blue-500">
+                    <a href="#" class="text-white hover:text-green-700">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     </div>
