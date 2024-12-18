@@ -54,7 +54,7 @@ const fetchWeather = async () => {
             weatherBg.style.backgroundImage = "url('./assets/img/overcast.jpg')";
         }
         else {
-            weatherBg.style.backgroundImage = "url('./assets/img/sunny.jpg')";
+            weatherBg.style.backgroundImage = "url('./assets/img/clear.jpg')";
         }
 
 
