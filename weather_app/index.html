@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+<style>
+
+</style>
+<body class="flex h-screen overflow-hidden">
+<!-- Sidebar -->
+<div class="w-auto  menu bg-gray-900 text-white p-6 hidden lg:block">
+
+  <div class="flex flex-row justify_between gap-10">
+    <h1 class="text-3xl font-bold mb-8 pr-3 text-white">
+      <i class="fa-solid fa-cloud-bolt text-blue-300 mb-10  "></i> Weatherly
+    </h1>
+  </div>
+
+  <nav>
+    <ul class="space-y-6">
+      <li>
+        <a href="#" class="flex items-center gap-3 px-5 py-3 rounded-xl bg-white/20 hover:text-blue-400">
+          <i class="fa-solid fa-house"></i> Dashboard
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center gap-3 px-5 py-3 rounded-xl bg-white/20 hover:text-blue-400">
+          <i class="fa-solid fa-map"></i> Cities
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center gap-3 px-5 py-3 rounded-xl bg-white/20 hover:text-blue-400">
+          <i class="fa-solid fa-cloud"></i> Forecast
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center gap-3 px-5 py-3 rounded-xl bg-white/20 hover:text-blue-400">
+          <i class="fa-solid fa-cog"></i> Settings
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+<!-- Main Dashboard -->
+<main class="flex-1 overflow-y-auto bg-gray-50">
+  <!-- Header Section -->
+  <header class="flex justify-between items-center bg-blue-300 text-gray-900 p-6">
+    <h2 class="text-2xl font-bold">Weatherly Dashboard</h2>
+    <div class="relative flex w-1/2 items-center">
+      <input
+        type="text"
+        placeholder="Search City"
+        class="city_input w-full bg-white text-gray-700 py-2 px-4 rounded-xl focus:outline-none"
+      />
+      <button class="absolute right-2 search">
+        <i class="fa-solid fa-magnifying-glass text-blue-900 hover:text-blue-800"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Dashboard Content -->
+  <section class="p-6">
+    <!-- City & Temperature -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+      <!-- Main Weather Card -->
+      <div class="col-span-2 bg-white rounded-xl shadow-lg p-6 text-center">
+        <h1 class="text-3xl  city font-bold">Cairo</h1>
+        <p class="text-lg text-gray-500 mt-2">Partly Cloudy</p>
+        <div class="flex items-center justify-center gap-4 mt-4">
+          <i class="fa-solid fa-cloud text-blue-500 text-6xl"></i>
+          <span class="text-6xl font-bold">28°C</span>
+        </div>
+      </div>
+
+      <!-- Additional Details -->
+      <div class="bg-white rounded-xl shadow-lg p-6 grid gap-4">
+        <div class="flex justify-between">
+          <span class="text-gray-500">Humidity</span>
+          <span class="font-bold">60%</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Wind</span>
+          <span class="font-bold">15 km/h</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Pressure</span>
+          <span class="font-bold">1013 hPa</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">UV Index</span>
+          <span class="font-bold">3</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Weekly Forecast -->
+    <div class="bg-white rounded-xl shadow-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Weekly Forecast</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Mon</span>
+          <i class="fa-solid fa-sun text-yellow-400 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">30°C</span>
+        </div>
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Tue</span>
+          <i class="fa-solid fa-cloud text-blue-700 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">25°C</span>
+        </div>
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Wed</span>
+          <i class="fa-solid fa-cloud-showers-heavy text-blue-400 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">22°C</span>
+        </div>
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Thu</span>
+          <i class="fa-solid fa-cloud-sun text-yellow-400 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">27°C</span>
+        </div>
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Fri</span>
+          <i class="fa-solid fa-bolt text-yellow-500 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">24°C</span>
+        </div>
+        <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+          <span>Sat</span>
+          <i class="fa-solid fa-snowflake text-blue-300 text-4xl mt-2"></i>
+          <span class="mt-2 font-bold">18°C</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add More Sections Below as Needed -->
+    <!-- Add More Sections Below as Needed -->
+    <section class="mt-6 bg-white rounded-xl shadow-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Air Quality</h2>
+      <div class="flex justify-between">
+        <span class="text-gray-500">Air Quality Index</span>
+        <span class="font-bold air-quality-index text-green-500">Good</span>
+      </div>
+      <div class="flex justify-between mt-2 pm25">
+        <span class="text-gray-500">PM2.5</span>
+        <span class="font-bold">12 µg/m³</span>
+      </div>
+      <div class="flex justify-between mt-2 pm10">
+        <span class="text-gray-500">PM10</span>
+        <span class="font-bold">18 µg/m³</span>
+      </div>
+    </section>
+
+  </section>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
