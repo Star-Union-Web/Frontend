@@ -50,6 +50,9 @@ const fetchWeather = async () => {
         else if (condition.includes("sunny")) {
             weatherBg.style.backgroundImage = "url('./assets/img/sunny.jpg')";
         }
+        else if (condition.includes("overcast")) {
+            weatherBg.style.backgroundImage = "url('./assets/img/overcast.jpg')";
+        }
         else {
             weatherBg.style.backgroundImage = "url('./assets/img/sunny.jpg')";
         }
@@ -62,9 +65,9 @@ const fetchWeather = async () => {
          forecastData.forecast.forecastday.forEach(day => {
              forecastContainer.innerHTML += `
                  <div class="text-center bg-gray-700 p-2 rounded flex flex-col items-center">
-                     <p class="text-sm mb-2">${new Date(day.date).toLocaleDateString('en-US', { weekday: 'short' })}</p>
-                     <div class="bg-blue-500 rounded-t-md w-8" style="height: ${day.day.avgtemp_c * 3}px;"></div>
-                     <p class="text-sm mt-2">${day.day.avgtemp_c}°C</p>
+                     <p class="lg:text-sm text-xs mb-2">${new Date(day.date).toLocaleDateString('en-US', { weekday: 'short' })}</p>
+                     <div class="bg-blue-500 rounded-t-md w-6" style="height: ${day.day.avgtemp_c * 3}px;"></div>
+                     <p class="lg:text-sm text-xs mt-2">${day.day.avgtemp_c}°</p>
                  </div>
              `;
          });
