@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Fashion E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2024-12-27 023857](https://github.com/user-attachments/assets/158d7a9b-382b-4817-93ea-0d42a8c6271d)
 
-## Available Scripts
 
-In the project directory, you can run:
+Welcome to the Fashion E-Commerce Website! This is an interactive online store where you can browse through a variety of fashion products, add them to your wishlist, and enjoy a user-friendly shopping experience. Built with React, this website allows you to explore trending products, and manage your favorite items in a personalized wishlist.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Add to Wishlist**: Easily add products to your wishlist for future purchase. You can also remove items from the wishlist.
+- **Trending Products**: Stay updated with the latest trending products in the fashion world.
+- **Responsive Design**: The website is fully responsive and optimized for mobile, tablet, and desktop views.
+- **Stylish User Interface**: The design is modern and clean, with a black theme to complement the fashion focus of the website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Core Features
 
-### `npm run build`
+- **Add Products to Wishlist**: Users can click an "Add to Wishlist" button on each product card to add items they like to their wishlist.
+- **Wishlist Management**: The wishlist is easily accessible, allowing users to view all the products they've saved and remove items when desired.
+- **React Router Integration**: The app uses React Router to navigate between different sections, such as the home page, product listings, about page, and wishlist.
+- **Product Details**: Each product has its own detailed page with more information and an option to add it to the wishlist.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Check out the live demo of the website on [Netlify](https://startling-monstera-02f4ea.netlify.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### File Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `App.js`: The main entry point for the app, setting up routing and state management for the wishlist.
+- `Navbar.js`: Contains the navigation bar with links to different sections of the website.
+- `Home.js`: The homepage that welcomes users and provides an overview of the website's features.
+- `ProductList.js`: Displays the list of products with an option to add them to the wishlist.
+- `Wishlist.js`: Shows all the items in the wishlist and allows users to remove items.
+- `Product.js`: Displays detailed information about a single product and allows users to add it to their wishlist.
+- `ProductCard.js`: A component that represents an individual product with details like image, name, price, and a button to add it to the wishlist.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React**: For building the user interface and managing application state.
+- **React Router**: For navigation between different pages of the app.
+- **Tailwind CSS**: For styling the website, creating a clean and modern design with a focus on fashion. Tailwind provides a utility-first approach to design, making the styling more flexible and responsive.
+- **useState**: To manage the wishlist state and handle interactions like adding and removing products.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
