@@ -3,6 +3,7 @@ import Image1 from '../../assets/home3 (5).png';
 import Image2 from '../../assets/home3 (2).png';
 import Image3 from '../../assets/home3 (3).png';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 
 const ImageList = [
     {
@@ -26,7 +27,7 @@ const ImageList = [
     }
 ]
 
-const Home = () => {
+const Header = () => {
     var settings = {
         dots: false,
         arrows: false,
@@ -56,8 +57,13 @@ const Home = () => {
                                     {data.desc}
                                 </p>
                                 <div className='flex justify-center sm:justify-start'>
-                                    <button className='bg-secondary text-white px-4 py-2 rounded-full mt-4'>Shop Now</button>
-                                    <button className=' text-secondary py-1 px-1  mt-4 ml-4 border-b-2 border-secondary'>Explore Our Product</button>
+                                    <Link to = '/shop' className='bg-secondary text-white px-4 py-2 rounded-full mt-4
+                                    hover:bg-primary hover:border hover:border-secondary hover:text-secondary'>
+                                        Shop Now
+                                    </Link>
+                                    <button className=' text-secondary py-1 px-1  mt-4 ml-4 border-b-2 border-secondary'>
+                                        Explore Our Product
+                                    </button>
                                 </div>
                             </div>
                             {/* Image section */}
@@ -78,4 +84,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Header

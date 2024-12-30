@@ -2,6 +2,7 @@ import React from 'react'
 import { IoIosSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from './DarkMode';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -16,10 +17,9 @@ const Navbar = () => {
                     <div className='flex justify-center text-gray-700 text-sm'>
                         <ul className='sm:flex hidden items-center  gap-5'>
                             <li>
-                                <a href='#' className='inline-block px-4 hover:text-secondary duration-200'>Home</a>
-                            </li>
+                                <Link to='/' className='inline-block px-4 hover:text-secondary duration-200'>Home</Link>                            </li>
                             <li>
-                                <a href='#' className='inline-block px-4 hover:text-secondary duration-200'>Shop</a>
+                                <Link to='/shop' className='inline-block px-4 hover:text-secondary duration-200'>Shop</Link>
                             </li>
                             <li>
                                 <a href='#' className='inline-block px-4 hover:text-secondary duration-200'>Contact</a>
@@ -65,14 +65,15 @@ const Navbar = () => {
                     </div>
 
                     {/* Cart */}
-                    <button
-                    onClick={() => alert('Order')}
-                    className ="bg-gradient-to-r from-secondary to-secondary transition-all duration-200
-                    text-white px-4 py-2 rounded-full flex items-center gap-3 group" 
-                    >
-                        <span className='group-hover:block hidden transition-all duration-200'>Order</span>
-                        <FaCartShopping className='text-xl text-white drop-shadow-sm cursor-pointer' />
-                    </button>
+                    < Link to='/cart' className='group'>
+                        <button
+                        className ="bg-gradient-to-r from-secondary to-secondary transition-all duration-200
+                        text-white px-4 py-2 rounded-full flex items-center gap-3 group" 
+                        >
+                            <span className='group-hover:block hidden transition-all duration-200'>Order</span>
+                            <FaCartShopping className='text-xl text-white drop-shadow-sm cursor-pointer' />
+                        </button>
+                    </Link>
 
                     {/* Dark Mode */}
                     <div>
