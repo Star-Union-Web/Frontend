@@ -16,7 +16,7 @@ export default {
         padding: {
           DEFAULT: '1rem',
           sm: '3rem',
-        }
+        },
       },
     },
   },

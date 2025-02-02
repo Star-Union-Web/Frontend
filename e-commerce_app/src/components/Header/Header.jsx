@@ -43,7 +43,7 @@ const Header = () => {
 
   return (
     <div className='relative min-h-[550px]
-    sm:min-h-[650px] bg-primary flex justify-center items-center'>
+    sm:min-h-[650px] bg-primary flex justify-center items-center '>
         <div className='container pb-8 sm:pb-0 px-6 sm:px-12'>
             <Slider {...settings}>
                 {ImageList.map((data) => (
@@ -70,7 +70,7 @@ const Header = () => {
                             <div className='order-1 sm:order-2'>
                                 <div className='relative'>
                                     <img src={data.img} alt=""
-                                    className='w-[300px] sm:w-auto h-[300px] sm:h-[450px] object-contain mx-auto'
+                                    className='w-full sm:w-auto h-[300px] sm:h-[450px] object-contain mx-auto'
                                     />
                                 </div>
                             </div>

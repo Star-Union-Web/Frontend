@@ -1,29 +1,23 @@
-import React, { useState } from 'react'
-import product1 from '../../assets/p1.png'
-import product2 from '../../assets/p2.png'
-import product3 from '../../assets/p3 (1).jpg'
-import product4 from '../../assets/p3 (2).jpg'
-import product5 from '../../assets/p3 (3).jpg'
-import { BsArrowRightShort } from "react-icons/bs";
-import { useCart } from '../../Pages/Cart/CartContext';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { useCart } from '../Cart/CartContext'
+import face from '../../assets/skinCare/face.jpg'
+import ball from '../../assets/skinCare/ball_massag.jpg'
+import { useState } from 'react'
 
 
 const ProductsData = [
-    {id: 1, name: 'Product 1',price: 10, img: product1, rating : 4.5, totalRating: 100,},
-    {id: 2, name: 'Product 1',price: 10, img: product2, rating : 4.5, totalRating: 100,},
-    {id: 3, name: 'Product 1',price: 10, img: product3, rating : 4, totalRating: 90,},
-    {id: 4, name: 'Product 1',price: 10, img: product4, rating : 4.5, totalRating: 90,},
-    {id: 5, name: 'Product 1',price: 10, img: product5, rating : 5, totalRating: 120,},
+    {id: 1, name: 'protuction face',price: 10, img: face, rating : 4.5, totalRating: 100,},
+    {id: 2, name: 'ball massag',price: 10, img: ball, rating : 4.5, totalRating: 100,},
 
 ]
 
-const Products = () => {
+const SkinCare = () => {
+
     const { addToCart, removeFromCart, cart } = useCart();
     const [selectedProduct, setSelectedProduct] = useState(null);
 
   return (
-    
+    <div className='mt-10 mb-12'>
         <div className='container'>
             {/* Header section */}
             <div className='text-center mb-10 max-w-[600px]
@@ -33,10 +27,10 @@ const Products = () => {
                 <p data-aos = "fade-up"  className='text-xs text-gray-400'>your path to Flawless Skin Starts Here. Harness the power of Nature for Beatiful Skin.</p>
             </div>
             {/* Body section */}
-            
+            <div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 
                 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center
-                '>
+                gap-5'>
                     {/* card section */}
                     {ProductsData.map((data) => (
                         <div
@@ -48,7 +42,7 @@ const Products = () => {
                             <img
                                 src={data.img}
                                 alt={data.name}
-                                className='w-full h-[200px] object-cover'
+                                className='w-full h-[150px] object-cover'
                             />
                             <div className='p-4'>
                                 <h2 className='font-bold text-lg text-secondary'>{data.name}</h2>
@@ -89,10 +83,10 @@ const Products = () => {
                                             <button
                                                 className='bg-secondary text-white px-4 text-sm py-2 rounded-lg
                                                 hover:bg-white hover:border hover:border-secondary hover:text-secondary
-                                                 transition duration-300 ease-in-out '
+                                                transition duration-300 ease-in-out'
                                                 onClick={() => addToCart(data.id , data.price , data.name , data.img)}
                                             >
-                                                Add 
+                                                Add
                                             </button>
                                         )}
                                          {/* View Details Button */}
@@ -111,6 +105,7 @@ const Products = () => {
                     ))}
 
                 </div>
+            </div>
 
             {/* Modal Section */}
             {selectedProduct && (
@@ -154,16 +149,9 @@ const Products = () => {
             )}
 
 
-            <div className='flex items-center justify-center '>
-                <Link to = "/shop" className='flex items-center justify-center gap 2 mt-10 bg-secondary text-white
-                 py-2 px-4 rounded-lg hover:bg-white hover:border hover:border-secondary hover:text-secondary
-                 transition duration-300 ease-in-out'>
-                    Explore All <BsArrowRightShort className='text-2xl' />
-                </Link>
-            </div>
         </div>
-    
+    </div>
   )
 }
 
-export default Products
+export default SkinCare

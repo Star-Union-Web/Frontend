@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Footer from './components/Footer/Footer';
 import Shop from './Pages/Shop/Shop';
 import { CartProvider } from './Pages/Cart/CartContext';
+import SkinCare from './Pages/SkinCare/SkinCare';
 
 const App = () => {
 
@@ -29,7 +30,8 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/shop' element={<Shop />} />
-              <Route path='/cart' element={<Cart />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='/skincare' element={<SkinCare />} />
           </Routes>
         </CartProvider>
         <Footer />

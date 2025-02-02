@@ -4,8 +4,9 @@ import product2 from '../../assets/p2.png'
 import product3 from '../../assets/p3 (1).jpg'
 import product4 from '../../assets/p3 (2).jpg'
 import product5 from '../../assets/p3 (3).jpg'
-import { useState } from 'react'
 import { useCart } from '../Cart/CartContext'
+import { useState } from 'react'
+
 
 
 const ProductsData = [
@@ -29,6 +30,7 @@ const ProductsData = [
 
 const Shop = () => {
   const { addToCart, removeFromCart, cart } = useCart();
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   return (
     <div className='mt-10 mb-12'>
@@ -37,7 +39,7 @@ const Shop = () => {
             <div className='text-center mb-10 max-w-[600px]
             mx-auto'>
                 <h1 data-aos = "fade-up" className='text-3xl font-bold text-secondary'>
-                    Explore Our Skin Care Product</h1>
+                    Explore Our Product</h1>
                 <p data-aos = "fade-up"  className='text-xs text-gray-400'>your path to Flawless Skin Starts Here. Harness the power of Nature for Beatiful Skin.</p>
             </div>
             {/* Body section */}
@@ -74,8 +76,8 @@ const Shop = () => {
                                 </div>
 
                                 {/* Add/Remove Section */}
-                                <div className='flex items-center mt-4 gap-2'>
-                                        {cart[data.id] ? (
+                                <div className='flex items-center mt-4 gap-3 justify-between '>
+                                        {cart[data.id] ?.count ? (
                                             <>
                                                 <button
                                                     className='bg-gray-500 text-white px-2 py-1 rounded-lg text-bold '
@@ -84,7 +86,7 @@ const Shop = () => {
                                                     -
                                                 </button>
                                                 <span className='text-sm font-semibold'>
-                                                    {cart[data.id]}
+                                                    {cart[data.id].count}
                                                 </span>
                                                 <button
                                                     className='bg-green-500 text-white px-2 py-1 rounded-lg'
@@ -96,20 +98,71 @@ const Shop = () => {
                                         ) : (
                                             <button
                                                 className='bg-secondary text-white px-4 text-sm py-2 rounded-lg
-                                                hover:bg-white hover:border hover:border-secondary hover:text-secondary'
+                                                hover:bg-white hover:border hover:border-secondary hover:text-secondary
+                                                transition duration-300 ease-in-out'
                                                 onClick={() => addToCart(data.id , data.price , data.name , data.img)}
                                             >
-                                                Add to Cart
+                                                Add
                                             </button>
                                         )}
+                                        {/* View Details Button */}
+                                        <button
+                                        className="bg-secondary text-white px-4 text-sm py-2 rounded-lg hover:bg-white
+                                          hover:border hover:border-secondary hover:text-secondary
+                                          transition duration-300 ease-in-out"
+                                        onClick={() => setSelectedProduct(data)}
+                                        >
+                                        View
+                                        </button>
                                 </div>
-
                             </div>
                         </div>
                     ))}
 
                 </div>
             </div>
+
+             {/* Modal Section */}
+            {selectedProduct && (
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 ">
+                    <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full relative">
+                        {/* Close Button */}
+                        <button
+                            className="absolute top-1 right-2 text-gray-500 text-2xl hover:text-secondary"
+                            onClick={() => setSelectedProduct(null)}
+                        >
+                            &times;
+                        </button>
+
+                        <img src={selectedProduct.img} alt={selectedProduct.name} className="w-full h-full object-cover rounded-md mt-3" />
+                        <h2 className="text-xl font-bold text-secondary mt-2">{selectedProduct.name}</h2>
+                        <p className="text-gray-500 mt-1">${selectedProduct.price}</p>
+                        <div className="flex items-center text-yellow-500 mt-2">
+                            <span>
+                            {"★".repeat(Math.floor(selectedProduct.rating))}
+                            {selectedProduct.rating % 1 !== 0 && <span className="text-gray-400">★</span>}
+                            </span>
+                            <span className="text-gray-400"> ({selectedProduct.totalRating})</span>
+                        </div>
+                        <p className="text-sm text-gray-600 mt-2">
+                            This is a great product with high quality and great customer reviews.
+                        </p>
+
+                        <button
+                            className='mt-4  bg-secondary text-white px-4 text-sm py-2 rounded-lg
+                             hover:bg-white hover:border hover:border-secondary hover:text-secondary
+                             transition duration-300 ease-in-out'
+                            onClick={() => {
+                            addToCart(selectedProduct.id, selectedProduct.price, selectedProduct.name, selectedProduct.img);
+                            setSelectedProduct(null);
+                            }}
+                        >
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            )}
+
         </div>
     </div>
   );

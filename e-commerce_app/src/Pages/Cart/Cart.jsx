@@ -18,7 +18,7 @@ const Cart = () => {
                 <hr className="my-4" />
                 {Object.entries(cart).map(([id, item]) => (
                     <div key={id}>
-                        <div className="grid grid-cols-6 gap-4 items-center text-black my-2">
+                        <div className="grid grid-cols-6 gap-4 items-center text-black my-2 text-sm sm:text-base">
                             <img src={item.img} alt={item.name} className="w-12" />
                             <p>{item.name}</p>
                             <p>${item.price}</p>
@@ -26,7 +26,7 @@ const Cart = () => {
                             <p>${item.price * item.count}</p>
                             <p
                                 onClick={() => removeFromCart(id)}
-                                className="cursor-pointer text-red-600"
+                                className="cursor-pointer text-black"
                             >
                                 x
                             </p>
@@ -36,9 +36,9 @@ const Cart = () => {
                 ))}
             </div>
             <div className="container flex flex-col lg:flex-row justify-between gap-16">
-                <div className="flex-1 space-y-4">
+                <div className="container flex-1 space-y-4">
                     <h2 className="text-xl font-bold">Cart Totals</h2>
-                    <div className="space-y-4">
+                    <div className="space-y-1">
                         <div className="flex justify-between text-gray-600">
                             <p>Subtotal</p>
                             <p>${getTotalCartAmount()}</p>
@@ -53,12 +53,12 @@ const Cart = () => {
                             <p>Total</p>
                             <p>${getTotalCartAmount() + 2}</p>
                         </div>
-                        <button className="w-full lg:w-1/3 bg-orange-800 text-white py-3 rounded-md">
+                        <button className="w-auto px-2  bg-secondary text-white py-2 rounded-md">
                             PROCEED TO CHECKOUT
                         </button>
                     </div>
                 </div>
-                <div className="flex-1 space-y-4">
+                <div className="container flex-1 space-y-4">
                     <p className="text-gray-600">If you have a promo code, enter it here:</p>
                     <div className="flex items-center bg-gray-200 rounded-md overflow-hidden">
                         <input
