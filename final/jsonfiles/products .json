@@ -1,0 +1,5102 @@
+[
+    {
+        "id": "1050ecea-9d4c-4191-bec3-7eb31451725f",
+        "name": "Football",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/1050ecea-9d4c-4191-bec3-7eb31451725f/200",
+        "posted_date": "2024-07-26",
+        "user": {
+            "username": "user7581",
+            "email": "user4499@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=57"
+        }
+    },
+    {
+        "id": "3df26fc1-21ec-4e31-a569-2e3f56c23283",
+        "name": "T-shirt",
+        "category": "electronics",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1669,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/3df26fc1-21ec-4e31-a569-2e3f56c23283/200",
+        "posted_date": "2024-10-18",
+        "user": {
+            "username": "user9377",
+            "email": "user1275@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "1aec055c-e63d-410d-a398-a2e22d612344",
+        "name": "Car Engine",
+        "category": "travel",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/1aec055c-e63d-410d-a398-a2e22d612344/200",
+        "posted_date": "2024-08-10",
+        "user": {
+            "username": "user6169",
+            "email": "user8276@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "b4618d71-d9d9-4497-91f3-876e6cfda7af",
+        "name": "Football",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Used",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/b4618d71-d9d9-4497-91f3-876e6cfda7af/200",
+        "posted_date": "2024-08-28",
+        "user": {
+            "username": "user8246",
+            "email": "user2530@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "796dd430-8db1-442e-b22a-5593f2b9bc26",
+        "name": "Laptop",
+        "category": "gaming",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1060,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/796dd430-8db1-442e-b22a-5593f2b9bc26/200",
+        "posted_date": "2024-02-29",
+        "user": {
+            "username": "user5982",
+            "email": "user5880@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "9f7665ae-4b2b-4178-8818-eaf05405dc91",
+        "name": "Sofa",
+        "category": "electronics",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 962,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/9f7665ae-4b2b-4178-8818-eaf05405dc91/200",
+        "posted_date": "2024-02-26",
+        "user": {
+            "username": "user9449",
+            "email": "user1484@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "6a846819-5800-47af-881c-0411d7db8d90",
+        "name": "Lipstick",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 805,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/6a846819-5800-47af-881c-0411d7db8d90/200",
+        "posted_date": "2024-02-10",
+        "user": {
+            "username": "user4492",
+            "email": "user3513@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "2538ab82-f9e9-4d9c-bb82-9f991fb9ced3",
+        "name": "Lipstick",
+        "category": "clothing",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/2538ab82-f9e9-4d9c-bb82-9f991fb9ced3/200",
+        "posted_date": "2024-11-05",
+        "user": {
+            "username": "user5380",
+            "email": "user3601@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "648b8837-510e-4395-8be3-93c470b5f1c8",
+        "name": "Lipstick",
+        "category": "sports",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/648b8837-510e-4395-8be3-93c470b5f1c8/200",
+        "posted_date": "2024-07-07",
+        "user": {
+            "username": "user4132",
+            "email": "user1659@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=15"
+        }
+    },
+    {
+        "id": "04c4e209-57bf-4ce3-a8d3-a329b17052d8",
+        "name": "Car Engine",
+        "category": "stationery",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/04c4e209-57bf-4ce3-a8d3-a329b17052d8/200",
+        "posted_date": "2025-01-23",
+        "user": {
+            "username": "user1532",
+            "email": "user7847@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=64"
+        }
+    },
+    {
+        "id": "7db1fe9a-371e-4a24-aa78-f732284bd3fa",
+        "name": "Lipstick",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/7db1fe9a-371e-4a24-aa78-f732284bd3fa/200",
+        "posted_date": "2024-05-05",
+        "user": {
+            "username": "user5172",
+            "email": "user3701@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "e09b01b0-965d-4d76-95a9-cff6563a7942",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 843,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/e09b01b0-965d-4d76-95a9-cff6563a7942/200",
+        "posted_date": "2024-03-01",
+        "user": {
+            "username": "user8935",
+            "email": "user6885@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=50"
+        }
+    },
+    {
+        "id": "0e86078a-be08-4593-854a-33ae02d1aa14",
+        "name": "Novel",
+        "category": "home_decor",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 939,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/0e86078a-be08-4593-854a-33ae02d1aa14/200",
+        "posted_date": "2025-02-01",
+        "user": {
+            "username": "user4089",
+            "email": "user6235@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "63ffe8ef-ebdb-4b7c-a22a-28a11db468d7",
+        "name": "Lipstick",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/63ffe8ef-ebdb-4b7c-a22a-28a11db468d7/200",
+        "posted_date": "2025-01-12",
+        "user": {
+            "username": "user1242",
+            "email": "user1482@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=63"
+        }
+    },
+    {
+        "id": "8d48482d-7843-4490-b8c9-127a1ccf55b9",
+        "name": "Football",
+        "category": "toys",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/8d48482d-7843-4490-b8c9-127a1ccf55b9/200",
+        "posted_date": "2024-09-29",
+        "user": {
+            "username": "user9938",
+            "email": "user3262@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "fc2dfe44-a099-4e63-8693-eef85adf311e",
+        "name": "Lipstick",
+        "category": "sports",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/fc2dfe44-a099-4e63-8693-eef85adf311e/200",
+        "posted_date": "2024-05-23",
+        "user": {
+            "username": "user9211",
+            "email": "user5350@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "20b1a2ac-7250-4c1d-9826-e5fe38e0668f",
+        "name": "Sofa",
+        "category": "furniture",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/20b1a2ac-7250-4c1d-9826-e5fe38e0668f/200",
+        "posted_date": "2024-05-28",
+        "user": {
+            "username": "user5201",
+            "email": "user1448@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8"
+        }
+    },
+    {
+        "id": "15a459cb-a1be-455f-b170-6618e4cf646d",
+        "name": "Rice Bag",
+        "category": "home_decor",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 923,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/15a459cb-a1be-455f-b170-6618e4cf646d/200",
+        "posted_date": "2024-12-12",
+        "user": {
+            "username": "user4748",
+            "email": "user3017@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "c51c25a6-d09d-4071-98d9-0f7a4fdab177",
+        "name": "Car Engine",
+        "category": "books",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1174,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/c51c25a6-d09d-4071-98d9-0f7a4fdab177/200",
+        "posted_date": "2024-08-07",
+        "user": {
+            "username": "user2070",
+            "email": "user9366@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=51"
+        }
+    },
+    {
+        "id": "516cef38-7716-401f-ac14-17d4bcb9eb11",
+        "name": "Rice Bag",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 1945,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/516cef38-7716-401f-ac14-17d4bcb9eb11/200",
+        "posted_date": "2024-02-24",
+        "user": {
+            "username": "user6749",
+            "email": "user6984@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "7923c54d-59e4-49d7-8336-633b8233b4e3",
+        "name": "Football",
+        "category": "health",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1015,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/7923c54d-59e4-49d7-8336-633b8233b4e3/200",
+        "posted_date": "2024-12-24",
+        "user": {
+            "username": "user9467",
+            "email": "user8792@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "0507b920-8bcf-4ee4-b14e-3b6465fbbe97",
+        "name": "Laptop",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/0507b920-8bcf-4ee4-b14e-3b6465fbbe97/200",
+        "posted_date": "2024-10-21",
+        "user": {
+            "username": "user4959",
+            "email": "user8602@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "f7b20957-9116-4c6c-8ba2-aebba4af04ec",
+        "name": "Car Engine",
+        "category": "groceries",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/f7b20957-9116-4c6c-8ba2-aebba4af04ec/200",
+        "posted_date": "2024-07-25",
+        "user": {
+            "username": "user5913",
+            "email": "user2538@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "2defb86f-3232-4034-8816-445b35a3a9dc",
+        "name": "Rice Bag",
+        "category": "sports",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/2defb86f-3232-4034-8816-445b35a3a9dc/200",
+        "posted_date": "2024-11-27",
+        "user": {
+            "username": "user7350",
+            "email": "user6927@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "3f9a768f-d5fc-4fe7-8172-f070d91772de",
+        "name": "Rice Bag",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 598,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/3f9a768f-d5fc-4fe7-8172-f070d91772de/200",
+        "posted_date": "2024-08-07",
+        "user": {
+            "username": "user8197",
+            "email": "user7406@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "c9fdf769-ba82-4dcf-a66e-c9ab93a438c2",
+        "name": "Laptop",
+        "category": "travel",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1915,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/c9fdf769-ba82-4dcf-a66e-c9ab93a438c2/200",
+        "posted_date": "2024-04-26",
+        "user": {
+            "username": "user1657",
+            "email": "user4269@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "efb7f0af-79a4-45d4-a3b7-a7a68eba8d49",
+        "name": "Painkiller",
+        "category": "travel",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/efb7f0af-79a4-45d4-a3b7-a7a68eba8d49/200",
+        "posted_date": "2024-09-22",
+        "user": {
+            "username": "user9917",
+            "email": "user7945@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "71b5e901-24df-4f4a-9391-9fd67e9a3849",
+        "name": "Novel",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/71b5e901-24df-4f4a-9391-9fd67e9a3849/200",
+        "posted_date": "2024-08-27",
+        "user": {
+            "username": "user4929",
+            "email": "user8172@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=53"
+        }
+    },
+    {
+        "id": "21468087-d211-46f6-b76c-a9bf0fdb3a4e",
+        "name": "Sofa",
+        "category": "electronics",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/21468087-d211-46f6-b76c-a9bf0fdb3a4e/200",
+        "posted_date": "2024-10-10",
+        "user": {
+            "username": "user1812",
+            "email": "user2459@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=17"
+        }
+    },
+    {
+        "id": "6d728229-b886-42c8-b9c5-1b94fe696b14",
+        "name": "Rice Bag",
+        "category": "home_decor",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/6d728229-b886-42c8-b9c5-1b94fe696b14/200",
+        "posted_date": "2024-08-29",
+        "user": {
+            "username": "user5687",
+            "email": "user9460@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=12"
+        }
+    },
+    {
+        "id": "4c9bd8eb-6214-48fc-878b-e0ecd895f8bc",
+        "name": "Sofa",
+        "category": "gaming",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1507,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/4c9bd8eb-6214-48fc-878b-e0ecd895f8bc/200",
+        "posted_date": "2024-06-01",
+        "user": {
+            "username": "user6915",
+            "email": "user1202@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=15"
+        }
+    },
+    {
+        "id": "83b3638d-a237-45d3-abd1-551c4f61327f",
+        "name": "Lipstick",
+        "category": "automotive",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/83b3638d-a237-45d3-abd1-551c4f61327f/200",
+        "posted_date": "2024-12-02",
+        "user": {
+            "username": "user3436",
+            "email": "user6527@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "1e5d4573-ce7b-4a16-bc41-d60913866e0f",
+        "name": "Novel",
+        "category": "travel",
+        "type": "swap",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/1e5d4573-ce7b-4a16-bc41-d60913866e0f/200",
+        "posted_date": "2024-11-01",
+        "user": {
+            "username": "user3264",
+            "email": "user6493@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "cb6084fc-5000-4d9e-8f82-ad4646af3ee4",
+        "name": "Football",
+        "category": "gardening",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/cb6084fc-5000-4d9e-8f82-ad4646af3ee4/200",
+        "posted_date": "2024-12-27",
+        "user": {
+            "username": "user2080",
+            "email": "user6813@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "3dcc82c6-fa71-4d77-85e6-53cbe424f052",
+        "name": "Car Engine",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/3dcc82c6-fa71-4d77-85e6-53cbe424f052/200",
+        "posted_date": "2024-04-20",
+        "user": {
+            "username": "user4653",
+            "email": "user1023@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "3955360a-70ea-4312-b75f-8221590d550b",
+        "name": "Lipstick",
+        "category": "gardening",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 880,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/3955360a-70ea-4312-b75f-8221590d550b/200",
+        "posted_date": "2024-04-01",
+        "user": {
+            "username": "user5457",
+            "email": "user8138@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "a3957acf-f14b-4e30-8855-cea6820841a7",
+        "name": "Novel",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/a3957acf-f14b-4e30-8855-cea6820841a7/200",
+        "posted_date": "2024-04-01",
+        "user": {
+            "username": "user7170",
+            "email": "user1955@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=24"
+        }
+    },
+    {
+        "id": "6dd70fb4-0bd7-4537-babb-49d749c03319",
+        "name": "Football",
+        "category": "jewelry",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1595,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/6dd70fb4-0bd7-4537-babb-49d749c03319/200",
+        "posted_date": "2024-05-01",
+        "user": {
+            "username": "user5559",
+            "email": "user4599@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "adc6c654-7ca6-4dad-9140-8d5e2e985afd",
+        "name": "Painkiller",
+        "category": "gaming",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1106,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/adc6c654-7ca6-4dad-9140-8d5e2e985afd/200",
+        "posted_date": "2025-01-22",
+        "user": {
+            "username": "user7786",
+            "email": "user4921@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "ada3a00e-d9b8-4ef0-a566-c634918e0a74",
+        "name": "Rice Bag",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/ada3a00e-d9b8-4ef0-a566-c634918e0a74/200",
+        "posted_date": "2024-09-12",
+        "user": {
+            "username": "user7093",
+            "email": "user9687@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "ddf65bce-e03f-4102-aae0-42ff605bcfa0",
+        "name": "Lipstick",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 370,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/ddf65bce-e03f-4102-aae0-42ff605bcfa0/200",
+        "posted_date": "2024-12-12",
+        "user": {
+            "username": "user3115",
+            "email": "user4505@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=67"
+        }
+    },
+    {
+        "id": "7012e187-6bf9-447d-b959-b20e0a857ba4",
+        "name": "Novel",
+        "category": "sports",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/7012e187-6bf9-447d-b959-b20e0a857ba4/200",
+        "posted_date": "2024-05-17",
+        "user": {
+            "username": "user3573",
+            "email": "user6471@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=57"
+        }
+    },
+    {
+        "id": "62a83e17-3470-4634-95b5-61a47340f83b",
+        "name": "Football",
+        "category": "sports",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/62a83e17-3470-4634-95b5-61a47340f83b/200",
+        "posted_date": "2024-07-02",
+        "user": {
+            "username": "user4420",
+            "email": "user4708@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=36"
+        }
+    },
+    {
+        "id": "2b3c4448-9f4b-4c76-898a-c3ebbe9b31e1",
+        "name": "Painkiller",
+        "category": "beauty",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/2b3c4448-9f4b-4c76-898a-c3ebbe9b31e1/200",
+        "posted_date": "2025-01-14",
+        "user": {
+            "username": "user3890",
+            "email": "user8918@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "31010cd2-459b-4b6b-a19c-ffff06741f00",
+        "name": "Rice Bag",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/31010cd2-459b-4b6b-a19c-ffff06741f00/200",
+        "posted_date": "2024-03-08",
+        "user": {
+            "username": "user1849",
+            "email": "user5639@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "77cefaf1-4cda-463f-a315-1501690110bb",
+        "name": "Car Engine",
+        "category": "health",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 11,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/77cefaf1-4cda-463f-a315-1501690110bb/200",
+        "posted_date": "2024-12-13",
+        "user": {
+            "username": "user4665",
+            "email": "user5952@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "0ff37bef-8646-4e71-b423-5b62154d1a4b",
+        "name": "Painkiller",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1334,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/0ff37bef-8646-4e71-b423-5b62154d1a4b/200",
+        "posted_date": "2024-12-30",
+        "user": {
+            "username": "user8772",
+            "email": "user5050@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "452ed2ba-930e-4f90-8ec7-958baba96a83",
+        "name": "Sofa",
+        "category": "travel",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1948,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/452ed2ba-930e-4f90-8ec7-958baba96a83/200",
+        "posted_date": "2024-02-07",
+        "user": {
+            "username": "user7753",
+            "email": "user2906@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "164be556-9be8-4029-835d-511d7c48a7c9",
+        "name": "Lipstick",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/164be556-9be8-4029-835d-511d7c48a7c9/200",
+        "posted_date": "2024-09-26",
+        "user": {
+            "username": "user5304",
+            "email": "user7213@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=37"
+        }
+    },
+    {
+        "id": "c8c4561c-7d6e-4b8d-96ae-00453c3bbd29",
+        "name": "Painkiller",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/c8c4561c-7d6e-4b8d-96ae-00453c3bbd29/200",
+        "posted_date": "2025-01-11",
+        "user": {
+            "username": "user1596",
+            "email": "user8268@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "ec9c23a5-7a24-4d07-9b16-0653829aa88d",
+        "name": "Painkiller",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/ec9c23a5-7a24-4d07-9b16-0653829aa88d/200",
+        "posted_date": "2024-10-11",
+        "user": {
+            "username": "user7716",
+            "email": "user6682@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        }
+    },
+    {
+        "id": "18b19ee8-3c4e-4aff-8a05-3823bfdd2303",
+        "name": "Car Engine",
+        "category": "jewelry",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 273,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/18b19ee8-3c4e-4aff-8a05-3823bfdd2303/200",
+        "posted_date": "2024-03-17",
+        "user": {
+            "username": "user8560",
+            "email": "user8610@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=56"
+        }
+    },
+    {
+        "id": "ce383eb5-d21b-42cb-ad0d-e01fd1a01ff7",
+        "name": "Sofa",
+        "category": "toys",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 230,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/ce383eb5-d21b-42cb-ad0d-e01fd1a01ff7/200",
+        "posted_date": "2024-11-23",
+        "user": {
+            "username": "user7649",
+            "email": "user9673@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=57"
+        }
+    },
+    {
+        "id": "ed8dac3a-e670-4d40-a342-220c2608dfdf",
+        "name": "Football",
+        "category": "music",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/ed8dac3a-e670-4d40-a342-220c2608dfdf/200",
+        "posted_date": "2024-12-10",
+        "user": {
+            "username": "user6773",
+            "email": "user4519@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=59"
+        }
+    },
+    {
+        "id": "2a577f20-e97a-470f-9c3b-4221d4d6e7f6",
+        "name": "Painkiller",
+        "category": "health",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/2a577f20-e97a-470f-9c3b-4221d4d6e7f6/200",
+        "posted_date": "2024-12-28",
+        "user": {
+            "username": "user4709",
+            "email": "user2483@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "397520a8-43ce-44e2-b987-dca270c8f67e",
+        "name": "Rice Bag",
+        "category": "health",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/397520a8-43ce-44e2-b987-dca270c8f67e/200",
+        "posted_date": "2024-10-28",
+        "user": {
+            "username": "user3117",
+            "email": "user8081@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "08758d34-46a9-4293-99f0-8f94c70a3488",
+        "name": "Car Engine",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/08758d34-46a9-4293-99f0-8f94c70a3488/200",
+        "posted_date": "2024-02-19",
+        "user": {
+            "username": "user6365",
+            "email": "user2882@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=4"
+        }
+    },
+    {
+        "id": "08909f63-cac6-4786-8dbd-ff736b4ebd9c",
+        "name": "Car Engine",
+        "category": "sports",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/08909f63-cac6-4786-8dbd-ff736b4ebd9c/200",
+        "posted_date": "2024-10-11",
+        "user": {
+            "username": "user2005",
+            "email": "user5926@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=43"
+        }
+    },
+    {
+        "id": "a66a10b3-21e9-4ec4-b934-57eade0b8ceb",
+        "name": "Lipstick",
+        "category": "sports",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 546,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/a66a10b3-21e9-4ec4-b934-57eade0b8ceb/200",
+        "posted_date": "2024-04-25",
+        "user": {
+            "username": "user7998",
+            "email": "user5756@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    },
+    {
+        "id": "f5ac4b32-0647-43a1-aa12-e21560dc8bfb",
+        "name": "Novel",
+        "category": "stationery",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/f5ac4b32-0647-43a1-aa12-e21560dc8bfb/200",
+        "posted_date": "2024-04-30",
+        "user": {
+            "username": "user2064",
+            "email": "user9837@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=56"
+        }
+    },
+    {
+        "id": "ec2b1db8-2a01-48ed-8ee3-0c2fae2f3b47",
+        "name": "Lipstick",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/ec2b1db8-2a01-48ed-8ee3-0c2fae2f3b47/200",
+        "posted_date": "2024-11-20",
+        "user": {
+            "username": "user9392",
+            "email": "user1201@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=50"
+        }
+    },
+    {
+        "id": "aac4dcfa-6dc3-4645-a5a8-fa354429a1df",
+        "name": "Painkiller",
+        "category": "groceries",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1516,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/aac4dcfa-6dc3-4645-a5a8-fa354429a1df/200",
+        "posted_date": "2024-04-06",
+        "user": {
+            "username": "user8947",
+            "email": "user7593@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=55"
+        }
+    },
+    {
+        "id": "cb6b4768-12cd-4874-9cf4-498554de97a6",
+        "name": "Painkiller",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/cb6b4768-12cd-4874-9cf4-498554de97a6/200",
+        "posted_date": "2024-12-30",
+        "user": {
+            "username": "user2455",
+            "email": "user3218@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=24"
+        }
+    },
+    {
+        "id": "51a9e46b-7abb-4001-b3a2-1d00868d357f",
+        "name": "Painkiller",
+        "category": "health",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 415,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/51a9e46b-7abb-4001-b3a2-1d00868d357f/200",
+        "posted_date": "2024-03-28",
+        "user": {
+            "username": "user1784",
+            "email": "user2774@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "b81a2600-c40c-478e-9920-4e1b70bc15c5",
+        "name": "T-shirt",
+        "category": "beauty",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/b81a2600-c40c-478e-9920-4e1b70bc15c5/200",
+        "posted_date": "2024-09-19",
+        "user": {
+            "username": "user6210",
+            "email": "user5895@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=12"
+        }
+    },
+    {
+        "id": "108c6d0d-5187-40b6-ba83-165ee7e624c7",
+        "name": "Lipstick",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/108c6d0d-5187-40b6-ba83-165ee7e624c7/200",
+        "posted_date": "2024-11-07",
+        "user": {
+            "username": "user8192",
+            "email": "user5797@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "b656670d-63f8-4c58-8b85-99c9ebdc7d81",
+        "name": "Rice Bag",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1271,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/b656670d-63f8-4c58-8b85-99c9ebdc7d81/200",
+        "posted_date": "2024-07-26",
+        "user": {
+            "username": "user1843",
+            "email": "user3156@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=13"
+        }
+    },
+    {
+        "id": "c8c79fd7-9977-406a-b09e-b63ae690745a",
+        "name": "Rice Bag",
+        "category": "beauty",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 768,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/c8c79fd7-9977-406a-b09e-b63ae690745a/200",
+        "posted_date": "2024-09-17",
+        "user": {
+            "username": "user9907",
+            "email": "user5171@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "335cfcd1-caeb-4a12-b8c9-83cfc9c39f95",
+        "name": "Laptop",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/335cfcd1-caeb-4a12-b8c9-83cfc9c39f95/200",
+        "posted_date": "2024-11-13",
+        "user": {
+            "username": "user1779",
+            "email": "user3177@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=56"
+        }
+    },
+    {
+        "id": "62b90306-a50d-4aba-bff1-f593d701c589",
+        "name": "Novel",
+        "category": "kitchen",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1033,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/62b90306-a50d-4aba-bff1-f593d701c589/200",
+        "posted_date": "2024-03-25",
+        "user": {
+            "username": "user8369",
+            "email": "user8001@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=59"
+        }
+    },
+    {
+        "id": "f4ff762d-e80e-478e-911b-1db5873caf7f",
+        "name": "Novel",
+        "category": "health",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/f4ff762d-e80e-478e-911b-1db5873caf7f/200",
+        "posted_date": "2024-03-04",
+        "user": {
+            "username": "user7447",
+            "email": "user1133@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "e21b9127-dad8-45ca-ad7f-19c8c598090c",
+        "name": "Laptop",
+        "category": "clothing",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/e21b9127-dad8-45ca-ad7f-19c8c598090c/200",
+        "posted_date": "2024-02-16",
+        "user": {
+            "username": "user3486",
+            "email": "user1322@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "92171ddd-c6fb-42ee-89df-3aee730dce1e",
+        "name": "Lipstick",
+        "category": "sports",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/92171ddd-c6fb-42ee-89df-3aee730dce1e/200",
+        "posted_date": "2024-03-29",
+        "user": {
+            "username": "user3847",
+            "email": "user4884@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "f5eac63d-693f-4b89-9da9-d9c5c77d386b",
+        "name": "Laptop",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/f5eac63d-693f-4b89-9da9-d9c5c77d386b/200",
+        "posted_date": "2024-12-06",
+        "user": {
+            "username": "user6397",
+            "email": "user2477@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "9928166c-9226-45f7-b9c4-3d1d00b93e14",
+        "name": "T-shirt",
+        "category": "books",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/9928166c-9226-45f7-b9c4-3d1d00b93e14/200",
+        "posted_date": "2024-05-16",
+        "user": {
+            "username": "user8828",
+            "email": "user5836@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        }
+    },
+    {
+        "id": "c1252a1f-d908-4cb4-9b92-bbd0e64cb925",
+        "name": "Sofa",
+        "category": "beauty",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 543,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/c1252a1f-d908-4cb4-9b92-bbd0e64cb925/200",
+        "posted_date": "2024-11-28",
+        "user": {
+            "username": "user8312",
+            "email": "user5625@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=34"
+        }
+    },
+    {
+        "id": "b5c05b2c-4245-4af9-8fc5-77231d6e6c31",
+        "name": "Novel",
+        "category": "toys",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 472,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/b5c05b2c-4245-4af9-8fc5-77231d6e6c31/200",
+        "posted_date": "2024-04-24",
+        "user": {
+            "username": "user1678",
+            "email": "user1881@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=34"
+        }
+    },
+    {
+        "id": "64368b7f-89d8-4bf0-b234-5703c071e3f0",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 447,
+        "condition": "Like New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/64368b7f-89d8-4bf0-b234-5703c071e3f0/200",
+        "posted_date": "2024-04-30",
+        "user": {
+            "username": "user4450",
+            "email": "user9476@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=18"
+        }
+    },
+    {
+        "id": "effd0459-b60d-4772-b90e-1e25da3e4303",
+        "name": "Painkiller",
+        "category": "automotive",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/effd0459-b60d-4772-b90e-1e25da3e4303/200",
+        "posted_date": "2024-06-19",
+        "user": {
+            "username": "user3836",
+            "email": "user2943@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=63"
+        }
+    },
+    {
+        "id": "2316a3bf-33e5-4237-b313-0b1fe535f72a",
+        "name": "Sofa",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/2316a3bf-33e5-4237-b313-0b1fe535f72a/200",
+        "posted_date": "2024-03-04",
+        "user": {
+            "username": "user5970",
+            "email": "user6308@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=70"
+        }
+    },
+    {
+        "id": "325036cd-c8c9-454d-923c-4b0a9c31827f",
+        "name": "Lipstick",
+        "category": "house_tools",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/325036cd-c8c9-454d-923c-4b0a9c31827f/200",
+        "posted_date": "2024-12-21",
+        "user": {
+            "username": "user9944",
+            "email": "user1571@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "e471b94a-7c2f-4955-a010-7d00ac5a903b",
+        "name": "Toy Car",
+        "category": "music",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/e471b94a-7c2f-4955-a010-7d00ac5a903b/200",
+        "posted_date": "2024-07-10",
+        "user": {
+            "username": "user3180",
+            "email": "user2591@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=37"
+        }
+    },
+    {
+        "id": "6a7b185a-11af-4280-a711-e23f198723a1",
+        "name": "Painkiller",
+        "category": "clothing",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/6a7b185a-11af-4280-a711-e23f198723a1/200",
+        "posted_date": "2024-04-24",
+        "user": {
+            "username": "user3845",
+            "email": "user9139@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        }
+    },
+    {
+        "id": "94f176da-41a3-4c83-8505-3fe49e8bd15f",
+        "name": "T-shirt",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/94f176da-41a3-4c83-8505-3fe49e8bd15f/200",
+        "posted_date": "2025-02-03",
+        "user": {
+            "username": "user5372",
+            "email": "user6212@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=47"
+        }
+    },
+    {
+        "id": "30a8f813-3e52-4e18-88ee-c5fc24169d78",
+        "name": "Novel",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/30a8f813-3e52-4e18-88ee-c5fc24169d78/200",
+        "posted_date": "2024-10-28",
+        "user": {
+            "username": "user3563",
+            "email": "user3328@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "020ccf9f-42d3-4227-a240-d64516b13f02",
+        "name": "Laptop",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 963,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/020ccf9f-42d3-4227-a240-d64516b13f02/200",
+        "posted_date": "2024-05-25",
+        "user": {
+            "username": "user6662",
+            "email": "user9512@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=62"
+        }
+    },
+    {
+        "id": "dcd85e90-78e9-48c4-950d-fc5cf9eef726",
+        "name": "Football",
+        "category": "health",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/dcd85e90-78e9-48c4-950d-fc5cf9eef726/200",
+        "posted_date": "2024-10-18",
+        "user": {
+            "username": "user9886",
+            "email": "user6697@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "338b39e6-c013-46e1-bc26-1f61599871f1",
+        "name": "T-shirt",
+        "category": "beauty",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/338b39e6-c013-46e1-bc26-1f61599871f1/200",
+        "posted_date": "2024-09-29",
+        "user": {
+            "username": "user3147",
+            "email": "user6068@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        }
+    },
+    {
+        "id": "6cb6c007-39a4-400d-8f3a-37226d54af4f",
+        "name": "T-shirt",
+        "category": "stationery",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/6cb6c007-39a4-400d-8f3a-37226d54af4f/200",
+        "posted_date": "2024-10-28",
+        "user": {
+            "username": "user2721",
+            "email": "user7900@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        }
+    },
+    {
+        "id": "92db983a-1e2e-4c1d-8c65-741afddbc97e",
+        "name": "Football",
+        "category": "beauty",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/92db983a-1e2e-4c1d-8c65-741afddbc97e/200",
+        "posted_date": "2024-03-18",
+        "user": {
+            "username": "user5163",
+            "email": "user1896@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "356ca8ed-9cd2-4f94-b404-62e4e83be6f3",
+        "name": "Toy Car",
+        "category": "groceries",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/356ca8ed-9cd2-4f94-b404-62e4e83be6f3/200",
+        "posted_date": "2024-10-20",
+        "user": {
+            "username": "user2310",
+            "email": "user1253@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        }
+    },
+    {
+        "id": "d98a49db-1e31-47d9-9ef3-5bd33c42161f",
+        "name": "Car Engine",
+        "category": "house_tools",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/d98a49db-1e31-47d9-9ef3-5bd33c42161f/200",
+        "posted_date": "2024-09-05",
+        "user": {
+            "username": "user2638",
+            "email": "user7445@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        }
+    },
+    {
+        "id": "31689ff9-311b-4607-ae19-c3da25e61a07",
+        "name": "Laptop",
+        "category": "electronics",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/31689ff9-311b-4607-ae19-c3da25e61a07/200",
+        "posted_date": "2024-07-22",
+        "user": {
+            "username": "user7351",
+            "email": "user9300@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=53"
+        }
+    },
+    {
+        "id": "e64bd925-f35d-432f-ab92-dcf2c54056de",
+        "name": "Novel",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1413,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/e64bd925-f35d-432f-ab92-dcf2c54056de/200",
+        "posted_date": "2024-08-27",
+        "user": {
+            "username": "user2231",
+            "email": "user7151@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        }
+    },
+    {
+        "id": "35b60238-2e10-429a-b825-1c10e1899607",
+        "name": "Toy Car",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/35b60238-2e10-429a-b825-1c10e1899607/200",
+        "posted_date": "2024-11-24",
+        "user": {
+            "username": "user3396",
+            "email": "user7290@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=68"
+        }
+    },
+    {
+        "id": "64a4e090-5b13-4826-a671-d71a548a365c",
+        "name": "Rice Bag",
+        "category": "furniture",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/64a4e090-5b13-4826-a671-d71a548a365c/200",
+        "posted_date": "2024-12-02",
+        "user": {
+            "username": "user7656",
+            "email": "user1373@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "14cb03d1-d242-4074-9bec-7594a1e4773f",
+        "name": "T-shirt",
+        "category": "stationery",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/14cb03d1-d242-4074-9bec-7594a1e4773f/200",
+        "posted_date": "2024-07-21",
+        "user": {
+            "username": "user1229",
+            "email": "user1576@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    },
+    {
+        "id": "6d8d174c-c27f-4b61-af8f-ca5f447c84b1",
+        "name": "Car Engine",
+        "category": "health",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/6d8d174c-c27f-4b61-af8f-ca5f447c84b1/200",
+        "posted_date": "2024-08-29",
+        "user": {
+            "username": "user1511",
+            "email": "user9674@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "78224adb-fc84-46e6-8b2f-e1bffa4f57ba",
+        "name": "Novel",
+        "category": "gardening",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 686,
+        "condition": "Like New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/78224adb-fc84-46e6-8b2f-e1bffa4f57ba/200",
+        "posted_date": "2025-01-30",
+        "user": {
+            "username": "user2767",
+            "email": "user6467@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8"
+        }
+    },
+    {
+        "id": "3fc1aa3e-39cd-407e-a853-40aed672bdea",
+        "name": "Car Engine",
+        "category": "groceries",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 149,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/3fc1aa3e-39cd-407e-a853-40aed672bdea/200",
+        "posted_date": "2024-09-05",
+        "user": {
+            "username": "user7312",
+            "email": "user3078@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "63d55624-ad04-45a1-9867-61b74052fb55",
+        "name": "Rice Bag",
+        "category": "kitchen",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/63d55624-ad04-45a1-9867-61b74052fb55/200",
+        "posted_date": "2024-05-03",
+        "user": {
+            "username": "user7928",
+            "email": "user9290@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=30"
+        }
+    },
+    {
+        "id": "52ac9c31-4343-48f3-a421-13a51e9065a7",
+        "name": "Lipstick",
+        "category": "electronics",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/52ac9c31-4343-48f3-a421-13a51e9065a7/200",
+        "posted_date": "2024-09-28",
+        "user": {
+            "username": "user5216",
+            "email": "user4950@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        }
+    },
+    {
+        "id": "1db099af-2313-4985-b040-7c8e5c67deca",
+        "name": "Sofa",
+        "category": "sports",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 127,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/1db099af-2313-4985-b040-7c8e5c67deca/200",
+        "posted_date": "2024-04-06",
+        "user": {
+            "username": "user7977",
+            "email": "user3150@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=45"
+        }
+    },
+    {
+        "id": "ae666b48-c290-4d1a-88a8-2137c500f007",
+        "name": "Rice Bag",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/ae666b48-c290-4d1a-88a8-2137c500f007/200",
+        "posted_date": "2024-06-30",
+        "user": {
+            "username": "user6899",
+            "email": "user7273@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=19"
+        }
+    },
+    {
+        "id": "29a94286-faf1-49a5-810b-0f620674e3f8",
+        "name": "Laptop",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/29a94286-faf1-49a5-810b-0f620674e3f8/200",
+        "posted_date": "2024-04-13",
+        "user": {
+            "username": "user2660",
+            "email": "user4460@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3"
+        }
+    },
+    {
+        "id": "2afd9c67-227b-49df-aed8-f71f0ddce5a5",
+        "name": "Painkiller",
+        "category": "gaming",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Used",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/2afd9c67-227b-49df-aed8-f71f0ddce5a5/200",
+        "posted_date": "2024-03-11",
+        "user": {
+            "username": "user5722",
+            "email": "user1457@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=4"
+        }
+    },
+    {
+        "id": "6d3ec1e5-4097-4b94-9e4d-24cf074df95a",
+        "name": "Novel",
+        "category": "books",
+        "type": "sell",
+        "description": "Limited edition, get it while it lasts!",
+        "price": 1120,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/6d3ec1e5-4097-4b94-9e4d-24cf074df95a/200",
+        "posted_date": "2024-07-20",
+        "user": {
+            "username": "user2536",
+            "email": "user1942@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=48"
+        }
+    },
+    {
+        "id": "d5b6fd5a-35bf-488f-9714-30c8495963f9",
+        "name": "T-shirt",
+        "category": "home_decor",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/d5b6fd5a-35bf-488f-9714-30c8495963f9/200",
+        "posted_date": "2024-10-29",
+        "user": {
+            "username": "user5899",
+            "email": "user8050@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "ff7f7b25-67d9-4921-b910-53f56e05bc15",
+        "name": "Car Engine",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/ff7f7b25-67d9-4921-b910-53f56e05bc15/200",
+        "posted_date": "2024-02-27",
+        "user": {
+            "username": "user6766",
+            "email": "user2335@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=27"
+        }
+    },
+    {
+        "id": "bd472c2e-cd44-4354-a981-3b12ba06846e",
+        "name": "Laptop",
+        "category": "beauty",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/bd472c2e-cd44-4354-a981-3b12ba06846e/200",
+        "posted_date": "2024-04-13",
+        "user": {
+            "username": "user7165",
+            "email": "user5385@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "d1f9913d-68b4-4c2a-b6a5-b0850f6f53f0",
+        "name": "Painkiller",
+        "category": "stationery",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/d1f9913d-68b4-4c2a-b6a5-b0850f6f53f0/200",
+        "posted_date": "2024-02-21",
+        "user": {
+            "username": "user7016",
+            "email": "user6818@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        }
+    },
+    {
+        "id": "d5aee6bf-24c6-4829-86a3-249802e55b20",
+        "name": "Sofa",
+        "category": "health",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/d5aee6bf-24c6-4829-86a3-249802e55b20/200",
+        "posted_date": "2024-11-05",
+        "user": {
+            "username": "user6444",
+            "email": "user6516@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=53"
+        }
+    },
+    {
+        "id": "e5ea4bdc-3852-4222-80f9-fc20eacbc2ba",
+        "name": "T-shirt",
+        "category": "electronics",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1072,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/e5ea4bdc-3852-4222-80f9-fc20eacbc2ba/200",
+        "posted_date": "2024-09-06",
+        "user": {
+            "username": "user9417",
+            "email": "user9617@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "b1809440-c2f6-4d65-aaab-dc0401ea7708",
+        "name": "Lipstick",
+        "category": "beauty",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 141,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/b1809440-c2f6-4d65-aaab-dc0401ea7708/200",
+        "posted_date": "2024-09-03",
+        "user": {
+            "username": "user7351",
+            "email": "user8555@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "912453c7-a44b-487b-b5e0-d24202ceb726",
+        "name": "Lipstick",
+        "category": "stationery",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1545,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/912453c7-a44b-487b-b5e0-d24202ceb726/200",
+        "posted_date": "2024-11-15",
+        "user": {
+            "username": "user4460",
+            "email": "user1120@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=69"
+        }
+    },
+    {
+        "id": "66294f29-e69f-4ef3-9e5e-05a4f5ef5c39",
+        "name": "Painkiller",
+        "category": "furniture",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/66294f29-e69f-4ef3-9e5e-05a4f5ef5c39/200",
+        "posted_date": "2024-05-27",
+        "user": {
+            "username": "user3146",
+            "email": "user6987@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=15"
+        }
+    },
+    {
+        "id": "3a0a4bed-1ae1-4aca-8cd8-a6497ed4f787",
+        "name": "Sofa",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/3a0a4bed-1ae1-4aca-8cd8-a6497ed4f787/200",
+        "posted_date": "2024-03-22",
+        "user": {
+            "username": "user3858",
+            "email": "user6336@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=2"
+        }
+    },
+    {
+        "id": "928d688b-ab53-4810-a425-422194cafbb3",
+        "name": "Car Engine",
+        "category": "travel",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Used",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/928d688b-ab53-4810-a425-422194cafbb3/200",
+        "posted_date": "2024-06-21",
+        "user": {
+            "username": "user2371",
+            "email": "user7139@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "be00483e-cbd5-4e69-a7a0-f010c8f396a3",
+        "name": "Sofa",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/be00483e-cbd5-4e69-a7a0-f010c8f396a3/200",
+        "posted_date": "2024-03-25",
+        "user": {
+            "username": "user3372",
+            "email": "user6685@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=28"
+        }
+    },
+    {
+        "id": "df5d1ab4-ba78-4a48-bab0-ea59a5b4625f",
+        "name": "Laptop",
+        "category": "music",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/df5d1ab4-ba78-4a48-bab0-ea59a5b4625f/200",
+        "posted_date": "2024-08-04",
+        "user": {
+            "username": "user9049",
+            "email": "user5806@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=10"
+        }
+    },
+    {
+        "id": "1909306d-5f49-4d6e-8ded-278531a94e4f",
+        "name": "Novel",
+        "category": "clothing",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/1909306d-5f49-4d6e-8ded-278531a94e4f/200",
+        "posted_date": "2024-08-28",
+        "user": {
+            "username": "user3704",
+            "email": "user8049@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=24"
+        }
+    },
+    {
+        "id": "bd2da9e4-b1a1-4719-a38d-6599cbce251c",
+        "name": "T-shirt",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/bd2da9e4-b1a1-4719-a38d-6599cbce251c/200",
+        "posted_date": "2024-03-23",
+        "user": {
+            "username": "user3884",
+            "email": "user3387@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "8f55d3f4-521c-4636-b4ad-0e03acb5407e",
+        "name": "Football",
+        "category": "home_decor",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/8f55d3f4-521c-4636-b4ad-0e03acb5407e/200",
+        "posted_date": "2024-10-19",
+        "user": {
+            "username": "user5919",
+            "email": "user7316@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=21"
+        }
+    },
+    {
+        "id": "2f758dcd-9b9e-477d-9111-2196f820bdf4",
+        "name": "Car Engine",
+        "category": "books",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/2f758dcd-9b9e-477d-9111-2196f820bdf4/200",
+        "posted_date": "2024-12-04",
+        "user": {
+            "username": "user6893",
+            "email": "user2996@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=57"
+        }
+    },
+    {
+        "id": "e9e6f344-ed91-4f97-8402-0a90e1e127cd",
+        "name": "Toy Car",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 552,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/e9e6f344-ed91-4f97-8402-0a90e1e127cd/200",
+        "posted_date": "2025-02-03",
+        "user": {
+            "username": "user1980",
+            "email": "user2068@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=44"
+        }
+    },
+    {
+        "id": "4d87f30a-54a2-48a9-a816-473f52e10f98",
+        "name": "Painkiller",
+        "category": "pet_supplies",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 390,
+        "condition": "Used",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/4d87f30a-54a2-48a9-a816-473f52e10f98/200",
+        "posted_date": "2024-03-17",
+        "user": {
+            "username": "user4708",
+            "email": "user5179@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "2c529276-297f-4acf-ae7f-acc961a64aa5",
+        "name": "T-shirt",
+        "category": "music",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/2c529276-297f-4acf-ae7f-acc961a64aa5/200",
+        "posted_date": "2024-07-29",
+        "user": {
+            "username": "user2442",
+            "email": "user1139@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=45"
+        }
+    },
+    {
+        "id": "68c7b4d3-82b7-4331-8437-9a8c86ecfd47",
+        "name": "Laptop",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1321,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/68c7b4d3-82b7-4331-8437-9a8c86ecfd47/200",
+        "posted_date": "2024-08-21",
+        "user": {
+            "username": "user9659",
+            "email": "user8452@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "c40a1516-5599-4147-8d2c-79d092c58590",
+        "name": "Novel",
+        "category": "house_tools",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/c40a1516-5599-4147-8d2c-79d092c58590/200",
+        "posted_date": "2024-02-13",
+        "user": {
+            "username": "user7698",
+            "email": "user9114@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=52"
+        }
+    },
+    {
+        "id": "096b2ebe-17cd-4702-b882-fbcf4b81e3aa",
+        "name": "Sofa",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1582,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/096b2ebe-17cd-4702-b882-fbcf4b81e3aa/200",
+        "posted_date": "2025-01-21",
+        "user": {
+            "username": "user3681",
+            "email": "user3619@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "3b117611-f46e-4613-9e95-6fb738e3604f",
+        "name": "Laptop",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/3b117611-f46e-4613-9e95-6fb738e3604f/200",
+        "posted_date": "2024-03-23",
+        "user": {
+            "username": "user9175",
+            "email": "user1571@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=16"
+        }
+    },
+    {
+        "id": "88a6e242-6d3e-4cdb-9e29-95bc75a300a3",
+        "name": "Sofa",
+        "category": "sports",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/88a6e242-6d3e-4cdb-9e29-95bc75a300a3/200",
+        "posted_date": "2024-07-31",
+        "user": {
+            "username": "user6264",
+            "email": "user5077@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=31"
+        }
+    },
+    {
+        "id": "4ed3fdcd-ab45-43a2-bbfb-ddebd46188f6",
+        "name": "Lipstick",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/4ed3fdcd-ab45-43a2-bbfb-ddebd46188f6/200",
+        "posted_date": "2024-12-15",
+        "user": {
+            "username": "user3160",
+            "email": "user3592@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=60"
+        }
+    },
+    {
+        "id": "5af99bf0-461b-46db-948b-340377bcfb32",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 1782,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/5af99bf0-461b-46db-948b-340377bcfb32/200",
+        "posted_date": "2024-02-07",
+        "user": {
+            "username": "user1088",
+            "email": "user7036@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "0f8e758f-4402-4af7-b34f-30d79442324c",
+        "name": "T-shirt",
+        "category": "kitchen",
+        "type": "sell",
+        "description": "High-quality product with excellent durability.",
+        "price": 199,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/0f8e758f-4402-4af7-b34f-30d79442324c/200",
+        "posted_date": "2024-12-06",
+        "user": {
+            "username": "user8887",
+            "email": "user9411@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=18"
+        }
+    },
+    {
+        "id": "03a41cb5-9839-4502-8c2b-3314b19af8ef",
+        "name": "Football",
+        "category": "gaming",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/03a41cb5-9839-4502-8c2b-3314b19af8ef/200",
+        "posted_date": "2024-06-07",
+        "user": {
+            "username": "user7816",
+            "email": "user1726@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        }
+    },
+    {
+        "id": "08f70092-6ac3-418c-b6e3-45d5105ae62f",
+        "name": "Toy Car",
+        "category": "sports",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1865,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/08f70092-6ac3-418c-b6e3-45d5105ae62f/200",
+        "posted_date": "2024-10-17",
+        "user": {
+            "username": "user9249",
+            "email": "user8303@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=10"
+        }
+    },
+    {
+        "id": "4f6440d4-5f5e-49b6-8ffb-661325d4f26c",
+        "name": "Football",
+        "category": "home_decor",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/4f6440d4-5f5e-49b6-8ffb-661325d4f26c/200",
+        "posted_date": "2024-04-16",
+        "user": {
+            "username": "user4400",
+            "email": "user4480@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=63"
+        }
+    },
+    {
+        "id": "6b81f5a2-306e-49ef-80dd-fb597e3f8664",
+        "name": "Car Engine",
+        "category": "groceries",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 180,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/6b81f5a2-306e-49ef-80dd-fb597e3f8664/200",
+        "posted_date": "2024-09-16",
+        "user": {
+            "username": "user2846",
+            "email": "user9603@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "ef5fd6d6-ce09-4563-8892-9e28a8ff0180",
+        "name": "Car Engine",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/ef5fd6d6-ce09-4563-8892-9e28a8ff0180/200",
+        "posted_date": "2025-01-25",
+        "user": {
+            "username": "user3039",
+            "email": "user7300@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=15"
+        }
+    },
+    {
+        "id": "fa3c72e8-c515-43bb-b3f4-13aaec8b56d2",
+        "name": "Painkiller",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/fa3c72e8-c515-43bb-b3f4-13aaec8b56d2/200",
+        "posted_date": "2024-10-30",
+        "user": {
+            "username": "user7493",
+            "email": "user2611@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    },
+    {
+        "id": "0e1cf340-c31b-45eb-ab34-5a6d4abc5095",
+        "name": "Painkiller",
+        "category": "gaming",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/0e1cf340-c31b-45eb-ab34-5a6d4abc5095/200",
+        "posted_date": "2024-04-20",
+        "user": {
+            "username": "user6810",
+            "email": "user3128@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        }
+    },
+    {
+        "id": "d12f1698-3ace-4b67-927d-8ec820a1dcc6",
+        "name": "Novel",
+        "category": "house_tools",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1180,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/d12f1698-3ace-4b67-927d-8ec820a1dcc6/200",
+        "posted_date": "2024-06-09",
+        "user": {
+            "username": "user4972",
+            "email": "user7711@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=12"
+        }
+    },
+    {
+        "id": "3819fb60-5b4c-4cfc-9de1-612daf22acb0",
+        "name": "Novel",
+        "category": "music",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 550,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/3819fb60-5b4c-4cfc-9de1-612daf22acb0/200",
+        "posted_date": "2024-08-17",
+        "user": {
+            "username": "user7603",
+            "email": "user7745@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "9841a3a8-818c-44a2-b203-a4cbadbe6f39",
+        "name": "T-shirt",
+        "category": "automotive",
+        "type": "sell",
+        "description": "High-quality product with excellent durability.",
+        "price": 662,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/9841a3a8-818c-44a2-b203-a4cbadbe6f39/200",
+        "posted_date": "2024-11-10",
+        "user": {
+            "username": "user9402",
+            "email": "user4775@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=48"
+        }
+    },
+    {
+        "id": "894bcbf4-b83b-4db1-8ca5-56c710662d69",
+        "name": "Painkiller",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/894bcbf4-b83b-4db1-8ca5-56c710662d69/200",
+        "posted_date": "2024-11-30",
+        "user": {
+            "username": "user1227",
+            "email": "user2283@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        }
+    },
+    {
+        "id": "a9c7ffb6-2a8f-471a-a40f-e129e2290968",
+        "name": "Novel",
+        "category": "home_decor",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 627,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/a9c7ffb6-2a8f-471a-a40f-e129e2290968/200",
+        "posted_date": "2024-05-17",
+        "user": {
+            "username": "user3917",
+            "email": "user8169@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        }
+    },
+    {
+        "id": "23af2f56-938c-4bf2-80e6-c91ac1e95f8d",
+        "name": "Laptop",
+        "category": "house_tools",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 1358,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/23af2f56-938c-4bf2-80e6-c91ac1e95f8d/200",
+        "posted_date": "2024-11-10",
+        "user": {
+            "username": "user3370",
+            "email": "user7244@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "d84fd5e1-e4c2-4b2d-afd9-fb9a546160c6",
+        "name": "Novel",
+        "category": "toys",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 251,
+        "condition": "Like New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/d84fd5e1-e4c2-4b2d-afd9-fb9a546160c6/200",
+        "posted_date": "2024-11-25",
+        "user": {
+            "username": "user1007",
+            "email": "user4587@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "66358229-ba20-4bc4-bcca-a49153833058",
+        "name": "Painkiller",
+        "category": "health",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/66358229-ba20-4bc4-bcca-a49153833058/200",
+        "posted_date": "2024-04-21",
+        "user": {
+            "username": "user6705",
+            "email": "user9843@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "78b0bf76-5634-4d8e-8f1f-ee0477f5887a",
+        "name": "Sofa",
+        "category": "electronics",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/78b0bf76-5634-4d8e-8f1f-ee0477f5887a/200",
+        "posted_date": "2024-10-16",
+        "user": {
+            "username": "user9153",
+            "email": "user1616@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=59"
+        }
+    },
+    {
+        "id": "80af7f26-f223-4a07-b42d-69c61c801b34",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 1876,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/80af7f26-f223-4a07-b42d-69c61c801b34/200",
+        "posted_date": "2024-03-25",
+        "user": {
+            "username": "user6130",
+            "email": "user5853@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        }
+    },
+    {
+        "id": "98532452-367d-4dfa-8330-76e74b6dcb43",
+        "name": "Novel",
+        "category": "travel",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1544,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/98532452-367d-4dfa-8330-76e74b6dcb43/200",
+        "posted_date": "2024-12-28",
+        "user": {
+            "username": "user6819",
+            "email": "user8081@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "7a0d2bf2-7357-40c8-9813-7aefec722a85",
+        "name": "Sofa",
+        "category": "music",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/7a0d2bf2-7357-40c8-9813-7aefec722a85/200",
+        "posted_date": "2024-05-20",
+        "user": {
+            "username": "user6702",
+            "email": "user7817@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=55"
+        }
+    },
+    {
+        "id": "be200728-d3b9-4518-9204-af2c5b24e5c1",
+        "name": "Rice Bag",
+        "category": "gardening",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/be200728-d3b9-4518-9204-af2c5b24e5c1/200",
+        "posted_date": "2024-07-29",
+        "user": {
+            "username": "user8789",
+            "email": "user9374@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=59"
+        }
+    },
+    {
+        "id": "880fd854-dafb-4b75-99dd-7b1d558f5899",
+        "name": "Toy Car",
+        "category": "toys",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/880fd854-dafb-4b75-99dd-7b1d558f5899/200",
+        "posted_date": "2024-09-08",
+        "user": {
+            "username": "user5884",
+            "email": "user6432@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "4c86da61-6782-4a41-a860-84689a7b7bb7",
+        "name": "Painkiller",
+        "category": "travel",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 581,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/4c86da61-6782-4a41-a860-84689a7b7bb7/200",
+        "posted_date": "2025-01-22",
+        "user": {
+            "username": "user4356",
+            "email": "user9889@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=69"
+        }
+    },
+    {
+        "id": "3869e883-a763-478d-afb7-14246d920f8f",
+        "name": "Rice Bag",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/3869e883-a763-478d-afb7-14246d920f8f/200",
+        "posted_date": "2024-07-20",
+        "user": {
+            "username": "user1288",
+            "email": "user9176@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        }
+    },
+    {
+        "id": "251afa17-21ff-47ff-8f9a-b6e30f8b096c",
+        "name": "Football",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/251afa17-21ff-47ff-8f9a-b6e30f8b096c/200",
+        "posted_date": "2024-09-24",
+        "user": {
+            "username": "user9573",
+            "email": "user8600@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=28"
+        }
+    },
+    {
+        "id": "4f037aa9-bb35-4e8b-b842-823f3ee9d230",
+        "name": "Rice Bag",
+        "category": "gaming",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 201,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/4f037aa9-bb35-4e8b-b842-823f3ee9d230/200",
+        "posted_date": "2024-09-30",
+        "user": {
+            "username": "user2663",
+            "email": "user5528@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "b8878f9e-a68f-449e-b084-296fe7345b92",
+        "name": "Car Engine",
+        "category": "home_decor",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/b8878f9e-a68f-449e-b084-296fe7345b92/200",
+        "posted_date": "2024-04-07",
+        "user": {
+            "username": "user1083",
+            "email": "user9013@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "3f852fa9-ab58-4c2d-a787-9721adb5957c",
+        "name": "Toy Car",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/3f852fa9-ab58-4c2d-a787-9721adb5957c/200",
+        "posted_date": "2024-09-04",
+        "user": {
+            "username": "user5021",
+            "email": "user8723@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=55"
+        }
+    },
+    {
+        "id": "11bce5bc-90cd-42d4-8431-53152af5a90a",
+        "name": "Car Engine",
+        "category": "clothing",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/11bce5bc-90cd-42d4-8431-53152af5a90a/200",
+        "posted_date": "2024-07-13",
+        "user": {
+            "username": "user6500",
+            "email": "user9157@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=14"
+        }
+    },
+    {
+        "id": "2ed5c668-7e37-4276-916d-bd7fb66b72fc",
+        "name": "Football",
+        "category": "books",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/2ed5c668-7e37-4276-916d-bd7fb66b72fc/200",
+        "posted_date": "2024-12-10",
+        "user": {
+            "username": "user4078",
+            "email": "user6020@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        }
+    },
+    {
+        "id": "2a6d867d-2744-44d4-8a81-69c64bb1193e",
+        "name": "Laptop",
+        "category": "electronics",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/2a6d867d-2744-44d4-8a81-69c64bb1193e/200",
+        "posted_date": "2024-12-02",
+        "user": {
+            "username": "user4924",
+            "email": "user4979@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        }
+    },
+    {
+        "id": "d60b37df-3f86-4367-b039-96998019208d",
+        "name": "Painkiller",
+        "category": "gaming",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/d60b37df-3f86-4367-b039-96998019208d/200",
+        "posted_date": "2024-05-28",
+        "user": {
+            "username": "user7697",
+            "email": "user1997@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "6782ac67-8b97-47ec-ac70-a1fcb5748a26",
+        "name": "T-shirt",
+        "category": "automotive",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/6782ac67-8b97-47ec-ac70-a1fcb5748a26/200",
+        "posted_date": "2024-08-13",
+        "user": {
+            "username": "user4234",
+            "email": "user3985@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=10"
+        }
+    },
+    {
+        "id": "ce701d53-9e4c-4794-bec5-b4c157057d01",
+        "name": "Sofa",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/ce701d53-9e4c-4794-bec5-b4c157057d01/200",
+        "posted_date": "2024-03-07",
+        "user": {
+            "username": "user4089",
+            "email": "user1787@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "51ab19c9-58c3-4545-b50c-9f2da0a5765b",
+        "name": "Novel",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/51ab19c9-58c3-4545-b50c-9f2da0a5765b/200",
+        "posted_date": "2024-02-28",
+        "user": {
+            "username": "user6943",
+            "email": "user2225@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "7627abaa-af7c-4890-ba3f-c0b6a8d249a3",
+        "name": "Rice Bag",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 861,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/7627abaa-af7c-4890-ba3f-c0b6a8d249a3/200",
+        "posted_date": "2024-10-08",
+        "user": {
+            "username": "user4063",
+            "email": "user3397@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "bdc7223b-a008-40c8-b7f5-83a6f7096c00",
+        "name": "Painkiller",
+        "category": "home_decor",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 405,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/bdc7223b-a008-40c8-b7f5-83a6f7096c00/200",
+        "posted_date": "2024-05-09",
+        "user": {
+            "username": "user9155",
+            "email": "user5476@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "d47b6998-517b-436f-b728-3265cfe755cf",
+        "name": "Lipstick",
+        "category": "kitchen",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/d47b6998-517b-436f-b728-3265cfe755cf/200",
+        "posted_date": "2024-09-17",
+        "user": {
+            "username": "user1179",
+            "email": "user4094@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=21"
+        }
+    },
+    {
+        "id": "21e75d0d-d3b7-41ad-804d-d564c76fa580",
+        "name": "Toy Car",
+        "category": "automotive",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/21e75d0d-d3b7-41ad-804d-d564c76fa580/200",
+        "posted_date": "2024-07-31",
+        "user": {
+            "username": "user9129",
+            "email": "user2271@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "9039ab29-c126-48d2-aa15-a268ca696691",
+        "name": "Sofa",
+        "category": "books",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/9039ab29-c126-48d2-aa15-a268ca696691/200",
+        "posted_date": "2024-10-16",
+        "user": {
+            "username": "user3155",
+            "email": "user1872@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=6"
+        }
+    },
+    {
+        "id": "bb1004d5-74f2-4f29-b4da-6bb8fcb4eeee",
+        "name": "Toy Car",
+        "category": "home_decor",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/bb1004d5-74f2-4f29-b4da-6bb8fcb4eeee/200",
+        "posted_date": "2024-03-13",
+        "user": {
+            "username": "user8121",
+            "email": "user3729@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "4f47eceb-537c-4a74-bf31-15217657a36f",
+        "name": "Novel",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/4f47eceb-537c-4a74-bf31-15217657a36f/200",
+        "posted_date": "2024-08-08",
+        "user": {
+            "username": "user2320",
+            "email": "user6427@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=2"
+        }
+    },
+    {
+        "id": "f9ae478a-b937-4644-bb0b-f6333a5a3932",
+        "name": "Lipstick",
+        "category": "books",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 1179,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/f9ae478a-b937-4644-bb0b-f6333a5a3932/200",
+        "posted_date": "2024-12-05",
+        "user": {
+            "username": "user9534",
+            "email": "user5597@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=58"
+        }
+    },
+    {
+        "id": "33676e38-59b0-4e2e-8701-cf857d95bbda",
+        "name": "Lipstick",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 227,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/33676e38-59b0-4e2e-8701-cf857d95bbda/200",
+        "posted_date": "2025-01-03",
+        "user": {
+            "username": "user6575",
+            "email": "user7556@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=47"
+        }
+    },
+    {
+        "id": "e22bd2e1-6077-42ac-93ec-b6e5ea5a0397",
+        "name": "Car Engine",
+        "category": "health",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1112,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/e22bd2e1-6077-42ac-93ec-b6e5ea5a0397/200",
+        "posted_date": "2025-01-12",
+        "user": {
+            "username": "user4484",
+            "email": "user6503@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=49"
+        }
+    },
+    {
+        "id": "70459c34-beb0-43eb-9a50-02bbd52e6b72",
+        "name": "Sofa",
+        "category": "travel",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/70459c34-beb0-43eb-9a50-02bbd52e6b72/200",
+        "posted_date": "2025-01-15",
+        "user": {
+            "username": "user6492",
+            "email": "user3261@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=55"
+        }
+    },
+    {
+        "id": "7267b2ee-7d96-4446-89ac-1b37ad215b8f",
+        "name": "Sofa",
+        "category": "pet_supplies",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 1098,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/7267b2ee-7d96-4446-89ac-1b37ad215b8f/200",
+        "posted_date": "2024-02-20",
+        "user": {
+            "username": "user9445",
+            "email": "user1767@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "643d1b6f-91cb-4ab7-8b5a-c6bc00f38423",
+        "name": "Car Engine",
+        "category": "groceries",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 1979,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/643d1b6f-91cb-4ab7-8b5a-c6bc00f38423/200",
+        "posted_date": "2024-11-15",
+        "user": {
+            "username": "user9145",
+            "email": "user1869@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "0d182330-06e1-4af8-b997-897f0d92845f",
+        "name": "Football",
+        "category": "automotive",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Used",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/0d182330-06e1-4af8-b997-897f0d92845f/200",
+        "posted_date": "2024-07-20",
+        "user": {
+            "username": "user8555",
+            "email": "user3739@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=14"
+        }
+    },
+    {
+        "id": "3acf758b-59eb-40d5-969e-c9641e2faecc",
+        "name": "Football",
+        "category": "gardening",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 231,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/3acf758b-59eb-40d5-969e-c9641e2faecc/200",
+        "posted_date": "2024-10-11",
+        "user": {
+            "username": "user3307",
+            "email": "user4953@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        }
+    },
+    {
+        "id": "fb534d8a-2647-45c9-9947-68dabe1cadee",
+        "name": "Laptop",
+        "category": "gaming",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/fb534d8a-2647-45c9-9947-68dabe1cadee/200",
+        "posted_date": "2024-07-06",
+        "user": {
+            "username": "user9037",
+            "email": "user8203@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "6e8c3bfd-20e9-40fb-8b7b-3366f2c8730e",
+        "name": "Toy Car",
+        "category": "house_tools",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/6e8c3bfd-20e9-40fb-8b7b-3366f2c8730e/200",
+        "posted_date": "2024-06-27",
+        "user": {
+            "username": "user4209",
+            "email": "user7207@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=59"
+        }
+    },
+    {
+        "id": "b757f2ab-7e15-45c0-8a0b-7290261e2f3b",
+        "name": "Painkiller",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/b757f2ab-7e15-45c0-8a0b-7290261e2f3b/200",
+        "posted_date": "2024-08-06",
+        "user": {
+            "username": "user3361",
+            "email": "user7501@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3"
+        }
+    },
+    {
+        "id": "538744f6-b88a-4ecd-a99f-ea14cdcc931c",
+        "name": "Car Engine",
+        "category": "sports",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/538744f6-b88a-4ecd-a99f-ea14cdcc931c/200",
+        "posted_date": "2024-03-21",
+        "user": {
+            "username": "user5177",
+            "email": "user1486@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=12"
+        }
+    },
+    {
+        "id": "a7a10fa7-856f-42ff-8440-7676c137023f",
+        "name": "Novel",
+        "category": "travel",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/a7a10fa7-856f-42ff-8440-7676c137023f/200",
+        "posted_date": "2024-03-15",
+        "user": {
+            "username": "user6373",
+            "email": "user9521@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        }
+    },
+    {
+        "id": "631b681a-af6b-48f5-9bef-2be89661aa55",
+        "name": "Novel",
+        "category": "gardening",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/631b681a-af6b-48f5-9bef-2be89661aa55/200",
+        "posted_date": "2024-04-18",
+        "user": {
+            "username": "user6526",
+            "email": "user9712@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "c3f29182-ee41-40f6-9f48-a4b138f2302b",
+        "name": "Lipstick",
+        "category": "toys",
+        "type": "sell",
+        "description": "Limited edition, get it while it lasts!",
+        "price": 1596,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/c3f29182-ee41-40f6-9f48-a4b138f2302b/200",
+        "posted_date": "2024-07-11",
+        "user": {
+            "username": "user6956",
+            "email": "user6445@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "d282206e-91e4-4f2a-a491-dd97915c1ad1",
+        "name": "Car Engine",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/d282206e-91e4-4f2a-a491-dd97915c1ad1/200",
+        "posted_date": "2024-06-27",
+        "user": {
+            "username": "user5391",
+            "email": "user2633@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "24aef78d-ba10-484a-8b3d-a6837afd0799",
+        "name": "Sofa",
+        "category": "kitchen",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/24aef78d-ba10-484a-8b3d-a6837afd0799/200",
+        "posted_date": "2025-01-27",
+        "user": {
+            "username": "user6386",
+            "email": "user2748@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        }
+    },
+    {
+        "id": "9e773a17-53c0-4ce3-b789-a027acef2822",
+        "name": "Car Engine",
+        "category": "toys",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 1690,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/9e773a17-53c0-4ce3-b789-a027acef2822/200",
+        "posted_date": "2024-06-30",
+        "user": {
+            "username": "user7202",
+            "email": "user7527@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=70"
+        }
+    },
+    {
+        "id": "ea4e901b-a196-4ea7-aa4c-c6a68fa16151",
+        "name": "Sofa",
+        "category": "music",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 889,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/ea4e901b-a196-4ea7-aa4c-c6a68fa16151/200",
+        "posted_date": "2025-01-05",
+        "user": {
+            "username": "user4358",
+            "email": "user5747@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "af309528-5fbe-4314-8cf7-8618bf9d0f51",
+        "name": "Lipstick",
+        "category": "music",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/af309528-5fbe-4314-8cf7-8618bf9d0f51/200",
+        "posted_date": "2024-04-24",
+        "user": {
+            "username": "user5709",
+            "email": "user6754@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "88d7f874-1b97-4a33-853b-8e02ad0c8f6e",
+        "name": "Sofa",
+        "category": "travel",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/88d7f874-1b97-4a33-853b-8e02ad0c8f6e/200",
+        "posted_date": "2024-12-01",
+        "user": {
+            "username": "user1750",
+            "email": "user4545@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        }
+    },
+    {
+        "id": "fa761905-c0fa-4295-884a-d050c938184f",
+        "name": "Toy Car",
+        "category": "stationery",
+        "type": "donate",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/fa761905-c0fa-4295-884a-d050c938184f/200",
+        "posted_date": "2024-04-29",
+        "user": {
+            "username": "user7608",
+            "email": "user4947@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=21"
+        }
+    },
+    {
+        "id": "fdcece48-fafd-45a3-9e73-7f4106c3cdb9",
+        "name": "Football",
+        "category": "sports",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/fdcece48-fafd-45a3-9e73-7f4106c3cdb9/200",
+        "posted_date": "2024-02-18",
+        "user": {
+            "username": "user5738",
+            "email": "user5620@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "5deb6abe-5491-4a04-9fd5-4b49ca53f158",
+        "name": "Rice Bag",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/5deb6abe-5491-4a04-9fd5-4b49ca53f158/200",
+        "posted_date": "2024-09-06",
+        "user": {
+            "username": "user4337",
+            "email": "user1609@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=21"
+        }
+    },
+    {
+        "id": "286efd78-3296-450c-ba12-eee7721c8e85",
+        "name": "T-shirt",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1426,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/286efd78-3296-450c-ba12-eee7721c8e85/200",
+        "posted_date": "2024-07-18",
+        "user": {
+            "username": "user1710",
+            "email": "user4131@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=62"
+        }
+    },
+    {
+        "id": "b850e4dc-01a5-4f37-88a0-2be78f77f4ab",
+        "name": "Sofa",
+        "category": "clothing",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1456,
+        "condition": "Used",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/b850e4dc-01a5-4f37-88a0-2be78f77f4ab/200",
+        "posted_date": "2024-08-23",
+        "user": {
+            "username": "user7052",
+            "email": "user3385@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=48"
+        }
+    },
+    {
+        "id": "fb15bb60-1a28-4edb-aeaf-e9f7c1515062",
+        "name": "Painkiller",
+        "category": "gaming",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/fb15bb60-1a28-4edb-aeaf-e9f7c1515062/200",
+        "posted_date": "2024-04-30",
+        "user": {
+            "username": "user2462",
+            "email": "user3681@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=60"
+        }
+    },
+    {
+        "id": "377aa4a1-65b9-486a-8c7d-7bee472c5e60",
+        "name": "Rice Bag",
+        "category": "health",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/377aa4a1-65b9-486a-8c7d-7bee472c5e60/200",
+        "posted_date": "2024-07-30",
+        "user": {
+            "username": "user2031",
+            "email": "user5484@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=62"
+        }
+    },
+    {
+        "id": "61b1457b-6c3a-4540-850b-1effd7197078",
+        "name": "T-shirt",
+        "category": "travel",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/61b1457b-6c3a-4540-850b-1effd7197078/200",
+        "posted_date": "2024-11-07",
+        "user": {
+            "username": "user4153",
+            "email": "user7341@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "e84f6f80-71cb-4c30-b5e3-6feacfbf6c0e",
+        "name": "Painkiller",
+        "category": "books",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/e84f6f80-71cb-4c30-b5e3-6feacfbf6c0e/200",
+        "posted_date": "2024-10-22",
+        "user": {
+            "username": "user8178",
+            "email": "user1924@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=32"
+        }
+    },
+    {
+        "id": "06ca2595-55a8-4728-9ed1-ae15c9ac0f06",
+        "name": "Painkiller",
+        "category": "electronics",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/06ca2595-55a8-4728-9ed1-ae15c9ac0f06/200",
+        "posted_date": "2024-12-30",
+        "user": {
+            "username": "user9236",
+            "email": "user7008@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    },
+    {
+        "id": "fec9550b-ed90-4423-bc89-41eb05363994",
+        "name": "T-shirt",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/fec9550b-ed90-4423-bc89-41eb05363994/200",
+        "posted_date": "2024-07-12",
+        "user": {
+            "username": "user6516",
+            "email": "user6174@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "f48c9c62-733e-45f6-867e-7fa4acab7fa9",
+        "name": "Novel",
+        "category": "health",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/f48c9c62-733e-45f6-867e-7fa4acab7fa9/200",
+        "posted_date": "2024-12-08",
+        "user": {
+            "username": "user2109",
+            "email": "user7284@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=60"
+        }
+    },
+    {
+        "id": "c4c4749b-4a07-40a7-928b-5f822a89333d",
+        "name": "Sofa",
+        "category": "kitchen",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1574,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/c4c4749b-4a07-40a7-928b-5f822a89333d/200",
+        "posted_date": "2024-10-29",
+        "user": {
+            "username": "user2258",
+            "email": "user5918@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=17"
+        }
+    },
+    {
+        "id": "9a102101-57c5-4377-be0f-09298a7e0d2e",
+        "name": "Painkiller",
+        "category": "house_tools",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/9a102101-57c5-4377-be0f-09298a7e0d2e/200",
+        "posted_date": "2024-09-11",
+        "user": {
+            "username": "user4538",
+            "email": "user3330@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=43"
+        }
+    },
+    {
+        "id": "74f8d8a8-feca-4f1a-8946-9196db356928",
+        "name": "Toy Car",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/74f8d8a8-feca-4f1a-8946-9196db356928/200",
+        "posted_date": "2024-07-24",
+        "user": {
+            "username": "user8429",
+            "email": "user8370@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "c4f9c0aa-db51-4471-866f-bf2a4be2e4f3",
+        "name": "Novel",
+        "category": "music",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1830,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/c4f9c0aa-db51-4471-866f-bf2a4be2e4f3/200",
+        "posted_date": "2024-05-31",
+        "user": {
+            "username": "user3097",
+            "email": "user7002@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "2d9f6ab0-4dfd-4a5f-a4d6-e169c6ea7cc9",
+        "name": "T-shirt",
+        "category": "clothing",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/2d9f6ab0-4dfd-4a5f-a4d6-e169c6ea7cc9/200",
+        "posted_date": "2024-09-10",
+        "user": {
+            "username": "user8962",
+            "email": "user2289@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=31"
+        }
+    },
+    {
+        "id": "bb375cd4-03d3-4f23-8408-7fe483e1af45",
+        "name": "T-shirt",
+        "category": "gaming",
+        "type": "sell",
+        "description": "Limited edition, get it while it lasts!",
+        "price": 113,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/bb375cd4-03d3-4f23-8408-7fe483e1af45/200",
+        "posted_date": "2024-04-18",
+        "user": {
+            "username": "user8467",
+            "email": "user7973@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=4"
+        }
+    },
+    {
+        "id": "f993b440-67d7-4e94-96b5-74e13dd4a2d7",
+        "name": "Football",
+        "category": "sports",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/f993b440-67d7-4e94-96b5-74e13dd4a2d7/200",
+        "posted_date": "2024-07-05",
+        "user": {
+            "username": "user9663",
+            "email": "user3471@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=70"
+        }
+    },
+    {
+        "id": "4be03c99-b8ad-4945-92a1-93a087587480",
+        "name": "Lipstick",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/4be03c99-b8ad-4945-92a1-93a087587480/200",
+        "posted_date": "2024-08-11",
+        "user": {
+            "username": "user4038",
+            "email": "user8795@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        }
+    },
+    {
+        "id": "2efc527d-d68d-438f-85e0-9363a9cdbd3c",
+        "name": "Football",
+        "category": "music",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 1235,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/2efc527d-d68d-438f-85e0-9363a9cdbd3c/200",
+        "posted_date": "2024-07-28",
+        "user": {
+            "username": "user7127",
+            "email": "user2753@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=70"
+        }
+    },
+    {
+        "id": "cc81fd34-00bf-4358-ba9e-1baed1bd1a8d",
+        "name": "Lipstick",
+        "category": "house_tools",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 985,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/cc81fd34-00bf-4358-ba9e-1baed1bd1a8d/200",
+        "posted_date": "2024-04-14",
+        "user": {
+            "username": "user8577",
+            "email": "user7141@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=64"
+        }
+    },
+    {
+        "id": "d88ed71f-9c52-4de4-ab9c-a298d0c6f0ac",
+        "name": "Car Engine",
+        "category": "sports",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 764,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/d88ed71f-9c52-4de4-ab9c-a298d0c6f0ac/200",
+        "posted_date": "2024-09-24",
+        "user": {
+            "username": "user7405",
+            "email": "user6977@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=37"
+        }
+    },
+    {
+        "id": "e7a26c43-952f-46e5-984c-769f927d3d45",
+        "name": "Toy Car",
+        "category": "stationery",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Used",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/e7a26c43-952f-46e5-984c-769f927d3d45/200",
+        "posted_date": "2025-01-03",
+        "user": {
+            "username": "user2465",
+            "email": "user7391@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=56"
+        }
+    },
+    {
+        "id": "123ff8c0-e5e1-43e3-b4c2-66c0269a1d39",
+        "name": "Novel",
+        "category": "health",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 1732,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/123ff8c0-e5e1-43e3-b4c2-66c0269a1d39/200",
+        "posted_date": "2024-11-30",
+        "user": {
+            "username": "user6179",
+            "email": "user7844@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=6"
+        }
+    },
+    {
+        "id": "5dc3a4eb-f184-4b29-9cb6-8c0c2cef17b3",
+        "name": "Football",
+        "category": "gardening",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/5dc3a4eb-f184-4b29-9cb6-8c0c2cef17b3/200",
+        "posted_date": "2024-07-23",
+        "user": {
+            "username": "user1359",
+            "email": "user4268@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=45"
+        }
+    },
+    {
+        "id": "e3f32172-bd88-414d-b6b5-620f652a823b",
+        "name": "Rice Bag",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/e3f32172-bd88-414d-b6b5-620f652a823b/200",
+        "posted_date": "2024-11-03",
+        "user": {
+            "username": "user4139",
+            "email": "user4560@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=16"
+        }
+    },
+    {
+        "id": "0a0acdf0-187e-45bb-b24e-5b7bf5bfd1d8",
+        "name": "Painkiller",
+        "category": "toys",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/0a0acdf0-187e-45bb-b24e-5b7bf5bfd1d8/200",
+        "posted_date": "2025-01-03",
+        "user": {
+            "username": "user7009",
+            "email": "user4919@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=16"
+        }
+    },
+    {
+        "id": "dc7b95b2-3651-4515-b820-14fce090a122",
+        "name": "Car Engine",
+        "category": "books",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/dc7b95b2-3651-4515-b820-14fce090a122/200",
+        "posted_date": "2024-09-11",
+        "user": {
+            "username": "user6915",
+            "email": "user1750@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "9822bc15-abf4-485b-a485-9d327692221a",
+        "name": "Football",
+        "category": "groceries",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 453,
+        "condition": "Like New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/9822bc15-abf4-485b-a485-9d327692221a/200",
+        "posted_date": "2025-01-20",
+        "user": {
+            "username": "user7764",
+            "email": "user1058@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=12"
+        }
+    },
+    {
+        "id": "e2b2d63d-c433-491b-8b12-27123277c08b",
+        "name": "T-shirt",
+        "category": "travel",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 140,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/e2b2d63d-c433-491b-8b12-27123277c08b/200",
+        "posted_date": "2024-08-30",
+        "user": {
+            "username": "user4647",
+            "email": "user3782@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "93404e72-7161-4d78-ba2f-1f32167df33a",
+        "name": "Novel",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/93404e72-7161-4d78-ba2f-1f32167df33a/200",
+        "posted_date": "2024-06-28",
+        "user": {
+            "username": "user3437",
+            "email": "user8887@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "5b94c2b2-ae58-43c3-accb-bccb7f3ee163",
+        "name": "Painkiller",
+        "category": "music",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/5b94c2b2-ae58-43c3-accb-bccb7f3ee163/200",
+        "posted_date": "2024-11-02",
+        "user": {
+            "username": "user6830",
+            "email": "user7967@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "8d8cf949-247b-4e57-a62d-4ad7785398b3",
+        "name": "Rice Bag",
+        "category": "stationery",
+        "type": "sell",
+        "description": "Brand new and unopened in original packaging.",
+        "price": 327,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/8d8cf949-247b-4e57-a62d-4ad7785398b3/200",
+        "posted_date": "2024-05-18",
+        "user": {
+            "username": "user8735",
+            "email": "user4910@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "ea1efdb3-26b5-4164-8666-b768c7c317bb",
+        "name": "Novel",
+        "category": "books",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1149,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/ea1efdb3-26b5-4164-8666-b768c7c317bb/200",
+        "posted_date": "2024-08-07",
+        "user": {
+            "username": "user9115",
+            "email": "user8628@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        }
+    },
+    {
+        "id": "8091ab1f-83dd-4df6-96f4-739121915229",
+        "name": "Lipstick",
+        "category": "gardening",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/8091ab1f-83dd-4df6-96f4-739121915229/200",
+        "posted_date": "2024-11-15",
+        "user": {
+            "username": "user4358",
+            "email": "user8457@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=70"
+        }
+    },
+    {
+        "id": "d35ab5ae-70d8-49e6-93d6-2f4408cef858",
+        "name": "Car Engine",
+        "category": "beauty",
+        "type": "sell",
+        "description": "Limited edition, get it while it lasts!",
+        "price": 1730,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/d35ab5ae-70d8-49e6-93d6-2f4408cef858/200",
+        "posted_date": "2024-09-18",
+        "user": {
+            "username": "user9526",
+            "email": "user3149@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3"
+        }
+    },
+    {
+        "id": "a1f84c37-7759-4fce-afdf-f9aa8148159d",
+        "name": "Rice Bag",
+        "category": "jewelry",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/a1f84c37-7759-4fce-afdf-f9aa8148159d/200",
+        "posted_date": "2024-04-03",
+        "user": {
+            "username": "user4686",
+            "email": "user6255@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=63"
+        }
+    },
+    {
+        "id": "fe6af9bc-8efa-48e4-a59d-dbf594b56213",
+        "name": "T-shirt",
+        "category": "beauty",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 374,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/fe6af9bc-8efa-48e4-a59d-dbf594b56213/200",
+        "posted_date": "2024-04-02",
+        "user": {
+            "username": "user5630",
+            "email": "user9095@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=36"
+        }
+    },
+    {
+        "id": "e46291ea-ed08-4b58-9b45-3fa842873246",
+        "name": "Novel",
+        "category": "stationery",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/e46291ea-ed08-4b58-9b45-3fa842873246/200",
+        "posted_date": "2024-10-09",
+        "user": {
+            "username": "user7856",
+            "email": "user7858@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "9880ba4a-8266-4d0c-95fd-87601b74e445",
+        "name": "Laptop",
+        "category": "sports",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 1464,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/9880ba4a-8266-4d0c-95fd-87601b74e445/200",
+        "posted_date": "2024-07-06",
+        "user": {
+            "username": "user2437",
+            "email": "user8805@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "556b955d-f6b4-4288-ace6-9f4a9d1a198f",
+        "name": "Laptop",
+        "category": "music",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 302,
+        "condition": "Used",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/556b955d-f6b4-4288-ace6-9f4a9d1a198f/200",
+        "posted_date": "2024-02-10",
+        "user": {
+            "username": "user9082",
+            "email": "user5777@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "07db484a-19d7-4b29-ae4e-75af22f9ae94",
+        "name": "Football",
+        "category": "gaming",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/07db484a-19d7-4b29-ae4e-75af22f9ae94/200",
+        "posted_date": "2024-07-05",
+        "user": {
+            "username": "user7351",
+            "email": "user7534@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "d63190ca-b48b-46eb-a8e0-ff70aa33b316",
+        "name": "Lipstick",
+        "category": "books",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/d63190ca-b48b-46eb-a8e0-ff70aa33b316/200",
+        "posted_date": "2025-02-01",
+        "user": {
+            "username": "user4836",
+            "email": "user4492@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "f47fc13d-5469-4ba2-bc86-dd1cb0387ae3",
+        "name": "Rice Bag",
+        "category": "books",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/f47fc13d-5469-4ba2-bc86-dd1cb0387ae3/200",
+        "posted_date": "2024-10-24",
+        "user": {
+            "username": "user8036",
+            "email": "user4692@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "fc9724eb-d247-45b0-b922-998d83fe26b3",
+        "name": "Lipstick",
+        "category": "electronics",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/fc9724eb-d247-45b0-b922-998d83fe26b3/200",
+        "posted_date": "2024-02-16",
+        "user": {
+            "username": "user8883",
+            "email": "user2051@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "7a24fc5e-07e7-4852-b78c-3801fb4e783c",
+        "name": "Car Engine",
+        "category": "kitchen",
+        "type": "swap",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/7a24fc5e-07e7-4852-b78c-3801fb4e783c/200",
+        "posted_date": "2024-10-05",
+        "user": {
+            "username": "user3954",
+            "email": "user4935@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=18"
+        }
+    },
+    {
+        "id": "8c1d5289-bed0-4a8b-8db0-7be9e91ec24b",
+        "name": "Car Engine",
+        "category": "gardening",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/8c1d5289-bed0-4a8b-8db0-7be9e91ec24b/200",
+        "posted_date": "2024-09-30",
+        "user": {
+            "username": "user3476",
+            "email": "user4078@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "a80ed60b-4974-47a9-a82e-5ee70b5eacc0",
+        "name": "T-shirt",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/a80ed60b-4974-47a9-a82e-5ee70b5eacc0/200",
+        "posted_date": "2024-04-05",
+        "user": {
+            "username": "user4533",
+            "email": "user6854@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        }
+    },
+    {
+        "id": "030bb34e-a8c3-462d-bbdd-3267284d74da",
+        "name": "Sofa",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 459,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/030bb34e-a8c3-462d-bbdd-3267284d74da/200",
+        "posted_date": "2024-03-18",
+        "user": {
+            "username": "user6347",
+            "email": "user4592@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        }
+    },
+    {
+        "id": "813370a9-4d4d-45ea-ae01-d5d3f7d9cd66",
+        "name": "Car Engine",
+        "category": "music",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/813370a9-4d4d-45ea-ae01-d5d3f7d9cd66/200",
+        "posted_date": "2024-12-22",
+        "user": {
+            "username": "user6709",
+            "email": "user8295@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        }
+    },
+    {
+        "id": "c82e03fc-cdf3-4e05-a600-1500242ce939",
+        "name": "Novel",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Used",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/c82e03fc-cdf3-4e05-a600-1500242ce939/200",
+        "posted_date": "2024-11-06",
+        "user": {
+            "username": "user4686",
+            "email": "user7292@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=45"
+        }
+    },
+    {
+        "id": "d8785583-7165-4c53-8c57-aa87fb82a5d7",
+        "name": "T-shirt",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/d8785583-7165-4c53-8c57-aa87fb82a5d7/200",
+        "posted_date": "2024-09-02",
+        "user": {
+            "username": "user7935",
+            "email": "user6608@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "f10ad005-18fd-44dd-b206-86472c12888c",
+        "name": "Sofa",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/f10ad005-18fd-44dd-b206-86472c12888c/200",
+        "posted_date": "2024-10-25",
+        "user": {
+            "username": "user5067",
+            "email": "user6834@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        }
+    },
+    {
+        "id": "6840d1a9-1b08-41fa-aa7e-3535c2cde8d0",
+        "name": "Painkiller",
+        "category": "stationery",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/6840d1a9-1b08-41fa-aa7e-3535c2cde8d0/200",
+        "posted_date": "2024-06-04",
+        "user": {
+            "username": "user3817",
+            "email": "user8485@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=64"
+        }
+    },
+    {
+        "id": "768fbc39-7d51-47b0-8ef9-e5bc61939ed3",
+        "name": "Toy Car",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Lightly used and in great condition.",
+        "price": 1500,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/768fbc39-7d51-47b0-8ef9-e5bc61939ed3/200",
+        "posted_date": "2024-02-27",
+        "user": {
+            "username": "user7755",
+            "email": "user5005@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "dc40d5dd-2934-4af4-b6a4-8a4f2cd7f4ca",
+        "name": "T-shirt",
+        "category": "groceries",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 1866,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/dc40d5dd-2934-4af4-b6a4-8a4f2cd7f4ca/200",
+        "posted_date": "2024-07-02",
+        "user": {
+            "username": "user5909",
+            "email": "user7727@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=52"
+        }
+    },
+    {
+        "id": "44454dfe-8f5e-44a7-bdbd-1d34dceafd42",
+        "name": "Novel",
+        "category": "jewelry",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1319,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/44454dfe-8f5e-44a7-bdbd-1d34dceafd42/200",
+        "posted_date": "2024-09-05",
+        "user": {
+            "username": "user3897",
+            "email": "user4250@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=15"
+        }
+    },
+    {
+        "id": "2c8df01d-cd3c-49e0-88f0-33e698af4d84",
+        "name": "Toy Car",
+        "category": "home_decor",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Used",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/2c8df01d-cd3c-49e0-88f0-33e698af4d84/200",
+        "posted_date": "2024-06-13",
+        "user": {
+            "username": "user5001",
+            "email": "user2726@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=2"
+        }
+    },
+    {
+        "id": "d4d45d37-4d9a-4379-b0e1-62ad1d2f6f3f",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/d4d45d37-4d9a-4379-b0e1-62ad1d2f6f3f/200",
+        "posted_date": "2024-12-01",
+        "user": {
+            "username": "user8350",
+            "email": "user4932@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        }
+    },
+    {
+        "id": "471c01de-da4e-4e78-8440-f725ac566d7b",
+        "name": "Sofa",
+        "category": "stationery",
+        "type": "sell",
+        "description": "Perfect for daily use with premium materials.",
+        "price": 18,
+        "condition": "Used",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/471c01de-da4e-4e78-8440-f725ac566d7b/200",
+        "posted_date": "2024-02-10",
+        "user": {
+            "username": "user1347",
+            "email": "user5024@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "b9581999-d3bf-48d8-81b5-b8109dcc2d45",
+        "name": "Football",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/b9581999-d3bf-48d8-81b5-b8109dcc2d45/200",
+        "posted_date": "2024-02-18",
+        "user": {
+            "username": "user3562",
+            "email": "user7198@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=48"
+        }
+    },
+    {
+        "id": "68beef7b-0984-4932-9ddb-d952393b9613",
+        "name": "Toy Car",
+        "category": "toys",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/68beef7b-0984-4932-9ddb-d952393b9613/200",
+        "posted_date": "2024-05-22",
+        "user": {
+            "username": "user9134",
+            "email": "user3089@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        }
+    },
+    {
+        "id": "44a99afa-8a2a-4b27-aa82-8f630787d042",
+        "name": "Lipstick",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/44a99afa-8a2a-4b27-aa82-8f630787d042/200",
+        "posted_date": "2024-12-21",
+        "user": {
+            "username": "user1784",
+            "email": "user9472@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "1438b28f-2ca1-453c-8e1e-909698620fb8",
+        "name": "Painkiller",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1536,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/1438b28f-2ca1-453c-8e1e-909698620fb8/200",
+        "posted_date": "2024-05-06",
+        "user": {
+            "username": "user6099",
+            "email": "user8423@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=9"
+        }
+    },
+    {
+        "id": "c464402b-8a2c-4332-b814-904c483f1796",
+        "name": "Sofa",
+        "category": "toys",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/c464402b-8a2c-4332-b814-904c483f1796/200",
+        "posted_date": "2024-11-21",
+        "user": {
+            "username": "user2195",
+            "email": "user5624@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=65"
+        }
+    },
+    {
+        "id": "d307353f-66ca-473e-ab9a-c19447cf8f27",
+        "name": "Car Engine",
+        "category": "pet_supplies",
+        "type": "donate",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/d307353f-66ca-473e-ab9a-c19447cf8f27/200",
+        "posted_date": "2024-06-03",
+        "user": {
+            "username": "user4624",
+            "email": "user2056@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        }
+    },
+    {
+        "id": "a7580917-8607-4a9e-82fa-6e2a6240338d",
+        "name": "T-shirt",
+        "category": "kitchen",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 734,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/a7580917-8607-4a9e-82fa-6e2a6240338d/200",
+        "posted_date": "2024-05-22",
+        "user": {
+            "username": "user1360",
+            "email": "user7604@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        }
+    },
+    {
+        "id": "cdd09249-89b1-40a0-9685-1b7c7f3c9a38",
+        "name": "T-shirt",
+        "category": "health",
+        "type": "donate",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/cdd09249-89b1-40a0-9685-1b7c7f3c9a38/200",
+        "posted_date": "2024-07-24",
+        "user": {
+            "username": "user2773",
+            "email": "user1375@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "97682b51-d077-4988-af89-89768675a857",
+        "name": "T-shirt",
+        "category": "automotive",
+        "type": "sell",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": 1855,
+        "condition": "Like New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/97682b51-d077-4988-af89-89768675a857/200",
+        "posted_date": "2024-07-22",
+        "user": {
+            "username": "user3874",
+            "email": "user6331@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=63"
+        }
+    },
+    {
+        "id": "1cefe025-ea1f-4f0f-812d-d668432d223f",
+        "name": "T-shirt",
+        "category": "kitchen",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/1cefe025-ea1f-4f0f-812d-d668432d223f/200",
+        "posted_date": "2024-08-03",
+        "user": {
+            "username": "user3344",
+            "email": "user8905@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=2"
+        }
+    },
+    {
+        "id": "fa17d240-4bf4-4424-9405-427b0a7dc6c3",
+        "name": "Laptop",
+        "category": "toys",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/fa17d240-4bf4-4424-9405-427b0a7dc6c3/200",
+        "posted_date": "2025-02-04",
+        "user": {
+            "username": "user3290",
+            "email": "user3136@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        }
+    },
+    {
+        "id": "7bc105be-c8b4-4671-b791-5300071495c1",
+        "name": "Football",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "New",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/7bc105be-c8b4-4671-b791-5300071495c1/200",
+        "posted_date": "2024-06-12",
+        "user": {
+            "username": "user2162",
+            "email": "user5006@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        }
+    },
+    {
+        "id": "c010eaff-6b35-4109-9ec7-18d143e6440f",
+        "name": "Painkiller",
+        "category": "travel",
+        "type": "sell",
+        "description": "High-quality product with excellent durability.",
+        "price": 1390,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/c010eaff-6b35-4109-9ec7-18d143e6440f/200",
+        "posted_date": "2024-10-08",
+        "user": {
+            "username": "user6731",
+            "email": "user2204@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "7b22296e-b482-4d6d-a5b8-f528b611c98f",
+        "name": "Football",
+        "category": "sports",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1745,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/7b22296e-b482-4d6d-a5b8-f528b611c98f/200",
+        "posted_date": "2024-03-11",
+        "user": {
+            "username": "user4229",
+            "email": "user3892@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11"
+        }
+    },
+    {
+        "id": "170ef327-2852-4bdf-b9fd-58dfd36d8c65",
+        "name": "Football",
+        "category": "travel",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 251,
+        "condition": "Like New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/170ef327-2852-4bdf-b9fd-58dfd36d8c65/200",
+        "posted_date": "2024-04-02",
+        "user": {
+            "username": "user1979",
+            "email": "user4603@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8"
+        }
+    },
+    {
+        "id": "748d6d84-7d7a-4eea-8b7c-30396bb6fa1b",
+        "name": "Painkiller",
+        "category": "travel",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/748d6d84-7d7a-4eea-8b7c-30396bb6fa1b/200",
+        "posted_date": "2024-05-25",
+        "user": {
+            "username": "user4050",
+            "email": "user1651@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=2"
+        }
+    },
+    {
+        "id": "a308dab7-43c5-4deb-a838-963daac16081",
+        "name": "Painkiller",
+        "category": "automotive",
+        "type": "sell",
+        "description": "A must-have item for enthusiasts.",
+        "price": 971,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/a308dab7-43c5-4deb-a838-963daac16081/200",
+        "posted_date": "2024-08-30",
+        "user": {
+            "username": "user7096",
+            "email": "user5602@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=67"
+        }
+    },
+    {
+        "id": "33a99daf-61b1-4c8a-9921-51131c3a43f2",
+        "name": "Novel",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/33a99daf-61b1-4c8a-9921-51131c3a43f2/200",
+        "posted_date": "2024-09-23",
+        "user": {
+            "username": "user4108",
+            "email": "user9380@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=67"
+        }
+    },
+    {
+        "id": "1eb1e74c-d44d-41ba-8ea7-b6732ad216be",
+        "name": "Painkiller",
+        "category": "stationery",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/1eb1e74c-d44d-41ba-8ea7-b6732ad216be/200",
+        "posted_date": "2024-10-09",
+        "user": {
+            "username": "user5403",
+            "email": "user4198@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "8fa45f1f-ad92-429c-bd92-ff5d76abec3e",
+        "name": "Toy Car",
+        "category": "music",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "New",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/8fa45f1f-ad92-429c-bd92-ff5d76abec3e/200",
+        "posted_date": "2024-12-24",
+        "user": {
+            "username": "user5138",
+            "email": "user2703@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3"
+        }
+    },
+    {
+        "id": "28c9c169-830d-4049-bac4-eb2a3deb33ba",
+        "name": "Laptop",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Used",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/28c9c169-830d-4049-bac4-eb2a3deb33ba/200",
+        "posted_date": "2024-12-07",
+        "user": {
+            "username": "user8716",
+            "email": "user7957@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    },
+    {
+        "id": "dd21502c-ac0c-47cd-941e-b5b4d761dec5",
+        "name": "Lipstick",
+        "category": "gardening",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/dd21502c-ac0c-47cd-941e-b5b4d761dec5/200",
+        "posted_date": "2025-01-05",
+        "user": {
+            "username": "user9075",
+            "email": "user9292@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=56"
+        }
+    },
+    {
+        "id": "56c3d8dc-429a-4677-9263-1477f76a4878",
+        "name": "Laptop",
+        "category": "books",
+        "type": "donate",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/56c3d8dc-429a-4677-9263-1477f76a4878/200",
+        "posted_date": "2024-05-11",
+        "user": {
+            "username": "user6872",
+            "email": "user5440@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=69"
+        }
+    },
+    {
+        "id": "f0c416dc-60fa-489b-a8af-1635bee8f608",
+        "name": "Laptop",
+        "category": "gaming",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/f0c416dc-60fa-489b-a8af-1635bee8f608/200",
+        "posted_date": "2024-03-12",
+        "user": {
+            "username": "user3241",
+            "email": "user9584@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=7"
+        }
+    },
+    {
+        "id": "85fdd904-5687-4c4b-8984-7f0f49ab9c07",
+        "name": "Sofa",
+        "category": "groceries",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Cairo",
+        "image_url": "https://picsum.photos/seed/85fdd904-5687-4c4b-8984-7f0f49ab9c07/200",
+        "posted_date": "2025-02-01",
+        "user": {
+            "username": "user4172",
+            "email": "user2125@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5"
+        }
+    },
+    {
+        "id": "1c060f4f-a0fb-4a89-b94a-b5c64cbeb1ff",
+        "name": "Lipstick",
+        "category": "beauty",
+        "type": "donate",
+        "description": "Perfect for daily use with premium materials.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/1c060f4f-a0fb-4a89-b94a-b5c64cbeb1ff/200",
+        "posted_date": "2024-02-10",
+        "user": {
+            "username": "user4980",
+            "email": "user9012@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "ab06c228-42eb-409b-b763-cde4dad94d5c",
+        "name": "Toy Car",
+        "category": "beauty",
+        "type": "sell",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": 1208,
+        "condition": "Refurbished",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/ab06c228-42eb-409b-b763-cde4dad94d5c/200",
+        "posted_date": "2024-12-24",
+        "user": {
+            "username": "user2030",
+            "email": "user4127@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=61"
+        }
+    },
+    {
+        "id": "58597fb7-6221-412d-a853-76cbeb2d5406",
+        "name": "Lipstick",
+        "category": "furniture",
+        "type": "sell",
+        "description": "Vintage item with a lot of character.",
+        "price": 333,
+        "condition": "New",
+        "location": "Port Said",
+        "image_url": "https://picsum.photos/seed/58597fb7-6221-412d-a853-76cbeb2d5406/200",
+        "posted_date": "2024-07-03",
+        "user": {
+            "username": "user3385",
+            "email": "user3116@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=34"
+        }
+    },
+    {
+        "id": "6c428736-7814-4e91-80a9-8b1143df4558",
+        "name": "Car Engine",
+        "category": "automotive",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Mansoura",
+        "image_url": "https://picsum.photos/seed/6c428736-7814-4e91-80a9-8b1143df4558/200",
+        "posted_date": "2025-01-09",
+        "user": {
+            "username": "user8069",
+            "email": "user6439@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=48"
+        }
+    },
+    {
+        "id": "939eac47-9e25-4b85-8ce2-76ac1b4dd13d",
+        "name": "Football",
+        "category": "gardening",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1356,
+        "condition": "Like New",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/939eac47-9e25-4b85-8ce2-76ac1b4dd13d/200",
+        "posted_date": "2025-01-28",
+        "user": {
+            "username": "user7311",
+            "email": "user8012@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        }
+    },
+    {
+        "id": "289c7098-4bd8-47dd-97e8-99520822214b",
+        "name": "Toy Car",
+        "category": "jewelry",
+        "type": "donate",
+        "description": "Brand new and unopened in original packaging.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/289c7098-4bd8-47dd-97e8-99520822214b/200",
+        "posted_date": "2024-03-21",
+        "user": {
+            "username": "user5970",
+            "email": "user6640@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+        }
+    },
+    {
+        "id": "59fca32c-0ea2-4dcc-9d78-269f63fe1d07",
+        "name": "Lipstick",
+        "category": "pet_supplies",
+        "type": "swap",
+        "description": "A must-have item for enthusiasts.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/59fca32c-0ea2-4dcc-9d78-269f63fe1d07/200",
+        "posted_date": "2024-07-23",
+        "user": {
+            "username": "user5874",
+            "email": "user2058@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        }
+    },
+    {
+        "id": "0ea4917f-b1c2-47b1-8198-c401278e852b",
+        "name": "Rice Bag",
+        "category": "groceries",
+        "type": "donate",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Alexandria",
+        "image_url": "https://picsum.photos/seed/0ea4917f-b1c2-47b1-8198-c401278e852b/200",
+        "posted_date": "2024-12-12",
+        "user": {
+            "username": "user9302",
+            "email": "user2220@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8"
+        }
+    },
+    {
+        "id": "abd0234c-0d93-4f3b-8701-40bdc436de12",
+        "name": "Sofa",
+        "category": "books",
+        "type": "donate",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "New",
+        "location": "Giza",
+        "image_url": "https://picsum.photos/seed/abd0234c-0d93-4f3b-8701-40bdc436de12/200",
+        "posted_date": "2024-08-11",
+        "user": {
+            "username": "user6746",
+            "email": "user9960@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=54"
+        }
+    },
+    {
+        "id": "7435fb85-724d-426d-b6d4-40ccdf0ca141",
+        "name": "Novel",
+        "category": "groceries",
+        "type": "swap",
+        "description": "Limited edition, get it while it lasts!",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/7435fb85-724d-426d-b6d4-40ccdf0ca141/200",
+        "posted_date": "2024-09-16",
+        "user": {
+            "username": "user7573",
+            "email": "user3457@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3"
+        }
+    },
+    {
+        "id": "ff9e36ca-c6b4-404f-860a-2a6f4cf72524",
+        "name": "Sofa",
+        "category": "music",
+        "type": "sell",
+        "description": "Limited edition, get it while it lasts!",
+        "price": 1493,
+        "condition": "New",
+        "location": "Luxor",
+        "image_url": "https://picsum.photos/seed/ff9e36ca-c6b4-404f-860a-2a6f4cf72524/200",
+        "posted_date": "2024-09-11",
+        "user": {
+            "username": "user7051",
+            "email": "user3175@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        }
+    },
+    {
+        "id": "27934eb2-f3a0-4f90-9fea-dd44c4c15bcc",
+        "name": "Sofa",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Vintage item with a lot of character.",
+        "price": null,
+        "condition": "Like New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/27934eb2-f3a0-4f90-9fea-dd44c4c15bcc/200",
+        "posted_date": "2024-11-29",
+        "user": {
+            "username": "user5106",
+            "email": "user2290@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=30"
+        }
+    },
+    {
+        "id": "36186cd4-b57e-4c3b-9b4b-b275f6340231",
+        "name": "Football",
+        "category": "music",
+        "type": "sell",
+        "description": "Eco-friendly and made from sustainable materials.",
+        "price": 1632,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/36186cd4-b57e-4c3b-9b4b-b275f6340231/200",
+        "posted_date": "2024-04-29",
+        "user": {
+            "username": "user4558",
+            "email": "user9619@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=32"
+        }
+    },
+    {
+        "id": "01abaa20-7577-4a9e-ba04-f18a37f7dd62",
+        "name": "Laptop",
+        "category": "furniture",
+        "type": "donate",
+        "description": "Recently upgraded, selling at a great price.",
+        "price": null,
+        "condition": "Refurbished",
+        "location": "Tanta",
+        "image_url": "https://picsum.photos/seed/01abaa20-7577-4a9e-ba04-f18a37f7dd62/200",
+        "posted_date": "2025-01-22",
+        "user": {
+            "username": "user1161",
+            "email": "user4022@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=66"
+        }
+    },
+    {
+        "id": "89c0fe7a-c61b-4532-9153-0abaef67749d",
+        "name": "T-shirt",
+        "category": "kitchen",
+        "type": "swap",
+        "description": "Best choice for anyone looking for reliability.",
+        "price": null,
+        "condition": "Used",
+        "location": "Suez",
+        "image_url": "https://picsum.photos/seed/89c0fe7a-c61b-4532-9153-0abaef67749d/200",
+        "posted_date": "2024-10-25",
+        "user": {
+            "username": "user6087",
+            "email": "user9684@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=44"
+        }
+    },
+    {
+        "id": "8de66c95-8234-44bb-b553-594083df4ffe",
+        "name": "Rice Bag",
+        "category": "electronics",
+        "type": "swap",
+        "description": "High-quality product with excellent durability.",
+        "price": null,
+        "condition": "New",
+        "location": "Aswan",
+        "image_url": "https://picsum.photos/seed/8de66c95-8234-44bb-b553-594083df4ffe/200",
+        "posted_date": "2024-08-11",
+        "user": {
+            "username": "user7907",
+            "email": "user6994@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=69"
+        }
+    },
+    {
+        "id": "6fa7e558-eeb0-48b0-8618-0c266ba79996",
+        "name": "Lipstick",
+        "category": "house_tools",
+        "type": "swap",
+        "description": "Lightly used and in great condition.",
+        "price": null,
+        "condition": "New",
+        "location": "Zagazig",
+        "image_url": "https://picsum.photos/seed/6fa7e558-eeb0-48b0-8618-0c266ba79996/200",
+        "posted_date": "2025-01-10",
+        "user": {
+            "username": "user2826",
+            "email": "user9620@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        }
+    }
+]

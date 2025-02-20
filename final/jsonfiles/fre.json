@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "image_url": "https://i.pravatar.cc/150?img=1",
+    "last_message_time": "14:23"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "image_url": "https://i.pravatar.cc/150?img=2",
+    "last_message_time": "09:47"
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "image_url": "https://i.pravatar.cc/150?img=3",
+    "last_message_time": "18:35"
+  },
+  {
+    "id": "4",
+    "name": "Bob Brown",
+    "image_url": "https://i.pravatar.cc/150?img=4",
+    "last_message_time": "21:10"
+  },
+  {
+    "id": "5",
+    "name": "Charlie Davis",
+    "image_url": "https://i.pravatar.cc/150?img=5",
+    "last_message_time": "07:52"
+  },
+  {
+    "id": "6",
+    "name": "Diana Evans",
+    "image_url": "https://i.pravatar.cc/150?img=6",
+    "last_message_time": "16:08"
+  },
+  {
+    "id": "7",
+    "name": "Eve Walker",
+    "image_url": "https://i.pravatar.cc/150?img=7",
+    "last_message_time": "11:29"
+  },
+  {
+    "id": "8",
+    "name": "Frank Miller",
+    "image_url": "https://i.pravatar.cc/150?img=8",
+    "last_message_time": "22:17"
+  },
+  {
+    "id": "9",
+    "name": "Grace Lee",
+    "image_url": "https://i.pravatar.cc/150?img=9",
+    "last_message_time": "13:56"
+  },
+  {
+    "id": "10",
+    "name": "Hank Scott",
+    "image_url": "https://i.pravatar.cc/150?img=10",
+    "last_message_time": "19:44"
+  },
+  {
+    "id": "11",
+    "name": "Ivy Harris",
+    "image_url": "https://i.pravatar.cc/150?img=11",
+    "last_message_time": "08:12"
+  },
+  {
+    "id": "12",
+    "name": "Jack Wilson",
+    "image_url": "https://i.pravatar.cc/150?img=12",
+    "last_message_time": "20:31"
+  },
+  {
+    "id": "13",
+    "name": "Kelly Adams",
+    "image_url": "https://i.pravatar.cc/150?img=13",
+    "last_message_time": "15:22"
+  },
+  {
+    "id": "14",
+    "name": "Leo Carter",
+    "image_url": "https://i.pravatar.cc/150?img=14",
+    "last_message_time": "10:05"
+  },
+  {
+    "id": "15",
+    "name": "Mia Robinson",
+    "image_url": "https://i.pravatar.cc/150?img=15",
+    "last_message_time": "12:48"
+  },
+  {
+    "id": "16",
+    "name": "Nathan White",
+    "image_url": "https://i.pravatar.cc/150?img=16",
+    "last_message_time": "17:39"
+  },
+  {
+    "id": "17",
+    "name": "Olivia Martin",
+    "image_url": "https://i.pravatar.cc/150?img=17",
+    "last_message_time": "14:15"
+  },
+  {
+    "id": "18",
+    "name": "Paul Lewis",
+    "image_url": "https://i.pravatar.cc/150?img=18",
+    "last_message_time": "23:07"
+  },
+  {
+    "id": "19",
+    "name": "Quinn Turner",
+    "image_url": "https://i.pravatar.cc/150?img=19",
+    "last_message_time": "06:55"
+  },
+  {
+    "id": "20",
+    "name": "Rachel Young",
+    "image_url": "https://i.pravatar.cc/150?img=20",
+    "last_message_time": "09:33"
+  },
+  {
+    "id": "21",
+    "name": "Samuel Hall",
+    "image_url": "https://i.pravatar.cc/150?img=21",
+    "last_message_time": "16:42"
+  },
+  {
+    "id": "22",
+    "name": "Tina Allen",
+    "image_url": "https://i.pravatar.cc/150?img=22",
+    "last_message_time": "18:28"
+  },
+  {
+    "id": "23",
+    "name": "Umar Baker",
+    "image_url": "https://i.pravatar.cc/150?img=23",
+    "last_message_time": "22:51"
+  },
+  {
+    "id": "24",
+    "name": "Vera Nelson",
+    "image_url": "https://i.pravatar.cc/150?img=24",
+    "last_message_time": "11:18"
+  },
+  {
+    "id": "25",
+    "name": "William Perez",
+    "image_url": "https://i.pravatar.cc/150?img=25",
+    "last_message_time": "13:04"
+  },
+  {
+    "id": "26",
+    "name": "Xander Collins",
+    "image_url": "https://i.pravatar.cc/150?img=26",
+    "last_message_time": "20:57"
+  },
+  {
+    "id": "27",
+    "name": "Yasmine Edwards",
+    "image_url": "https://i.pravatar.cc/150?img=27",
+    "last_message_time": "05:23"
+  },
+  {
+    "id": "28",
+    "name": "Zane Foster",
+    "image_url": "https://i.pravatar.cc/150?img=28",
+    "last_message_time": "17:06"
+  },
+  {
+    "id": "29",
+    "name": "Aaron Grant",
+    "image_url": "https://i.pravatar.cc/150?img=29",
+    "last_message_time": "08:49"
+  },
+  {
+    "id": "30",
+    "name": "Bella Hernandez",
+    "image_url": "https://i.pravatar.cc/150?img=30",
+    "last_message_time": "15:58"
+  }
+]
