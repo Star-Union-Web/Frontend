@@ -37,9 +37,4 @@ The platform aims to create a **helpful community** where people can **give back
 - **Tailwind CSS** (for styling)  
 - **Netlify** (for deployment)  
 
----
-
-## **📢 Share & Support**  
-If you like this project, consider sharing it with others! 🚀  
-
-[![Share](https://img.shields.io/badge/🔗-Share-blue?style=for-the-badge)](https://github.com/YourRepo)  
+  
