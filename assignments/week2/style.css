@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Maven+Pro:wght@400..900&family=Playwrite+HU:wght@100..400&family=Playwrite+US+Modern+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh; /* Use viewport height to take full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.card_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width:70%;
+  background-color: white ;
+  box-shadow: 0 5px 10px  rgba(0,0,0,0.1);
+border-radius: 24px;
+  padding: 30px;
+  position: relative;
+}
+
+
+
+
+.card_container::before{
+  content: " ";
+  position: absolute;
+  height: 120px;
+  top:0;
+  left: 0;
+  width: 100%;
+  border-radius: 24px  24px 0 0;
+  background-color: #005fa3;
+
+}
+.image{
+  position: relative;
+  width:105px;
+  height:115px;
+  border-radius: 50%;
+  border: 4px solid #005fa3;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid white ;
+
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h2{
+  font-size: 22px;
+  text-align: center;
+
+}
+.text p{
+  font-size: 16px;
+}
+ .social{
+   display: flex;
+   flex-direction: row;
+   gap:20px;
+   padding :15px;
+
+
+ }
+.social a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.github {
+  background-color: #333;
+}
+
+
+.social a:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.subscribe {
+  background-color: #0077b5;
+  color: white;
+}
+
+.subscribe:hover {
+  background-color: #005fa3;
+}
+
+
+.message {
+  background-color: #ff5722;
+  color: white;
+}
+
+.message:hover {
+  background-color: #e64a19;
+}
+
+
+
+ .analytics {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+   font-size: 20px;
+
+}
+
+.analytics .data {
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 0 20px;
+  border-right: 2px solid #e7e7e7;
+  color:gray;
+}
+
+.data:last-child {
+  border-right: none;
+}
+.analytics .data:hover {
+  color: black; /* Change text color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
