@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmarker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body class="flex w-full h-[100vh] bg-black/10 ">
+<div class="main pt-10 flex flex-col justify-start items-center  w-full h-[100vh] relative">
+  <div class="relative inline-block group">
+    <h1 class="text-6xl text-black font-bold font-[Caveat] relative z-10">Bookmarker</h1>
+    <div class="absolute bottom-0 w-full h-[35%] bg-orange-300 duration-300 group-hover:h-[50%]"></div>
+  </div>
+
+  <div class="inline-block text-4xl font-bold text-gray-700 font-[Caveat] mt-5">
+    <span id="typing-text">Bookmark your favorite web</span>
+  </div>
+
+  <div class="input absolute top-[35%] flex flex-col gap-10 w-full flex-1  items-center justify-center">
+    <div class="flex flex-col items-start w-[100%] mx-auto">
+      <label for="bookmark-name" class="text-gray-700 w-[80%] mx-auto text-lg mb-3 font-semibold flex items-center gap-2">
+        <i class="bx bx-bookmark text-xl text-gray-700"></i> Bookmark Name
+      </label>
+      <input type="text" id="bookmark-name"
+             class="outline-none w-[80%] mx-auto py-3 rounded-2xl px-2
+          bg-orange-50 backdrop-blur-xl border border-white/30
+          placeholder:text-gray-500 text-gray-500"
+             placeholder="Bookmark name......">
+    </div>
+    <div class="flex flex-col items-start w-[100%] mx-auto">
+      <label for="url-name" class="text-gray-700 w-[80%] mx-auto text-lg mb-3 font-semibold flex items-center gap-2">
+        <i class="bx bx-link-alt text-xl text-gray-700"></i> Website URL
+      </label>
+      <input type="text" id="url-name"
+             class="outline-none w-[80%] mx-auto py-3 rounded-2xl px-2
+          bg-orange-50 backdrop-blur-xl border border-white/30
+          placeholder:text-gray-500 text-gray-500"
+             placeholder="URL name......">
+    </div>
+
+    <button id="submit-btn" class="px-4 py-2 bg-gray-700 font-[Caveat] hover:bg-gray-600 text-white w-[20%] rounded-lg">
+      Submit
+    </button>
+
+
+    <div class="w-[80%] mt-6 mb-20 overflow-x-auto">
+      <table class="w-full bg-white/20 shadow-md rounded-lg min-w-max">
+        <thead>
+        <tr class="bg-orange-300 text-gray-700 font-[Caveat]">
+          <th class="py-2 px-2">Bookmark Name</th>
+          <th class="py-2 px-4">Website URL</th>
+          <th class="py-2 px-4">Actions</th>
+        </tr>
+        </thead>
+        <tbody id="bookmark-list"></tbody>
+      </table>
+    </div>
+
+
+
+  </div>
+</div>
+
+<script>
+  document.getElementById("submit-btn").addEventListener("click", saveBookmark);
+
+  function saveBookmark() {
+    let name = document.getElementById("bookmark-name").value.trim();
+    let url = document.getElementById("url-name").value.trim();
+
+    if (!name || !url) {
+      alert("Please enter both Name and URL.");
+      return;
+    }
+
+    let bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
+
+    if (!url.startsWith("http")) {
+      url = "https://" + url;
+    }
+
+    bookmarks.push({ name, url });
+
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+
+    document.getElementById("bookmark-name").value = "";
+    document.getElementById("url-name").value = "";
+
+    loadBookmarks(); // Call this to refresh the displayed bookmarks
+  }
+
+  function loadBookmarks() {
+    let bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
+    let tableBody = document.getElementById("bookmark-list");
+    tableBody.innerHTML = "";
+
+    bookmarks.forEach((bookmark, index) => {
+      let row = `
+        <tr class="text-gray-700 text-center">
+          <td class="py-2 px-2">${bookmark.name}</td>
+          <td class="py-2 px-4"><a href="${bookmark.url}" target="_blank" class="text-blue-500 underline">${bookmark.url}</a></td>
+          <td class="py-2 px-4">
+            <button onclick="deleteBookmark(${index})" class="bg-red-500 text-white px-3 py-1 rounded-lg">Delete</button>
+          </td>
+        </tr>
+      `;
+      tableBody.innerHTML += row;
+    });
+  }
+
+  function deleteBookmark(index) {
+    let bookmarks = JSON.parse(localStorage.getItem("bookmarks")) || [];
+    bookmarks.splice(index, 1);
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    loadBookmarks();
+  }
+
+  // Load bookmarks on page load
+  window.onload = loadBookmarks;
+</script>
+
+</body>
+
+</html>
