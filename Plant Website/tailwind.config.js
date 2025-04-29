@@ -13,6 +13,7 @@ module.exports = {
         "green-900": "green-900",
         "green-950": "green-950",
         "green-700": "green-700",
+        "red-500" : "red-500",
       }
     },
     keyframes: {
